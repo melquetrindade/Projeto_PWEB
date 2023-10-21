@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.ul{
+    display: flex;
+    width: 98vw;
+    height: 40px;
+    list-style: none;
+    padding: 5px 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(1, 1, 1, 0.952);
+}
+
+.ul span{
+    margin-right: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+.ul span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+.ul a:hover{
+    color: red;
+}

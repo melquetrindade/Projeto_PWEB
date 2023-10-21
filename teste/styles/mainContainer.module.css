@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.mainContainer{
+    width: 100vw;
+    min-height: calc(98.5vh - 40px);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 126, 126);
+}
