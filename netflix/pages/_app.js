@@ -16,6 +16,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400;800&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
       </Head>
       <Component {...pageProps} />
     </MainContainer>

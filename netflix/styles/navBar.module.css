@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 .ul{
+    position: relative;
     display: flex;
     width: 98vw;
     height: 40px;
@@ -34,4 +35,68 @@
 
 .ul a:hover{
     color: red;
+}
+
+.searchClose{
+    position: absolute;
+    top: 0;
+    left: calc(100% - 250px);
+    width: 30px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.searchOpen{
+    position: absolute;
+    top: 0;
+    left: calc(100% - 390px);
+    width: 220px;
+    background-color: rgb(40, 40, 40);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.open{
+    margin-left: -30px;
+    background-color: rgb(40, 40, 40);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    padding: 4px;
+}
+
+.close{
+    margin-left: -45px;
+    opacity: 0;
+    width: 0px;
+}
+
+@media screen and (max-width: 390px){
+    .searchClose{
+        display: none;
+    }
+    .searchOpen{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 785px){
+    .searchClose{
+        display: none;
+    }
+    .searchOpen{
+        display: none;
+    }
 }
