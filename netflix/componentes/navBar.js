@@ -42,6 +42,14 @@ export default function NavBar(){
                     <img src="/logo_filme3.png"/>
                 </div>
             </div>
+            <div className={styles.teste}>
+                <div className={sideBar == 'open' ? styles.sideBar : styles.navBarNone}>
+                    <div>
+                        <span class="material-symbols-outlined" onClick={sideBarToggle}>menu</span>
+                        <h1>Teste</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
