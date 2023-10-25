@@ -1,27 +1,11 @@
 import styles from '../styles/page.module.css'
 import React, {useState} from 'react';
+import albumData from '../repository/home.json'
 
 export default function Home() {
 
-      /*
-      const url = "https://deezerdevs-deezer.p.rapidapi.com/search?q=artist:'alok'";
-      const options = {
-        method: 'GET',
-        headers: {
-          'X-RapidAPI-Key': 'c94858764dmshc1ff10de77281dap1fa1d3jsnd03d84e68211',
-          'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
-        }
-      };
-
-      const carregaArtista = async () => {
-      
-        const res = await fetch(url, options)
-        const resJson  = await res.json()
-        console.log(resJson.data[0].artist.name)
-      }*/
-
       //https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5
-
+      /*
       const url = "https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5";
       const options = {
         method: 'GET',
@@ -36,19 +20,38 @@ export default function Home() {
         const res = await fetch(url, options)
         const resJson  = await res.json()
         console.log(resJson)
+      }*/
+
+      const carregaAlbum = () => {
+        console.log(albumData)
       }
 
       return (
         <main className={styles.body}>
           <div>
             <h1 className={styles.title}>Página Inicial</h1>
-            <button onClick={carregaArtista}>Carregar</button>
+            <button onClick={carregaAlbum}>Carregar</button>
           </div>
         </main>
       )
 }
 
+/*
+  const url = "https://deezerdevs-deezer.p.rapidapi.com/search?q=artist:'alok'";
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': 'c94858764dmshc1ff10de77281dap1fa1d3jsnd03d84e68211',
+      'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
+    }
+  };
 
+  const carregaArtista = async () => {
+  
+    const res = await fetch(url, options)
+    const resJson  = await res.json()
+    console.log(resJson.data[0].artist.name)
+  }*/
 
 /*
   const dados = fetch(url, options).then(response => {

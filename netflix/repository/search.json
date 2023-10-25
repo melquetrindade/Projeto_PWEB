@@ -1,0 +1,2734 @@
+{
+    "albums": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:0qy6yZjgoZ2cGGk9joy8E4",
+            "name": "Marília Mendonça - Ao Vivo",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e027b4293f65f8fe7003c29279c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048517b4293f65f8fe7003c29279c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2016
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4HpiwfnQvs867JNWeLy1vr",
+            "name": "Todos Os Cantos, Vol. 1 (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e020782550182d92608612e9c80",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048510782550182d92608612e9c80",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2730782550182d92608612e9c80",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2019
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5S0cTPPACcLQxZPe2X88bQ",
+            "name": "Festa das Patroas 35%",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:59jlthNnbmim5l9tmNA7se",
+                  "profile": {
+                    "name": "Maiara & Maraisa"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e024ed454af2f9a6719f4155241",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048514ed454af2f9a6719f4155241",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2734ed454af2f9a6719f4155241",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5EOY7EuE83D9oSeT9eR9ry",
+            "name": "Realidade - Ao Vivo Em Manaus",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0292aaf0254618b4de33029ab1",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485192aaf0254618b4de33029ab1",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27392aaf0254618b4de33029ab1",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2017
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6JFSCrp4FNZhVZmrDpEZi5",
+            "name": "Marília Mendonça - Perfil (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0286c69961463d81e45c73fd2d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485186c69961463d81e45c73fd2d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27386c69961463d81e45c73fd2d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2018
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:0q1sCNFTFPy66A2zeK8qh5",
+            "name": "Todos Os Cantos, Vol. 3 (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e021e23e8a7efc947b1d7e5836e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048511e23e8a7efc947b1d7e5836e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2731e23e8a7efc947b1d7e5836e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2019
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6ncYffPA8uomCY8DJ0EXL9",
+            "name": "Decretos Reais",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02cca35237571dbce12a43fbb4",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851cca35237571dbce12a43fbb4",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273cca35237571dbce12a43fbb4",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3mTbv6MyAR4KEDh0w8s9Nk",
+            "name": "Todos Os Cantos, Vol. 2 (ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e024ef5fb56ffaa3404e06ad60e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048514ef5fb56ffaa3404e06ad60e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2734ef5fb56ffaa3404e06ad60e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2019
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:44GonyeOgM1vGc9uHpoimf",
+            "name": "Decretos Reais, Vol. 2",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02680345244dcab673f3a1389d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851680345244dcab673f3a1389d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273680345244dcab673f3a1389d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5Rq6pUZEcAMJjJ77LTT1oc",
+            "name": "Marília Mendonça: As Melhores 2023",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02e0ff74fb1486ba51045bf759",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851e0ff74fb1486ba51045bf759",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273e0ff74fb1486ba51045bf759",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        }
+      ]
+    },
+    "artists": {
+      "totalCount": 182,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebffaebdbc972967729f688e25",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ffaebdbc972967729f688e25",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ffaebdbc972967729f688e25",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3ug51xsVSKPtOkIlqHrooW",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273305cffe1f933203725d87419",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851305cffe1f933203725d87419",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02305cffe1f933203725d87419",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2eK9gcJQ6uqVvJL63dnOM3",
+            "profile": {
+              "name": "Simone Mendes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb80e5acf09546a1fa2ca12a49",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17880e5acf09546a1fa2ca12a49",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517480e5acf09546a1fa2ca12a49",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3rTRHzFfbTk5GL3LpYZGHR",
+            "profile": {
+              "name": "Maria Mena"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb9c79c5b8e1ee89f7906f055a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1789c79c5b8e1ee89f7906f055a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051749c79c5b8e1ee89f7906f055a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2it164hfV4gOIjzfGz7Q05",
+            "profile": {
+              "name": "Marilia Medalha"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27351fe5eb41e18f5043c97526d",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485151fe5eb41e18f5043c97526d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0251fe5eb41e18f5043c97526d",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:0fCpd1gWP1kObFnctwl9r6",
+            "profile": {
+              "name": "Camila Mendes"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:59jlthNnbmim5l9tmNA7se",
+            "profile": {
+              "name": "Maiara & Maraisa"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb91d03c6d649afffcada91d07",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17891d03c6d649afffcada91d07",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517491d03c6d649afffcada91d07",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3zH5WktZU1xXqBZMsgV0IC",
+            "profile": {
+              "name": "Amalia Mendoza"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb1f00703ad2b2d91875383c5b",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1781f00703ad2b2d91875383c5b",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051741f00703ad2b2d91875383c5b",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:0Oqxng8ACtBabQjPA11e7u",
+            "profile": {
+              "name": "Mollie Mendoza"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7e170e2e68aebed68ba5a74c",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787e170e2e68aebed68ba5a74c",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051747e170e2e68aebed68ba5a74c",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:07FaEsHIaVZAFFHvNElpbQ",
+            "profile": {
+              "name": "Mari Merenda"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb98a49e57a0e0d3354cf26cb9",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17898a49e57a0e0d3354cf26cb9",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517498a49e57a0e0d3354cf26cb9",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "episodes": {
+      "totalCount": 810,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:episode:2KnCXvh0GLYd9UAAIEwLY7",
+            "name": "Dj Nick - MARILIA MENDOÇA MIXTAPE (FC Itaim Paulista)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d97894ad80975c1b4ed9218f0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f97894ad80975c1b4ed9218f0",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a97894ad80975c1b4ed9218f0",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1496827
+            },
+            "releaseDate": {
+              "isoString": "2022-06-24T14:30:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/4e4c5cab251ebaad24bf388de79bd20cf70f6d74",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/1b847ea9c669608a89e96331710bb9b110dc959e",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/268b8f83097d5132ab6cb6dac1dbfb3f393fa989",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "A melhor cantora de Sertanejo do mundo inteiro e também feminina representando as mulheres as cantoras de Sertanejo. Uma homenagem a cantora que se foi muito cedo deixo saudades e as músicas maravilhosas dela. Fiz uma playlist dela, confira para ouvir as músicas dessa cantora incrível muito bom mesmo não vai se arrepender.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:6HcN0FppRyIw9TtMzSLMBs",
+            "name": "Fim da greve em SP, inquérito de Marília Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db75823a05325709912a97a97",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb75823a05325709912a97a97",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab75823a05325709912a97a97",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 243957
+            },
+            "releaseDate": {
+              "isoString": "2023-10-04T11:43:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68db75823a05325709912a97a97",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fb75823a05325709912a97a97",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ab75823a05325709912a97a97",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Os funcionários de Metrô, CPTM e Sabesp encerram greve; passageiros enfrentam falhas na CPTM. Uma nova frente fria provoca temporais no Sul; calor continua em grande parte do país. A Polícia Civil de Minas Gerais apresenta a conclusão do inquérito do acidente que matou Marília Mendonça. O Tribunal Superior Eleitoral (TSE), faz abertura do código-fonte da urna eletrônica para auditoria do processo eleitoral 2024. Autoridades sabiam desde 2014 sobre risco de desabamento em comunidade engolida no Amazonas. E o governo federal cria grupo para trabalhar pela candidatura do Brasil como sede da Copa do Mundo Feminina de 2027.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:0Zq4fFqCPZ6hmk0r8DatgD",
+            "name": "Marília Mendonça e o seu legado",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68df2ee02d8326d9ad7258b15dd",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1ff2ee02d8326d9ad7258b15dd",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8af2ee02d8326d9ad7258b15dd",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 402866
+            },
+            "releaseDate": {
+              "isoString": "2021-12-09T20:06:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d158e2249227e42c5ed209c8a",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f158e2249227e42c5ed209c8a",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a158e2249227e42c5ed209c8a",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Oiii, esse podcast tem o foco total na eterna rainha da sofrência Marilia Mendonça, nele nos falamos sobre sua trajetória, sua vida pessoal e principalmente o seu legado. Criado pelas alunas Maria Eduarda Fonseca, Marialyce Ingrid e Sabrina Cardoso da escola Ceep Professora Lourdinha Guerra. Espero que gostem!",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2MsrFqjJoyu4RO5yk1x5fc",
+            "name": "'Marília de Dirceu' - Tomás Antônio Gonzaga",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d3ecac6dcd7956a595a8bd595",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f3ecac6dcd7956a595a8bd595",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a3ecac6dcd7956a595a8bd595",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 2034336
+            },
+            "releaseDate": {
+              "isoString": "2023-06-14T12:35:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68daaada3abeb47a9652fe66a34",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1faaada3abeb47a9652fe66a34",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aaaada3abeb47a9652fe66a34",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Imagine que enquanto a antiga Ouro Preto pegava fogo em plena Inconfidência Mineira, um dos supostos revolucionários, Tomás Antônio Gonzaga, resolveu fazer uma pequena pausa e… escrever versos de amor. Nas páginas de seu mais famoso livro, Marília de Dirceu, o poeta árcade contou a história de um pastor apaixonado, que por forças maiores acabou apartado do seu grande amor.  A obra virou uma febre absoluta, não só na época, mas em muitas décadas que sucederam a vida e morte do autor. Uma das razões, talvez, fosse o quê biográfico por trás daquela história: muitos especularam que Gonzaga, na verdade, seria Dirceu, e Maria Doroteia Joaquina, jovem por quem ele se apaixonou, teria sido eternizada como Marília.  O fato é que o livro tornou-se clássico da literatura brasileira – tanto que foi parar na lista de obras obrigatórias da Fuvest, o vestibular da USP.  Neste episódio, o professor do Curso Anglo, Eduardo Calbucci, ajuda a desvendar o contexto histórico, os aspectos formais e relativiza alguns boatos que cercam o célebre livro do Arcadismo. ",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2GwN9DhEiIvclOUPesg9P9",
+            "name": "Polícia culpa pilotos por morte de Marília Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db75823a05325709912a97a97",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb75823a05325709912a97a97",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab75823a05325709912a97a97",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 297978
+            },
+            "releaseDate": {
+              "isoString": "2023-10-04T16:01:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68db75823a05325709912a97a97",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fb75823a05325709912a97a97",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ab75823a05325709912a97a97",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "A Polícia Civil de Minas Gerais atribui a responsabilidade da queda de avião que matou Marília Mendonça e outras quatro pessoas aos pilotos da aeronave. Os ministros do Supremo Tribunal Federal (STF) mandam recado ao Congresso de que o momento é de fortalecer democracia e não de falar em mandato fixo. A União Europeia veta entrada de turistas brasileiros com visto de residência da Comunidade dos Países de Língua Portuguesa. Pela primeira vez, o governo dos Estados Unidos multa uma empresa por deixar lixo espacial orbitando em torno da Terra. A família do são-paulino Rafael Garcia, morto por 'bean bag', entra na Justiça contra governo para pedir R$ 1 milhão de indenização. E o Internacional e Fluminense buscam vaga para a final da Conmebol Libertadores.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:6HzaDmRI7aQzkYZlswQP8s",
+            "name": "Especial - Eterna Marilia Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d61a1b950bb9408ffe0e3f564",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f61a1b950bb9408ffe0e3f564",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a61a1b950bb9408ffe0e3f564",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 375069
+            },
+            "releaseDate": {
+              "isoString": "2021-11-05T11:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d690e219ff9436933947151e8",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f690e219ff9436933947151e8",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a690e219ff9436933947151e8",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Uma grande cantora que jamais poderia passar dispercebida pelo podcast pensando grande.  #Mariliamendonça sempre será lembrada como uma mulher que pensou grande  com seu grande poder de influência no mundo da música.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1sJf39fjhJz8i6TubBmcha",
+            "name": "Fuvest 2024: ‘Marília de Dirceu’ traz culto à natureza e ao amor",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d4921b168861223b991125776",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f4921b168861223b991125776",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a4921b168861223b991125776",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 483791
+            },
+            "releaseDate": {
+              "isoString": "2023-03-15T13:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/b0781acf083c1cffada8313027c9def841d07cfb",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/92615843258a4fea583e591b3f8a5c19280fc62c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/dc8f7b9e09f423f1773a75e020e6f9c2a4f3f6e7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Escrito no final do século XVIII, o principal livro do poeta luso-brasileiro Tomás António Gonzaga, ‘Marília de Dirceu’, entrou na lista das leituras para a prova da Fundação Universitária para o Vestibular (Fuvest 2024). Este podcast traz uma análise da obra com dicas para o professor que pretenda abordar seu contexto em sala de aula. A obra é dividida em dois momentos. No primeiro, o contexto é característico do arcadismo. Bucolismo, culto à natureza e à simplicidade são algumas das marcas deste movimento literário no Brasil. “O livro ‘Marília de Dirceu’ nasce de um contexto amoroso da vida do poeta, em que ele faz poemas convidando a menina, bem mais nova do que ele, a gozar dos prazeres do amor. Só que, atendendo a princípios poéticos daquela época, ele não se declara o juiz Tomás António Gonzaga. Ao invés disso, constrói uma personalidade poética de um pastor, Dirceu, e ela, por sua vez, passa a ser a pastorazinha Marília”, explana o professor do curso Anglo Vestibulares Paulo Oliveira. Todo em versos, ‘Marília de Dirceu’ tem caráter autobiográfico. Assim como o eu-lírico da narrativa, Gonzaga foi preso em 1789 pela participação na Inconfidência Mineira e condenado ao exílio em Moçambique, o que o afastou de sua musa. Pesquisadores apontam que o segundo momento da obra, a parte final, teria sido escrita no cárcere, o que traz um tom mais subjetivo e aproxima os versos de um estilo pré-romantismo. “É como se o homem Tomás António Gonzaga, que estava preso, começasse a ficar cada vez mais nítido por detrás daquela máscara do pastor Dirceu. Todo esse subjetivismo, toda essa carga de pessoalidade que os poemas apresentam, já está abrindo caminho para toda aquela exacerbação sentimental que a gente vai ver no romantismo já no andamento do século XIX”, explica o professor. No áudio, Paulo Oliveira aponta as características, analisa o que pode ser solicitado no vestibular e lê um trecho da obra.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2Okpr5TpxbSaILIpYDIY5r",
+            "name": "JN: queimadas, caso Marília Mendonça e medalha inédita na ginástica artística",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dde4ac429b59d486c3aa2ecd7",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fde4ac429b59d486c3aa2ecd7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ade4ac429b59d486c3aa2ecd7",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 330292
+            },
+            "releaseDate": {
+              "isoString": "2023-10-05T00:12:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68db75823a05325709912a97a97",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fb75823a05325709912a97a97",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ab75823a05325709912a97a97",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Uma Comissão do Senado aprovou uma proposta pra limitar decisões individuais do Supremo Tribunal Federal. Nos Estados Unidos, a queda inédita do presidente da Câmara dos Deputados instalou o caos político. A Fifa anunciou a copa de 2030 com jogos em seis países. A equipe feminina brasileira de ginástica artística conquista uma medalha de prata inédita no Mundial. A Polícia Civil de Minas concluiu o inquérito sobre o acidente de avião que matou a cantora Marília Mendonça. E, enquanto o Amazonas combate os efeitos da seca, o sul do Brasil enfrenta tempestades e granizo.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:3r3xp7UcnLp4pD5OuNHQ1A",
+            "name": "Marília Mendonça ensina como lidar com uma traição",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d911b0756070bbb9ff1093708",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f911b0756070bbb9ff1093708",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a911b0756070bbb9ff1093708",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1967856
+            },
+            "releaseDate": {
+              "isoString": "2017-12-09T14:13:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d911b0756070bbb9ff1093708",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f911b0756070bbb9ff1093708",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a911b0756070bbb9ff1093708",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "A cantora Marília Mendonça, rainha da sofrência, deu uma aula sobre traição no Conversa com Bial de 14/9. Ainda no papo, a antropóloga Mirian Goldenberg.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2j5FS69Y5P2WPscEHdwNJl",
+            "name": "748. Past Traumas Affecting Present Reactions w/ Maria Menounos & Keven Undergaro",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d6f8c3fefe1657ec8a73f690b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f6f8c3fefe1657ec8a73f690b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a6f8c3fefe1657ec8a73f690b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 2789929
+            },
+            "releaseDate": {
+              "isoString": "2023-10-16T09:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d6f8c3fefe1657ec8a73f690b",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f6f8c3fefe1657ec8a73f690b",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a6f8c3fefe1657ec8a73f690b",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Happy Monday Heal Squad and welcome to another Monday Chat Show with Maria and Keven. Maria discusses the current plight of the world, the science behind the power of prayer, offering airport assistance to those in need, being okay with being late, takeaways from Bobbi Thomas' amazing yet unlikely career journey, returning to 30 Rock and her old job at the Today Show, being triggered by past traumas then saying things we don't mean as a result, allowing children to express emotions and what happens when we, as adults, were not allowed to and Athena's first Halloween. Heal on!    We are all connected: there is nowhere to run today, so stand in the light instead.    The science behind the power of collective prayer: when multiple people pray and meditate, they can literally change the state of cells...and the world.  The power of micro-transactions: helping parents, families and those in need, especially at the airport.  Being late: why these days it's okay to be late...   Bobbi Thomas and Maria succeeding without a plan: just going through doors that open with good intentions and intentions to serve.   Forget fake it till you make it: instead, be honest about your nerves and what you don't know to get the support you need.   Returning to the Today Show: memories of working in corporate and gratitude for then and especially now.   Saying things you don't mean: when triggered by childhood traumas and reverting to past behaviors, reactions and responses.   The worst thing to do to someone victimized: deny their injustice or pain.   Allowing children to have and express emotions: if not, they won't know how to do so as adults.   Athena's first Halloween: older parents, overly excited (and prepared) for baby's first holidays.    HEAL SQUAD SOCIALS IG: https://www.instagram.com/healsquad/ TikTok: https://www.tiktok.com/@healsquadxmaria HEAL SQUAD RESOURCES: Website: https://www.mariamenounos.com Curated Macy’s Page: https://www.macys.com/healsquad Rosetta Stone: https://www.rosettastone.com/healsquad 40% off Noom: https://www.noom.com Just Thrive: https://justthrivehealth.com and use promo code: HEALSQUAD 20% off your first 90-day bottle of Just Calm and Just Thrive Probiotic ABOUT MARIA MENOUNOS: Emmy Award-winning journalist, TV personality, actress, 2x NYT best-selling author, former pro-wrestler and brain tumor survivor, Maria Menounos’ passion is to see others heal and to get better in all areas of life. ABOUT HEAL SQUAD x MARIA MENOUNOS: A daily digital talk-show that brings you the world's leading healers, experts, and celebrities to share groundbreaking secrets and tips to getting better in all areas of life. DISCLAIMER: This Podcast and all related content [published or distributed by or on behalf of Maria Menounos or Mariamenounos.com] is for informational purposes only and may include information that is general in nature and that is not specific to you. Any information or opinions provided by guest experts or hosts featured within website or on Company’s Podcast are their own; not those of Maria Menounos or the Company. Accordingly, Maria Menounos and the Company cannot be responsible for any results or consequences or actions you may take based on such information or opinions. If you have, or suspect you may have, a health-care emergency, please contact a qualified health care professional for treatment.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        }
+      ]
+    },
+    "genres": {
+      "totalCount": 0,
+      "items": []
+    },
+    "playlists": {
+      "totalCount": 143,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:playlist:2MTvNkG9tXS6Hx6qNEBZbm",
+            "name": "MARILIA MENDOCA - Playlist ",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "luisd.guitar"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1EIYZKZSIuxPFf",
+            "name": "Mix de Marília Mendonça",
+            "description": "<a href=spotify:playlist:37i9dQZF1EIVmw5YYZHZuY>Zé Neto & Cristiano</a>, <a href=spotify:playlist:37i9dQZF1EIYz0GmDuHUQx>Luíza & Maurílio</a> e <a href=spotify:playlist:37i9dQZF1EIVT3IBLPpDe3>Simone & Simaria</a>",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/1yR65psqiazQpeM79CcGh8/pt/default",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO0RNR1C",
+            "name": "This Is Marília Mendonça",
+            "description": "This is Marília Mendonça. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0RNR1C-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:0QqbuiEKt70Q9a0yKABpuw",
+            "name": "Marília Mendonça - Só as melhores 2023",
+            "description": "A Rainha da Sofrência. Uma mulher incrível que partiu, mas que deixou um legado gigantesco para todos nós &lt;3 Saudades eternas M.M.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da844ae830160812467bebf1b244",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "MúsicaMonster"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:3TwIXSkT76nkH5mrjMqrip",
+            "name": "Marília Mendoça só as Melhores",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e020782550182d92608612e9c80ab67616d00001e02680345244dcab673f3a1389dab67616d00001e027b4293f65f8fe7003c29279cab67616d00001e0292aaf0254618b4de33029ab1",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e020782550182d92608612e9c80ab67616d00001e02680345244dcab673f3a1389dab67616d00001e027b4293f65f8fe7003c29279cab67616d00001e0292aaf0254618b4de33029ab1",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e020782550182d92608612e9c80ab67616d00001e02680345244dcab673f3a1389dab67616d00001e027b4293f65f8fe7003c29279cab67616d00001e0292aaf0254618b4de33029ab1",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Jose Francisco"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO2xi1bk",
+            "name": "This Is Marilia Mello",
+            "description": "This is Marilia Mello. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2xi1bk-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4C0k9XFJ7Ykt",
+            "name": "Rádio de Marília Mendonça",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v1/img/artist/1yR65psqiazQpeM79CcGh8/pt",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:1Aa4DcAlgsmygD88eUK1VK",
+            "name": "MOTEL  AFRODITE Marilia Mendoca E volta e meia, eu volto lá sozinho Eu tiro a roupa, eu choro e abr ",
+            "description": "MOTEL AFRODITE Marilia Mendoca E volta e meia, eu volto lá sozinho Eu tiro a roupa, eu choro e abro ",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da84a6bd71dfdae5419cc71c5826",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Playlits"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO02HMyY",
+            "name": "This Is Diana Mendiola",
+            "description": "This is Diana Mendiola. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO02HMyY-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:3fM73drjCRCDKCn72lg3ex",
+            "name": "Marilia Mendonça, MODAS",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e02114bf2e4c996cbe68424e906ab67616d00001e02aff649a4fe20ad8845ff6a66ab67616d00001e02e898b4b0d4375932d3147bb1ab67616d00001e02fb97f8cadfe3d09fc96309dd",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e02114bf2e4c996cbe68424e906ab67616d00001e02aff649a4fe20ad8845ff6a66ab67616d00001e02e898b4b0d4375932d3147bb1ab67616d00001e02fb97f8cadfe3d09fc96309dd",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e02114bf2e4c996cbe68424e906ab67616d00001e02aff649a4fe20ad8845ff6a66ab67616d00001e02e898b4b0d4375932d3147bb1ab67616d00001e02fb97f8cadfe3d09fc96309dd",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "evelyn_lacerda16"
+            }
+          }
+        }
+      ]
+    },
+    "podcasts": {
+      "totalCount": 82,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:show:0VSTbpFz9B3hBJeeUYkmmp",
+            "name": "Marília Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d158e2249227e42c5ed209c8a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f158e2249227e42c5ed209c8a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a158e2249227e42c5ed209c8a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Maria Eduarda"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:0ePNGCBFr8qENhinL9DO2U",
+            "name": "História Marília Mendonça ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68df79592e5779be3f9a8b01f41",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1ff79592e5779be3f9a8b01f41",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8af79592e5779be3f9a8b01f41",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Daniel Bertoni"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4uQMHJRMcqWnPOc8CcfQ4q",
+            "name": "Marília Mendonça ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68daa2b93f3b587635a7e75567a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1faa2b93f3b587635a7e75567a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8aaa2b93f3b587635a7e75567a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Barbara Fulco"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4DRXJ2C7JhJI2fZhdJhusl",
+            "name": "Marilia Mendonça ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d5f1fd2a2a238cc014f031dda",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f5f1fd2a2a238cc014f031dda",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a5f1fd2a2a238cc014f031dda",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Ugo Santos Blogueiro"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:7A1OICyOKmJl6gzxRPbL4m",
+            "name": "Áudio da Marilia",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d071d7f5c29726ea05635529f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f071d7f5c29726ea05635529f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a071d7f5c29726ea05635529f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Marilia Pedroso"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:6eFwhM7d2PA54XhqNIPHxe",
+            "name": "Marília Mendonça ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d2fe83d6592b64aed7f895fc8",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f2fe83d6592b64aed7f895fc8",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a2fe83d6592b64aed7f895fc8",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Mara Santos"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2h0ulWwOgYMEH00tzkn6vT",
+            "name": "Marília de Dirceu - Tomás Antônio Gonzaga",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db6fd499daec28984d8445810",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb6fd499daec28984d8445810",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab6fd499daec28984d8445810",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "giovannaa"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2R8I1CoKUjFthEEryW2RhW",
+            "name": "Gabi de Frente de Novo",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d71be04abfb78f0e0979a052b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f71be04abfb78f0e0979a052b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a71be04abfb78f0e0979a052b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Gabi de Frente de Novo"
+            },
+            "mediaType": "MIXED"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:44800uERyswClVtLz4is8i",
+            "name": "Marília Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68da733cfed954779052a671715",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fa733cfed954779052a671715",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8aa733cfed954779052a671715",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Beatriz silva"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:1ai2eGlQnqEFDqux4V0w8d",
+            "name": "Universo Espelhado ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d2f77ef85cec3927289b2c581",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f2f77ef85cec3927289b2c581",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a2f77ef85cec3927289b2c581",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Marilia Chinazzo"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ]
+    },
+    "topResults": {
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebffaebdbc972967729f688e25",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ffaebdbc972967729f688e25",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ffaebdbc972967729f688e25",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:7q3fl9pyPaUOrQ1w6AzveN",
+            "id": "7q3fl9pyPaUOrQ1w6AzveN",
+            "name": "Marília Mendonça",
+            "albumOfTrack": {
+              "uri": "spotify:album:3UQLzEpN117dUBLbe2W2gD",
+              "name": "Para todas as mulheres que já rimei",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a1525824d87cb3b047c77cd4",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a1525824d87cb3b047c77cd4",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a1525824d87cb3b047c77cd4",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3UQLzEpN117dUBLbe2W2gD",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3UQLzEpN117dUBLbe2W2gD?si=1prGfuVCQfmIW41Rc7MxeQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1WXbiUMl1AT9Inb619xPUg",
+                  "profile": {
+                    "name": "BIN"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:25XJqeReVV38w0tR04GGBd",
+                  "profile": {
+                    "name": "Mainstreet"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:72aE07MxpePfCELo4vGZcK",
+                  "profile": {
+                    "name": "Mãolee"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 114061
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:2MTvNkG9tXS6Hx6qNEBZbm",
+            "name": "MARILIA MENDOCA - Playlist ",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e0232fd006e575b20944f3a5b39ab67616d00001e02421c6fda4a17301f7eb1c4bcab67616d00001e025aabf24098286109c6a57e83ab67616d00001e02deebc9c1b632f0a5a24a33b7",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "luisd.guitar"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:0qy6yZjgoZ2cGGk9joy8E4",
+            "name": "Marília Mendonça - Ao Vivo",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e027b4293f65f8fe7003c29279c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048517b4293f65f8fe7003c29279c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2016
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:0VSTbpFz9B3hBJeeUYkmmp",
+            "name": "Marília Mendonça",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d158e2249227e42c5ed209c8a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f158e2249227e42c5ed209c8a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a158e2249227e42c5ed209c8a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Maria Eduarda"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ],
+      "featured": [
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO0RNR1C",
+            "name": "This Is Marília Mendonça",
+            "description": "This is Marília Mendonça. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0RNR1C-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4C0k9XFJ7Ykt",
+            "name": "Rádio de Marília Mendonça",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v1/img/artist/1yR65psqiazQpeM79CcGh8/pt",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "tracks": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:7q3fl9pyPaUOrQ1w6AzveN",
+            "id": "7q3fl9pyPaUOrQ1w6AzveN",
+            "name": "Marília Mendonça",
+            "albumOfTrack": {
+              "uri": "spotify:album:3UQLzEpN117dUBLbe2W2gD",
+              "name": "Para todas as mulheres que já rimei",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a1525824d87cb3b047c77cd4",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a1525824d87cb3b047c77cd4",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a1525824d87cb3b047c77cd4",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3UQLzEpN117dUBLbe2W2gD",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3UQLzEpN117dUBLbe2W2gD?si=s0IXbYBWRTq8Erxmgumnwg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1WXbiUMl1AT9Inb619xPUg",
+                  "profile": {
+                    "name": "BIN"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:25XJqeReVV38w0tR04GGBd",
+                  "profile": {
+                    "name": "Mainstreet"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:72aE07MxpePfCELo4vGZcK",
+                  "profile": {
+                    "name": "Mãolee"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 114061
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:38MpAndIjGAyVdcC6npX95",
+            "id": "38MpAndIjGAyVdcC6npX95",
+            "name": "Infiel - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:0qy6yZjgoZ2cGGk9joy8E4",
+              "name": "Marília Mendonça - Ao Vivo",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027b4293f65f8fe7003c29279c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048517b4293f65f8fe7003c29279c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0qy6yZjgoZ2cGGk9joy8E4",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0qy6yZjgoZ2cGGk9joy8E4?si=TcI5Hz3dQpOHeCJwQ1M7SQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 201904
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:4SjkLzyFBVXaxuB6SbJyJN",
+            "id": "4SjkLzyFBVXaxuB6SbJyJN",
+            "name": "Eu Sei de Cor - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:5EOY7EuE83D9oSeT9eR9ry",
+              "name": "Realidade - Ao Vivo Em Manaus",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0292aaf0254618b4de33029ab1",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485192aaf0254618b4de33029ab1",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27392aaf0254618b4de33029ab1",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "5EOY7EuE83D9oSeT9eR9ry",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/5EOY7EuE83D9oSeT9eR9ry?si=aJEUBhUaSqKqupVQAGuLoA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 185586
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:3GmJxfnUDrIs1iCfKUELFz",
+            "id": "3GmJxfnUDrIs1iCfKUELFz",
+            "name": "Supera - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:0q1sCNFTFPy66A2zeK8qh5",
+              "name": "Todos Os Cantos, Vol. 3 (Ao Vivo)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021e23e8a7efc947b1d7e5836e",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048511e23e8a7efc947b1d7e5836e",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731e23e8a7efc947b1d7e5836e",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0q1sCNFTFPy66A2zeK8qh5",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0q1sCNFTFPy66A2zeK8qh5?si=_jorcehMS5e-tqZAOCDCUw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 147748
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:2K9kZpwD2CzTa6iiSYYOoO",
+            "id": "2K9kZpwD2CzTa6iiSYYOoO",
+            "name": "Leão",
+            "albumOfTrack": {
+              "uri": "spotify:album:44GonyeOgM1vGc9uHpoimf",
+              "name": "Decretos Reais, Vol. 2",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02680345244dcab673f3a1389d",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851680345244dcab673f3a1389d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273680345244dcab673f3a1389d",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "44GonyeOgM1vGc9uHpoimf",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/44GonyeOgM1vGc9uHpoimf?si=sosCzB2tQ1yC00zNBK3zzg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 166774
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:3XSefjiSHsD34F7clH84xa",
+            "id": "3XSefjiSHsD34F7clH84xa",
+            "name": "O Que Falta Em Você Sou Eu - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:0qy6yZjgoZ2cGGk9joy8E4",
+              "name": "Marília Mendonça - Ao Vivo",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027b4293f65f8fe7003c29279c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048517b4293f65f8fe7003c29279c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0qy6yZjgoZ2cGGk9joy8E4",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0qy6yZjgoZ2cGGk9joy8E4?si=TcI5Hz3dQpOHeCJwQ1M7SQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 197916
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:4qsOrxBv09HhNSpsgMRXdC",
+            "id": "4qsOrxBv09HhNSpsgMRXdC",
+            "name": "Esqueça-Me Se For Capaz",
+            "albumOfTrack": {
+              "uri": "spotify:album:5S0cTPPACcLQxZPe2X88bQ",
+              "name": "Festa das Patroas 35%",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024ed454af2f9a6719f4155241",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048514ed454af2f9a6719f4155241",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734ed454af2f9a6719f4155241",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "5S0cTPPACcLQxZPe2X88bQ",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/5S0cTPPACcLQxZPe2X88bQ?si=8xfWtuM1TYClwXPyzaGWsA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:59jlthNnbmim5l9tmNA7se",
+                  "profile": {
+                    "name": "Maiara & Maraisa"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 169058
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:3RbXsVQr4jeTxvT35Hssq3",
+            "id": "3RbXsVQr4jeTxvT35Hssq3",
+            "name": "Bebi Liguei - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:4HpiwfnQvs867JNWeLy1vr",
+              "name": "Todos Os Cantos, Vol. 1 (Ao Vivo)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020782550182d92608612e9c80",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048510782550182d92608612e9c80",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730782550182d92608612e9c80",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4HpiwfnQvs867JNWeLy1vr",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4HpiwfnQvs867JNWeLy1vr?si=NfSEES-BTx2CqQ-plYIsHQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 159779
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:53PpijFATt35Zxfl6LTxoK",
+            "id": "53PpijFATt35Zxfl6LTxoK",
+            "name": "Leão",
+            "albumOfTrack": {
+              "uri": "spotify:album:6ncYffPA8uomCY8DJ0EXL9",
+              "name": "Decretos Reais",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02cca35237571dbce12a43fbb4",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851cca35237571dbce12a43fbb4",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273cca35237571dbce12a43fbb4",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6ncYffPA8uomCY8DJ0EXL9",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6ncYffPA8uomCY8DJ0EXL9?si=ns-wl90lRnKZ4gGPsTH7NQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 166774
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:5YdC74tZejyq3vurDOLFYz",
+            "id": "5YdC74tZejyq3vurDOLFYz",
+            "name": "Sentimento Louco - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:0qy6yZjgoZ2cGGk9joy8E4",
+              "name": "Marília Mendonça - Ao Vivo",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027b4293f65f8fe7003c29279c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048517b4293f65f8fe7003c29279c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0qy6yZjgoZ2cGGk9joy8E4",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0qy6yZjgoZ2cGGk9joy8E4?si=TcI5Hz3dQpOHeCJwQ1M7SQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+                  "profile": {
+                    "name": "Marília Mendonça"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 169864
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        }
+      ]
+    },
+    "users": {
+      "totalCount": 68,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:user:mariliamendoncaoficial",
+            "id": "mariliamendoncaoficial",
+            "displayName": "Marília Mendonça",
+            "username": "mariliamendoncaoficial",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82e0a642e653e35c50473adcd7",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85e0a642e653e35c50473adcd7"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:225zrrbd4w4k2frk3zowkogiq",
+            "id": "225zrrbd4w4k2frk3zowkogiq",
+            "displayName": "Marília Mendonça",
+            "username": "225zrrbd4w4k2frk3zowkogiq",
+            "image": {
+              "smallImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=755692727775406&height=50&width=50&ext=1700819274&hash=AeSaNtwpUoVjUs1FZVc",
+              "largeImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=755692727775406&height=300&width=300&ext=1700819274&hash=AeSv1LJvYPgfolK3eBc"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:mendoncamarilia",
+            "id": "mendoncamarilia",
+            "displayName": "Marília Mendonça",
+            "username": "mendoncamarilia",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8238e849519495860fc18c742c",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8538e849519495860fc18c742c"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:fkfuna1uuvkzks4jwqieez3f8",
+            "id": "fkfuna1uuvkzks4jwqieez3f8",
+            "displayName": "Marília Mendonça Tavares",
+            "username": "fkfuna1uuvkzks4jwqieez3f8",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82377456f2c089c0d95d70b0b0",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85377456f2c089c0d95d70b0b0"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:lilaamendonca",
+            "id": "lilaamendonca",
+            "displayName": "Marília Lima de Mendonça",
+            "username": "lilaamendonca",
+            "image": {
+              "smallImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=628830813875649&height=50&width=50&ext=1700821687&hash=AeQu8njLfKXtNHRzZNw",
+              "largeImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=628830813875649&height=300&width=300&ext=1700821687&hash=AeRsNEXgN-4HjHoYjkY"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:marimussa05",
+            "id": "marimussa05",
+            "displayName": "Marília Mendonça",
+            "username": "marimussa05",
+            "image": {
+              "smallImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=786699628014373&height=50&width=50&ext=1700829018&hash=AeRJhpa4zaiU-8tyPas",
+              "largeImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=786699628014373&height=300&width=300&ext=1700829018&hash=AeRMOx6N-GQtzKQyqHI"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31khgna7rvezqnly5zlqzavf4w3a",
+            "id": "31khgna7rvezqnly5zlqzavf4w3a",
+            "displayName": "Marília Mendonça",
+            "username": "31khgna7rvezqnly5zlqzavf4w3a",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82a2cc7e983addd83dc044f9db",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85a2cc7e983addd83dc044f9db"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31al3pgpilzi26dqu7h2pp2qf7p4",
+            "id": "31al3pgpilzi26dqu7h2pp2qf7p4",
+            "displayName": "Marília Mendonça",
+            "username": "31al3pgpilzi26dqu7h2pp2qf7p4",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b820d1057b19ddfea471f0a2510",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee850d1057b19ddfea471f0a2510"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1qandejr37p7dgn7lhf5hhzvc",
+            "id": "1qandejr37p7dgn7lhf5hhzvc",
+            "displayName": "Marília Mendonça",
+            "username": "1qandejr37p7dgn7lhf5hhzvc",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b822371c8062915c67b31407799",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee852371c8062915c67b31407799"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31zajvpr5fuvwkp2l2p65bmfeu3i",
+            "id": "31zajvpr5fuvwkp2l2p65bmfeu3i",
+            "displayName": "Marília Mendonça",
+            "username": "31zajvpr5fuvwkp2l2p65bmfeu3i",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82a414f365502b3a1b3cc88000",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85a414f365502b3a1b3cc88000"
+            }
+          }
+        }
+      ]
+    }
+  }
