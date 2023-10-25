@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 
 export default function Home() {
 
+      /*
       const url = "https://deezerdevs-deezer.p.rapidapi.com/search?q=artist:'alok'";
       const options = {
         method: 'GET',
@@ -13,36 +14,55 @@ export default function Home() {
       };
 
       const carregaArtista = async () => {
-        /*
-        const dados = fetch(url, options).then(response => {
-          if (!response.ok) {
-            throw new Error('Erro na requisição à API');
-          }
-          return response.json();
-        }).then(data => {
-          // Manipule os dados da API aqui
-          //console.log(data);
-        }).catch(error => {
-          console.error('Ocorreu um erro:', error);
-        });
-        console.log(dados)*/
-
+      
         const res = await fetch(url, options)
         const resJson  = await res.json()
         console.log(resJson.data[0].artist.name)
+      }*/
+
+      //https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5
+
+      const url = "https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5";
+      const options = {
+        method: 'GET',
+        headers: {
+          'X-RapidAPI-Key': 'dc8f4e0d13msh0a30c408daca17dp1ec9d2jsn147d94a16c74',
+          'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+        }
+      };
+
+      const carregaArtista = async () => {
+      
+        const res = await fetch(url, options)
+        const resJson  = await res.json()
+        console.log(resJson)
       }
 
       return (
         <main className={styles.body}>
-          <h1 className={styles.title}>Página Inicial</h1>
-          <button onClick={carregaArtista}>Carregar</button>
+          <div>
+            <h1 className={styles.title}>Página Inicial</h1>
+            <button onClick={carregaArtista}>Carregar</button>
+          </div>
         </main>
       )
 }
 
 
 
-
+/*
+  const dados = fetch(url, options).then(response => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição à API');
+    }
+    return response.json();
+  }).then(data => {
+    // Manipule os dados da API aqui
+    //console.log(data);
+  }).catch(error => {
+    console.error('Ocorreu um erro:', error);
+  });
+  console.log(dados)*/
 
 /*
   const headers = {
