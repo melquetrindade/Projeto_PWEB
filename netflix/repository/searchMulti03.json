@@ -1,0 +1,2728 @@
+{
+    "albums": {
+      "totalCount": 789,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+            "name": "Eu Tenho a Senha",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3Fkz1apfDJEB6r7HvWrv8z",
+            "name": "Não Sou De Falar De Amor",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:5coW9ioCpvEYGx4v1nvWec",
+                  "profile": {
+                    "name": "Juliette"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ebdc9dfb7f9c91a9b8cc6144",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ebdc9dfb7f9c91a9b8cc6144",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ebdc9dfb7f9c91a9b8cc6144",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1lGufkENuPKhs8ELOoFZ5q",
+            "name": "RAIZ",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0250046fd50d47368b734a5411",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485150046fd50d47368b734a5411",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27350046fd50d47368b734a5411",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4DnjLKTRmVUCiVoQpFKV7O",
+            "name": "Digo Ou Não Digo",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02413c4cf1815fa88b5643dac4",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851413c4cf1815fa88b5643dac4",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273413c4cf1815fa88b5643dac4",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2QpdRn5ixgb4ZnZVq7FUVL",
+            "name": "Acredite (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e021cfc6d07cab9ffaa7208ebd0",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048511cfc6d07cab9ffaa7208ebd0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2731cfc6d07cab9ffaa7208ebd0",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:0vM84guCL3ftY5c3fYMsJH",
+            "name": "João Gomes (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:3J06xPp60FJ5WrK94Nnm7k",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e022f222aa708502c6aac389e98",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048512f222aa708502c6aac389e98",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2732f222aa708502c6aac389e98",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2hfu2RpXBqKoHF0yMHT5gh",
+            "name": "João Gomes",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:2DGyN5NTOHXpEMIcrRHbRm",
+                  "profile": {
+                    "name": "ROWKA"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4SB7gTH9sKQNsOnnCm7QbH",
+                  "profile": {
+                    "name": "omaxsonreal"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02680fdf6b85a09bf250a03780",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851680fdf6b85a09bf250a03780",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273680fdf6b85a09bf250a03780",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1jElzLi27vaY1p5JPyeVQU",
+            "name": "5 Da Manhã (Ao Vivo Em Goiânia)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NiaKn55OzJswiYevvlKfz",
+                  "profile": {
+                    "name": "Raí Saia Rodada"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ca964321b6d87cccfd6f07b2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ca964321b6d87cccfd6f07b2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ca964321b6d87cccfd6f07b2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2R5lPZobIoQuORn3b0Stgr",
+            "name": "João Gomes",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:7nxA46RVE2MHk2eU78Pi81",
+                  "profile": {
+                    "name": "Kadu"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0235c38598dce831d93f31d320",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485135c38598dce831d93f31d320",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27335c38598dce831d93f31d320",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3GijMKhlZt53WEakYLukRs",
+            "name": "Ao Vivo no Sertão",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e022cf73b573c24f917b66685eb",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048512cf73b573c24f917b66685eb",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2732cf73b573c24f917b66685eb",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        }
+      ]
+    },
+    "artists": {
+      "totalCount": 297,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+            "profile": {
+              "name": "João Gomes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb88c47edb069b83fd6895325a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17888c47edb069b83fd6895325a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517488c47edb069b83fd6895325a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4aaBzgose29UfRHPzIezJq",
+            "profile": {
+              "name": "João Gomes"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2CKOmarVWvWqkNWUatHCex",
+            "profile": {
+              "name": "Ana Castela"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebac5631fd60c703ae3abeeff5",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ac5631fd60c703ae3abeeff5",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ac5631fd60c703ae3abeeff5",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:48HORs6F9P7IgdyKrk4MZC",
+            "profile": {
+              "name": "Tarcísio do Acordeon"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb785600835a0987a6f1913a1",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b785600835a0987a6f1913a1",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174b785600835a0987a6f1913a1",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:77ZUbcdoU5KCPHNUl8bgQy",
+            "profile": {
+              "name": "João Gilberto"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc18449a640fefd04cfe62359",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c18449a640fefd04cfe62359",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174c18449a640fefd04cfe62359",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3M1XbHLBiCNf7XDqWoH6P3",
+            "profile": {
+              "name": "João Gomes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d0d6272a824f304c8c4cf201",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851d0d6272a824f304c8c4cf201",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d0d6272a824f304c8c4cf201",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:5K8Rmjmf4RZFffz94EmBRt",
+            "profile": {
+              "name": "Zé Vaqueiro"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb8d323a8a8b7ad91ec2c93dc4",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1788d323a8a8b7ad91ec2c93dc4",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051748d323a8a8b7ad91ec2c93dc4",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:6xerOqBLmelL3xZNZkVbGl",
+            "profile": {
+              "name": "João Gustavo e Murilo"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3af351331185764aa0c60f59",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1783af351331185764aa0c60f59",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051743af351331185764aa0c60f59",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3J06xPp60FJ5WrK94Nnm7k",
+            "profile": {
+              "name": "João Gomes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb812805f915e7ac81fc3bc710",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178812805f915e7ac81fc3bc710",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174812805f915e7ac81fc3bc710",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3p7PcrEHaaKLJnPUGOtRlT",
+            "profile": {
+              "name": "Henrique & Juliano"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb713c619cc12ca1866136419",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b713c619cc12ca1866136419",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174b713c619cc12ca1866136419",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "episodes": {
+      "totalCount": 918,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:episode:5MnhIInYM8bu6pseL84Cxj",
+            "name": "12h30 25 outubro - Edição João Gomes Dias",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1150128
+            },
+            "releaseDate": {
+              "isoString": "2023-10-25T11:30:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:6FVJFqTqg1bEGzqM69AtI8",
+            "name": "João Gomes",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d584582557b7f3a5cb903713a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f584582557b7f3a5cb903713a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a584582557b7f3a5cb903713a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 130942
+            },
+            "releaseDate": {
+              "isoString": "2023-10-10T05:58:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d584582557b7f3a5cb903713a",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f584582557b7f3a5cb903713a",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a584582557b7f3a5cb903713a",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Investigadores da Universidade de Coimbra estão envolvidos num projeto para desenvolver tecnologias de melhoramento das águas para consumo humano.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2PDkscellHUiprT5kv3Hq3",
+            "name": "12h30m 16 outubro - Edição João Gomes Dias",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1076376
+            },
+            "releaseDate": {
+              "isoString": "2023-10-16T11:30:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1J8uo2WKERFudr2cd6acGh",
+            "name": "EP. 1 - JOÃO GONÇALVES | CASAS, COMIGO PODCAST",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d83c52ddf1408edad0e6e6e3a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f83c52ddf1408edad0e6e6e3a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a83c52ddf1408edad0e6e6e3a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 5502549
+            },
+            "releaseDate": {
+              "isoString": "2023-10-22T11:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dbe2b5d4dabb0da8052d6ae59",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fbe2b5d4dabb0da8052d6ae59",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8abe2b5d4dabb0da8052d6ae59",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Neste primeiro episódio, o convidado é o João Gonçalves. Com o apoio de Arrecada Sons | Estúdio & Produtora",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2bocXJFDGyEY5ELYgnTqnL",
+            "name": "JOÃO GOMES - Podpah #475",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d25649ce0b802419b4a173a14",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f25649ce0b802419b4a173a14",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a25649ce0b802419b4a173a14",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 3700288
+            },
+            "releaseDate": {
+              "isoString": "2022-09-08T18:07:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dda018f5c18ecebc5d3ff3b59",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fda018f5c18ecebc5d3ff3b59",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ada018f5c18ecebc5d3ff3b59",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "João Gomes no Rock in Rio? Teve sim! O maior representante do piseiro no país arrastou uma multidão pro festival e antes disso deu tempo de trocar uma ideia com a gente lá no nosso estúdio. Assista aqui no Spotify ",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2O5PQatz3kPLedjnUsD3s1",
+            "name": "João Gomes",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d584582557b7f3a5cb903713a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f584582557b7f3a5cb903713a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a584582557b7f3a5cb903713a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 130942
+            },
+            "releaseDate": {
+              "isoString": "2023-10-10T05:58:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d584582557b7f3a5cb903713a",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f584582557b7f3a5cb903713a",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a584582557b7f3a5cb903713a",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Investigadores da Universidade de Coimbra estão envolvidos num projeto para desenvolver tecnologias de melhoramento das águas para consumo humano.",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:4coZ7lq4UXgvWvbwvuYAeJ",
+            "name": "18h30 09 Ago Edição João Gomes Dias",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 943920
+            },
+            "releaseDate": {
+              "isoString": "2023-08-09T17:30:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:5jIyrxkHAxguDBfQ24k8Bz",
+            "name": "18h30 09 Ago Edição João Gomes Dias",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 943960
+            },
+            "releaseDate": {
+              "isoString": "2023-08-09T16:56:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1Ws49c7UXmtjVi7isNxs8a",
+            "name": "Perderam Todos! Menos o Braga e os Mac Allister.",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d5d2f60b7ec87779b43dc2d8d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f5d2f60b7ec87779b43dc2d8d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a5d2f60b7ec87779b43dc2d8d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 3223879
+            },
+            "releaseDate": {
+              "isoString": "2023-10-06T10:41:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d5bcadcab8f9aba0b1699478b",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f5bcadcab8f9aba0b1699478b",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a5bcadcab8f9aba0b1699478b",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Viagem pela 2ª semana europeia da fase de grupos das provas da UEFA. Os portugueses perderam todos menos o valente Braga.  Há boas histórias para conhecer no lado B da UEFA como o reencontro dos irmãos Mac Allister em Anfield. ",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:5u48sQQ8benrEzgkis2h71",
+            "name": "18h30 24 out Edição João Gomes Dias",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 975551
+            },
+            "releaseDate": {
+              "isoString": "2023-10-24T17:30:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/e6da93b20da7907d6f4db453e95b7179a65f7a3d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/f9fcd441f70944e0d5a209917ba2b58dbdbdc625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/88529e6dc9275994856e0774369323fefc0a91e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        }
+      ]
+    },
+    "genres": {
+      "totalCount": 0,
+      "items": []
+    },
+    "playlists": {
+      "totalCount": 65,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:playlist:20oe6Y95pNQL4jIhr4TwJE",
+            "name": "João Gomes 2023 ⭐ Lançamentos 2023",
+            "description": "Ouça a Playlist com as Músicas Mais Tocadas(Novas e Antigas) e Lançamentos do João Gomes em 2022-2023. Clique no 💚  e siga a playlist!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da8413478df9fb8a57fe4d5049ea",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Omnia Music"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:336olQR8ZQLTG78Tdkw0CP",
+            "name": "JOÃO GOMES - AS MELHORES (NOVAS E ANTIGAS)",
+            "description": " Ouça aqui os maiores sucessos e Lançamentos do João Gomes. Clique no 💚 para seguir a playlist e continuar curtindo!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da849393ef9ae158a66a58ac52cb",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Rocket Music"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO2MiPJv",
+            "name": "This Is João Gomes",
+            "description": "This is João Gomes. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2MiPJv-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1EIUCGsN9mG8il",
+            "name": "João Gomes Mix",
+            "description": "<a href=spotify:playlist:37i9dQZF1EIYQQJf9xThiv>NATTAN</a>, <a href=spotify:playlist:37i9dQZF1EIWZH4Wultlcq>Tarcísio do Acordeon</a> and <a href=spotify:playlist:37i9dQZF1EIVsUtkxKzCk9>Fabinho Testado</a>",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/4JNo6Q5KdcRf1vtSX9mB0S/en/default",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:7fhkdyCvnTUxoEQopiVmPz",
+            "name": "JOÃO GOMES 2023🔥 LANÇAMENTOS",
+            "description": "Atualizado Outubro 2023 🔥 DVD RAIZ | Sertão | 5 da manhã | Pra que fui me apaixonar | Sinal | Prejudicado | Seja pra mim | Sonho lindo | Por causa dessa mulher | Deusa de Itamaracá | Pra que fui me apaixonar | Como eu quero | Sonho lindo | Pequena flor",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da84701c1cc0b45a79a4be7f7b85",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "uhulplay"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO4dtD44",
+            "name": "This Is João Gilberto",
+            "description": "This is João Gilberto. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4dtD44-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:7vapKzNHhzRuWJLROKx2JF",
+            "name": "João Gomes, Tarcísio e Vitor Fernandes",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e023f6f44992cfbe0c106a24ba3ab67616d00001e025722ad4a2e4a8bc1de33dab1ab67616d00001e0262c6b448c479e79724b4bc31ab67616d00001e028981c187f7f5dc40265a30bb",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e023f6f44992cfbe0c106a24ba3ab67616d00001e025722ad4a2e4a8bc1de33dab1ab67616d00001e0262c6b448c479e79724b4bc31ab67616d00001e028981c187f7f5dc40265a30bb",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e023f6f44992cfbe0c106a24ba3ab67616d00001e025722ad4a2e4a8bc1de33dab1ab67616d00001e0262c6b448c479e79724b4bc31ab67616d00001e028981c187f7f5dc40265a30bb",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Eduarda Ferreira"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:1m7oYsvsZsKlLkcpCBixzX",
+            "name": "SONHO LINDO - João Gomes e Raquel dos Teclados (2023)",
+            "description": "Musica nova.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da84ed390a9340b45d5174fa9e67",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Lucas Tanaka"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:1aTn7ppG02853WMUWjF7V9",
+            "name": "João Gomes – As Melhores - Lançamentos  Forró e Piseiro | ACREDITE | Eu Tenho a Senha",
+            "description": "Acredite, Eu Tenho a Senha, Aquelas Coisas, Digo ou Não Digo, Dengo, Terra Prometida, Não Aceito Mais, Lembra, Sem Você, Morena..",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da846b76afb4d53bc9108e2503a9",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "CarolMusic"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWXFLyAKm1KMY",
+            "name": "Forró Raiz",
+            "description": "As novidades e hits do Forró! Foto: Ávine Vinny e João Gomes",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f00000002e398ad6da5734a099063a64c",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "podcasts": {
+      "totalCount": 368,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:show:1hK3rZ4tbML7HbOseefJyh",
+            "name": "AD de Matemática Por João Victor e Maria Luiza Gomes",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dd53985578fa7a0c10beebb89",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fd53985578fa7a0c10beebb89",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ad53985578fa7a0c10beebb89",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "João Victor de Castro"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:175pG54BAcjbdF2XIWqbrM",
+            "name": "Joãogomescast",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d54c76e908f992e3ffe997b39",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f54c76e908f992e3ffe997b39",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a54c76e908f992e3ffe997b39",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "joao gomes Barbeiro"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:02pCoNxPIxqRQMHsiSg9td",
+            "name": "João Gomes",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/dc181396ce29cc246d1917355d171a4db11f6ce9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/a8afbc360ce4252bfd6ff0e1f8dfa6a72f936048",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/8933ca4eec4d8d85a697653a4a880cfb6fab570a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "NATANAEL LESSA SANTOS"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:0yovfGmAiZZUqHCQTsFauC",
+            "name": "Podcast João Gomes Jr.",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/50af3824460cbec4f9075461ee82f4793d1f4203",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/864bf3e712315fb86b0efbf83424391e343b6c35",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/247a9b17e54dd71400fe6d7322f224977210a551",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "João Gomes Jr."
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2Rwa5xijmd1uPLFetJB1Nt",
+            "name": "papos invisíveis por joão vitor gomes ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68de01a3a9a0ba4137f80135204",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fe01a3a9a0ba4137f80135204",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ae01a3a9a0ba4137f80135204",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "papos invisíveis podcast"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:5tkHEZkyVKeXvOeKUeJIbt",
+            "name": "João Gomes n14 e Leandro Santos n16 9D",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d2faf41d57efd9461d8ee8ad8",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f2faf41d57efd9461d8ee8ad8",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a2faf41d57efd9461d8ee8ad8",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "joao gomes"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:5kydQ9SIfP0gwpFqDJD11F",
+            "name": "Fever Pitch",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d5bcadcab8f9aba0b1699478b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f5bcadcab8f9aba0b1699478b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a5bcadcab8f9aba0b1699478b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "João Gonçalves"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:7EwKNC1qyWvehSh4HO6Y6T",
+            "name": "“Famigerado” e “As Margens da Alegria”",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/6fe922dbb33ed280acff988c4e2ad0df2742e4f5",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/303728fadc50c3a2280fb248bdbf7e3a20239950",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ff1f7da9d1bc18d0b46a07337f81ed63d1de7b20",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Darisa Leonora  Matos"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:5fnIm8bAKmT3OUmsrv7dQM",
+            "name": "João Gomes ",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/2466f2fe09bcb2c3c54da4876892cb635b5ca2cf",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/08533ef5337e5442303c18203b38f820d5a96b18",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/63c657236292d792f6efaabf9357a37228476b64",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "João Gomes"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:1QXMTy8Z3FBEy3r5PnV4OU",
+            "name": "Zé Vaqueiro 🤠",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d77bc0ff0de528e55b3a79a91",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f77bc0ff0de528e55b3a79a91",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a77bc0ff0de528e55b3a79a91",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "judson alex"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ]
+    },
+    "topResults": {
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+            "profile": {
+              "name": "João Gomes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb88c47edb069b83fd6895325a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17888c47edb069b83fd6895325a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517488c47edb069b83fd6895325a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6KbC4mll3Pto7dTaLLiAUU",
+            "id": "6KbC4mll3Pto7dTaLLiAUU",
+            "name": "Não Sou De Falar De Amor",
+            "albumOfTrack": {
+              "uri": "spotify:album:2dPkEg4hhsuQY9szi9vNMd",
+              "name": "Igual Ou Melhor Que Eu",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028799a3f888ee7d3e9581c3d0",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048518799a3f888ee7d3e9581c3d0",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738799a3f888ee7d3e9581c3d0",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2dPkEg4hhsuQY9szi9vNMd",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2dPkEg4hhsuQY9szi9vNMd?si=cCAGGK2gQcSSa3Lq_dUm4Q"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:5coW9ioCpvEYGx4v1nvWec",
+                  "profile": {
+                    "name": "Juliette"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 146940
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:20oe6Y95pNQL4jIhr4TwJE",
+            "name": "João Gomes 2023 ⭐ Lançamentos 2023",
+            "description": "Ouça a Playlist com as Músicas Mais Tocadas(Novas e Antigas) e Lançamentos do João Gomes em 2022-2023. Clique no 💚  e siga a playlist!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da8413478df9fb8a57fe4d5049ea",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Omnia Music"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+            "name": "Eu Tenho a Senha",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:1hK3rZ4tbML7HbOseefJyh",
+            "name": "AD de Matemática Por João Victor e Maria Luiza Gomes",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dd53985578fa7a0c10beebb89",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fd53985578fa7a0c10beebb89",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ad53985578fa7a0c10beebb89",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "João Victor de Castro"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ],
+      "featured": [
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO2MiPJv",
+            "name": "This Is João Gomes",
+            "description": "This is João Gomes. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2MiPJv-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4w0bhLyYveV4",
+            "name": "João Gomes Radio",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v1/img/artist/4JNo6Q5KdcRf1vtSX9mB0S/en",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "tracks": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:6KbC4mll3Pto7dTaLLiAUU",
+            "id": "6KbC4mll3Pto7dTaLLiAUU",
+            "name": "Não Sou De Falar De Amor",
+            "albumOfTrack": {
+              "uri": "spotify:album:2dPkEg4hhsuQY9szi9vNMd",
+              "name": "Igual Ou Melhor Que Eu",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028799a3f888ee7d3e9581c3d0",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048518799a3f888ee7d3e9581c3d0",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738799a3f888ee7d3e9581c3d0",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2dPkEg4hhsuQY9szi9vNMd",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2dPkEg4hhsuQY9szi9vNMd?si=WwOGNhc0QDa7eIVSm9MOFg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:5coW9ioCpvEYGx4v1nvWec",
+                  "profile": {
+                    "name": "Juliette"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 146940
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0KbGTtipoc4GnUiYEVzfQh",
+            "id": "0KbGTtipoc4GnUiYEVzfQh",
+            "name": "Meu Pedaço de Pecado",
+            "albumOfTrack": {
+              "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+              "name": "Eu Tenho a Senha",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2Hc8dFekejzrTxsF7R9wxT",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2Hc8dFekejzrTxsF7R9wxT?si=gaVK-UwpTWKiWGzIuYpmxQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 157175
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6Ulh9GPYz6JKdv04qc3q2U",
+            "id": "6Ulh9GPYz6JKdv04qc3q2U",
+            "name": "Dengo",
+            "albumOfTrack": {
+              "uri": "spotify:album:4DnjLKTRmVUCiVoQpFKV7O",
+              "name": "Digo Ou Não Digo",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02413c4cf1815fa88b5643dac4",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851413c4cf1815fa88b5643dac4",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273413c4cf1815fa88b5643dac4",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4DnjLKTRmVUCiVoQpFKV7O",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4DnjLKTRmVUCiVoQpFKV7O?si=mPF88tncQO6qAWY7TEYnIg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 153958
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:5HlcsBdjb5TiZeZ3ngWRv0",
+            "id": "5HlcsBdjb5TiZeZ3ngWRv0",
+            "name": "5 Da Manhã - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:6faKhHj1VAsiLCNqU5JoKo",
+              "name": "Singular, Vol. 3 (Ao Vivo Em Goiânia)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f14551b277c3149e9fffe19e",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f14551b277c3149e9fffe19e",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f14551b277c3149e9fffe19e",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6faKhHj1VAsiLCNqU5JoKo",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6faKhHj1VAsiLCNqU5JoKo?si=xxmHej1uSzCCt1ECunvRzQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NiaKn55OzJswiYevvlKfz",
+                  "profile": {
+                    "name": "Raí Saia Rodada"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "EXPLICIT"
+            },
+            "duration": {
+              "totalMilliseconds": 147116
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:2aJm1uVFVtTlbEXSIxcOAs",
+            "id": "2aJm1uVFVtTlbEXSIxcOAs",
+            "name": "Aquelas Coisas",
+            "albumOfTrack": {
+              "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+              "name": "Eu Tenho a Senha",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2Hc8dFekejzrTxsF7R9wxT",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2Hc8dFekejzrTxsF7R9wxT?si=gaVK-UwpTWKiWGzIuYpmxQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 147072
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:3AqtAkduE2PLxMqwr6B6Gr",
+            "id": "3AqtAkduE2PLxMqwr6B6Gr",
+            "name": "Se For Amor",
+            "albumOfTrack": {
+              "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+              "name": "Eu Tenho a Senha",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2Hc8dFekejzrTxsF7R9wxT",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2Hc8dFekejzrTxsF7R9wxT?si=gaVK-UwpTWKiWGzIuYpmxQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:3TJGVUkSJzk5ZPixMFczZX",
+                  "profile": {
+                    "name": "Vitor Fernandes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 239928
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:61DKn8yitHNsj279jNs9h1",
+            "id": "61DKn8yitHNsj279jNs9h1",
+            "name": "Amando Você - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:6baUZM253NfiCKS760XIAW",
+              "name": "Amando Você (Ao Vivo)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0240c82ba7a64e424b3003d4df",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485140c82ba7a64e424b3003d4df",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27340c82ba7a64e424b3003d4df",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6baUZM253NfiCKS760XIAW",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6baUZM253NfiCKS760XIAW?si=tZCeW_1VRH-wKNex41u7gg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:48HORs6F9P7IgdyKrk4MZC",
+                  "profile": {
+                    "name": "Tarcísio do Acordeon"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 183900
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0ZVWliWjMmYFxQe9U63Y5W",
+            "id": "0ZVWliWjMmYFxQe9U63Y5W",
+            "name": "5 Da Manhã - Ao Vivo",
+            "albumOfTrack": {
+              "uri": "spotify:album:1jElzLi27vaY1p5JPyeVQU",
+              "name": "5 Da Manhã (Ao Vivo Em Goiânia)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ca964321b6d87cccfd6f07b2",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ca964321b6d87cccfd6f07b2",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ca964321b6d87cccfd6f07b2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "1jElzLi27vaY1p5JPyeVQU",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/1jElzLi27vaY1p5JPyeVQU?si=xmD6TVK-SnqtGzN01xSA8w"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NiaKn55OzJswiYevvlKfz",
+                  "profile": {
+                    "name": "Raí Saia Rodada"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "EXPLICIT"
+            },
+            "duration": {
+              "totalMilliseconds": 147116
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:4xuxSHR0e0JVTQeOmevluS",
+            "id": "4xuxSHR0e0JVTQeOmevluS",
+            "name": "Eu Tenho a Senha",
+            "albumOfTrack": {
+              "uri": "spotify:album:2Hc8dFekejzrTxsF7R9wxT",
+              "name": "Eu Tenho a Senha",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02548a6d651e8b0110293f4fc7",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851548a6d651e8b0110293f4fc7",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273548a6d651e8b0110293f4fc7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2Hc8dFekejzrTxsF7R9wxT",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2Hc8dFekejzrTxsF7R9wxT?si=gaVK-UwpTWKiWGzIuYpmxQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 212424
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:7uRK2IZj58FQWOEw3gKooV",
+            "id": "7uRK2IZj58FQWOEw3gKooV",
+            "name": "Não Sou De Falar De Amor",
+            "albumOfTrack": {
+              "uri": "spotify:album:3Fkz1apfDJEB6r7HvWrv8z",
+              "name": "Não Sou De Falar De Amor",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ebdc9dfb7f9c91a9b8cc6144",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ebdc9dfb7f9c91a9b8cc6144",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ebdc9dfb7f9c91a9b8cc6144",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3Fkz1apfDJEB6r7HvWrv8z",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3Fkz1apfDJEB6r7HvWrv8z?si=AxI4sR-OThaZm0dFNnfIYA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:5coW9ioCpvEYGx4v1nvWec",
+                  "profile": {
+                    "name": "Juliette"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4JNo6Q5KdcRf1vtSX9mB0S",
+                  "profile": {
+                    "name": "João Gomes"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 146940
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        }
+      ]
+    },
+    "users": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:user:1166470404",
+            "id": "1166470404",
+            "displayName": "João Gomes",
+            "username": "1166470404",
+            "image": {
+              "smallImageUrl": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-1/38223854_10157722533264778_4233539531271307264_n.jpg?stp=c9.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=108&ccb=1-7&_nc_sid=db1b99&_nc_ohc=JOf7p3OdXqsAX9tL0KC&_nc_ht=scontent-atl3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfAiKfRVEQZsDb3XoKubKhW3M9KcbjrkU23u3kzLsjfFiQ&oe=6560D5FB",
+              "largeImageUrl": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-1/38223854_10157722533264778_4233539531271307264_n.jpg?stp=c59.0.320.320a_dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=0be577&_nc_ohc=JOf7p3OdXqsAX9tL0KC&_nc_ht=scontent-atl3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDNCkeFqrhOjBUm5DYifdZgO923Xb1j-OgBNX1kN92JXw&oe=6560D5FB"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1230162571",
+            "id": "1230162571",
+            "displayName": "João Gomes",
+            "username": "1230162571",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/336790648_135905949435139_8927374430032111148_n.jpg?stp=c0.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EM2VMbmHiAoAX8_UiLD&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfC_ERS80I3HmBNnH7L6YBvFxy36tYW4XLTHsfSrCAYqcQ&oe=653E3B80",
+              "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/336790648_135905949435139_8927374430032111148_n.jpg?stp=c0.2.320.319a_dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EM2VMbmHiAoAX8_UiLD&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfB2GDSdkVTqNZW7q0OCzCemqLOzVfDjG5E2HFbP2r27Jw&oe=653E3B80"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:jgomes94",
+            "id": "jgomes94",
+            "displayName": "João Gomes",
+            "username": "jgomes94",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/80668413_2976779022334672_5043561425469964288_n.jpg?stp=c0.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=102&ccb=1-7&_nc_sid=db1b99&_nc_ohc=1qXUyq_ArCoAX-uCDsF&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDX98uezRmnZTQSUgOIUji0IHG7QeGOa_aTJuC7AWLp0w&oe=6560F51A",
+              "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/80668413_2976779022334672_5043561425469964288_n.jpg?stp=c0.0.320.320a_dst-jpg_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=0be577&_nc_ohc=1qXUyq_ArCoAX-uCDsF&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfAj6PZw3Uv5wVtyHbYFN4K3fiN_xJz07b7IJqEat4EP8A&oe=6560F51A"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1174517412",
+            "id": "1174517412",
+            "displayName": "João Gomes",
+            "username": "1174517412",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1188236878",
+            "id": "1188236878",
+            "displayName": "João Gomes",
+            "username": "1188236878",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/119841662_3646024885410039_8723694192421767853_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=111&ccb=1-7&_nc_sid=db1b99&_nc_ohc=tNuoB4Aysq0AX8j2nks&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfBj5lPkqhAQ4mJmCXR8ms6k2Fzs0ZI24ObHS7VlEAArcw&oe=6560FEA1",
+              "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/119841662_3646024885410039_8723694192421767853_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=0be577&_nc_ohc=tNuoB4Aysq0AX8j2nks&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfAJ_loBmQJCYQVmT0luVFn5WasviwH36Zp0JEAv9NmdbQ&oe=6560FEA1"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1181523634",
+            "id": "1181523634",
+            "displayName": "João Gomes de Almeida",
+            "username": "1181523634",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/119048008_10164059210405133_2296063377130226473_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=103&ccb=1-7&_nc_sid=db1b99&_nc_ohc=t0sjwx-AfnQAX93vIQK&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfBVlGI4YZcF0jWTJFscENRFQoI-CJp9zHwOEWib-ag-tw&oe=6560EF21",
+              "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/119048008_10164059210405133_2296063377130226473_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=0be577&_nc_ohc=t0sjwx-AfnQAX93vIQK&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfB6505jMQdck5rje2Yq9xUKJx9z35-t0YTE70Lj09wdBw&oe=6560EF21"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:11141040307",
+            "id": "11141040307",
+            "displayName": "Helena João Gomes",
+            "username": "11141040307",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/270168859_4698416476878534_6479736479440504197_n.jpg?stp=c0.11.50.50a_cp0_dst-jpg_p50x50&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8l3vJ7i4Rs8AX-CliI3&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDnNdhxt1wSNdVN9zkEu30e0ahxvIPyhv_Ne1-2-wNBSA&oe=653F220D",
+              "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/270168859_4698416476878534_6479736479440504197_n.jpg?stp=c0.68.320.320a_dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8l3vJ7i4Rs8AX-CliI3&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfBPWtdSvczGnIOD8J2uiS4nJx1YeDI9AXIeWgyUu4gjIQ&oe=653F220D"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:jogomes",
+            "id": "jogomes",
+            "displayName": "Joao Gomes",
+            "username": "jogomes",
+            "image": {
+              "smallImageUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t1.18169-1/1239834_10152210457314096_472553528_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=111&ccb=1-7&_nc_sid=db1b99&_nc_ohc=otOCNQuFz_UAX_Vfdv9&_nc_ht=scontent-ord5-1.xx&edm=AP4hL3IEAAAA&oh=00_AfB3dJJ9J6upJWT7OGmRC_oRBfbZbIZ2Ytq9eNDNqINkOA&oe=6560846C",
+              "largeImageUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t1.18169-1/1239834_10152210457314096_472553528_n.jpg?stp=dst-jpg_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=0be577&_nc_ohc=otOCNQuFz_UAX_Vfdv9&_nc_ht=scontent-ord5-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDi9PKHtVsuKpvR0KIZZUnzKiyq0_m3vKDf-nrf1fRRUg&oe=6560846C"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:222f2swojdmui3pqtjwhff7da",
+            "id": "222f2swojdmui3pqtjwhff7da",
+            "displayName": "João Gomes",
+            "username": "222f2swojdmui3pqtjwhff7da",
+            "image": {
+              "smallImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=629258477153595&height=50&width=50&ext=1700854438&hash=AeRcYXEkXbO9oui3EFo",
+              "largeImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=629258477153595&height=300&width=300&ext=1700854438&hash=AeRDBG-4rHhf4t4YdoA"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1113565652",
+            "id": "1113565652",
+            "displayName": "Joao Gomes",
+            "username": "1113565652",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/298291998_10223069941163223_4409852201112250052_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZz00YfYYkMAX8CSRM-&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfDHm6MTIf6d92to5CaB_ikdXQA8_Jq0bIwsM4jbyRNzEg&oe=653E63C3",
+              "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/298291998_10223069941163223_4409852201112250052_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZz00YfYYkMAX8CSRM-&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfCiqRJS7kI8ZR51SKzanL8_prMjBNGzSCOvMbKJvwGKUg&oe=653E63C3"
+            }
+          }
+        }
+      ]
+    }
+}

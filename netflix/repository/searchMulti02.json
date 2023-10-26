@@ -1,0 +1,2882 @@
+{
+    "albums": {
+      "totalCount": 80,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:6YFH6hee6fTJjlRddtl8gN",
+            "name": "Jungle",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:69GGBxA162lTqCwzJG5jLp",
+                  "profile": {
+                    "name": "The Chainsmokers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:311uEW9rt5g2NmzjGEKS2E",
+                  "profile": {
+                    "name": "Mae Stephens"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02119e86ab31abf9323008dc1c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851119e86ab31abf9323008dc1c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273119e86ab31abf9323008dc1c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6fpsA5aYbVNLe6y3P49o2o",
+            "name": "Hear Me Now (feat. Zeeba)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7qPLO2XOUaRrRxkvLZ3AEK",
+                  "profile": {
+                    "name": "Zeeba"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:5veVxxPm1vzgi6pO2iVA8L",
+                  "profile": {
+                    "name": "Bruno Martini"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e021f57e82299920d9eba745182",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048511f57e82299920d9eba745182",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2731f57e82299920d9eba745182",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2016
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3KpxpdySrMR2S7noneu1bI",
+            "name": "Deep Down (feat. Never Dull)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:66TrUkUZ3RM29dqeDQRgyA",
+                  "profile": {
+                    "name": "Ella Eyre"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:1TrfxjXu8quyDw05p2bacX",
+                  "profile": {
+                    "name": "Kenny Dope"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ed443f0fff29eee63c9ede20",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ed443f0fff29eee63c9ede20",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ed443f0fff29eee63c9ede20",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:61SLEqJbw0XtTOmXUXAoEW",
+            "name": "Headlights (feat. KIDDO)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7vk5e3vY1uw9plTHJAMwjN",
+                  "profile": {
+                    "name": "Alan Walker"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:5pXe6yFchq1oyYK3rq2A8i",
+                  "profile": {
+                    "name": "KIDDO"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02e4855f57cf9ffcf827fdd6e2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851e4855f57cf9ffcf827fdd6e2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273e4855f57cf9ffcf827fdd6e2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1yUD0trOHc8dudwm9VAiHs",
+            "name": "Car Keys (Ayla)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4npEfmQ6YuiwW1GpUmaq3F",
+                  "profile": {
+                    "name": "Ava Max"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e025a030481b0ad9a9efa103bf8",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048515a030481b0ad9a9efa103bf8",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2735a030481b0ad9a9efa103bf8",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4UzyEKZKmEIKT1KkWO3Crp",
+            "name": "Fuego",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:6kT18gnkVrCz8xJQcrib7L",
+                  "profile": {
+                    "name": "Bhaskar"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0223aadddba5e96a7390d1669f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485123aadddba5e96a7390d1669f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27323aadddba5e96a7390d1669f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2017
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1tjKFbLvH3Ee5OJF6nk5T6",
+            "name": "Hear Me Now (Alok Remix)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7qPLO2XOUaRrRxkvLZ3AEK",
+                  "profile": {
+                    "name": "Zeeba"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:5veVxxPm1vzgi6pO2iVA8L",
+                  "profile": {
+                    "name": "Bruno Martini"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02714c170a0309825e45829dc5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851714c170a0309825e45829dc5",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273714c170a0309825e45829dc5",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5lm8TXDnp0tA8fNusiU6I2",
+            "name": "Alok",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:3r3YJUzNBJc9y703QG8zkr",
+                  "profile": {
+                    "name": "Lil Whind"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0220afa1f52afa2d5cc0546e0f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485120afa1f52afa2d5cc0546e0f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27320afa1f52afa2d5cc0546e0f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3lAmnw0gNntYuTltwETnSn",
+            "name": "All By Myself",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:1IueXOQyABrMOprrzwQJWN",
+                  "profile": {
+                    "name": "Sigala"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ",
+                  "profile": {
+                    "name": "Ellie Goulding"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02aaf796449ef2b13ba82353bb",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851aaf796449ef2b13ba82353bb",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273aaf796449ef2b13ba82353bb",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3f86qukILwiOXaBbxglvc3",
+            "name": "Alok",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0m9DzeBVIoaupDhrESdB4v",
+                  "profile": {
+                    "name": "Trippie Gang"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0288f66473d0be8e56da1ee1a4",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485188f66473d0be8e56da1ee1a4",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27388f66473d0be8e56da1ee1a4",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        }
+      ]
+    },
+    "artists": {
+      "totalCount": 20,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+            "profile": {
+              "name": "Alok"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebf7d1bdca65e1cefd4e60c379",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178f7d1bdca65e1cefd4e60c379",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174f7d1bdca65e1cefd4e60c379",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4UbgpaTDik0SDhBQq5Ucmt",
+            "profile": {
+              "name": "Aloka"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb26100012af14f817a51eb98a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17826100012af14f817a51eb98a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517426100012af14f817a51eb98a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:0SfsnGyD8FpIN4U4WCkBZ5",
+            "profile": {
+              "name": "Armin van Buuren"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb5328c468cef8019bc41b63a8",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1785328c468cef8019bc41b63a8",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051745328c468cef8019bc41b63a8",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4nOFg36Ik1t2NvGyPn4awu",
+            "profile": {
+              "name": "Alok Tewari"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:28uJnu5EsrGml2tBd7y8ts",
+            "profile": {
+              "name": "Vintage Culture"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3c25c102ad2fc73a3379326a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1783c25c102ad2fc73a3379326a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051743c25c102ad2fc73a3379326a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:0x6crh3utjx74bX5fpXgQh",
+            "profile": {
+              "name": "Aloka"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27371facef8b7f8b42f57d7e15f",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485171facef8b7f8b42f57d7e15f",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0271facef8b7f8b42f57d7e15f",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4AVFqumd2ogHFlRbKIjp1t",
+            "profile": {
+              "name": "Alesso"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb85bb0aa225cf7e0dbc9fcefe",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17885bb0aa225cf7e0dbc9fcefe",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517485bb0aa225cf7e0dbc9fcefe",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:6dSNu3CCP6gn9qnEmDMU5U",
+            "profile": {
+              "name": "Alok & Liu"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:5c3akKV3CUqAVOnGZqf4S3",
+            "profile": {
+              "name": "BARELY ALIVE"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2a58d6a9f85106b99b863558",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782a58d6a9f85106b99b863558",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051742a58d6a9f85106b99b863558",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4HO3YQ7Sluxft7wVjicXla",
+            "profile": {
+              "name": "Alok Anil"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        }
+      ]
+    },
+    "episodes": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:episode:1SgGE5S1NYfWKNgRztMekP",
+            "name": "Brain Surgeon Dr. Alok Sharma - Stem Cells, Superhumans & NeuroHacking | The Ranveer Show 333",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dbe504f3ba1d9acb13d0b1551",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fbe504f3ba1d9acb13d0b1551",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8abe504f3ba1d9acb13d0b1551",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 7212721
+            },
+            "releaseDate": {
+              "isoString": "2023-08-22T22:13:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dde3404901270d81ee3bbc408",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fde3404901270d81ee3bbc408",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ade3404901270d81ee3bbc408",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Check out my Meditation app: Level SuperMindAndroid - https://lvl.fit/androiddownloadIos - https://lvl.fit/iosdownloadJoin the Level Community Here:https://linktr.ee/levelsupermindcommunityIn this episode of TRS, we welcome Dr. Alok Sharma; Professor & Head of Neurosurgery, LTMG Hospital & LTM Medical College, Sion Mumbai, and the Director of NeuroGen Brain & Spine Institute. He is a renowned Neurosurgeon, Neuroscientist, and Professor with extensive expertise in the areas of Neurosurgery, Neuroscience, and Stem cells.Today’s episode was largely focused on Neuroscience and how Stem Cells therapy helps in curing incurable diseases. Dr. Alok Sharma shared his knowledge on various topics such as the Neurological Body of a Human Being, the Human Brain, Brain Tumor and their effects on patients, Stem Cell therapy and how it helps in curing multiple diseases, What is Autism and how Autism patients have special abilities, Anti-aging treatments & more. This was a conversation on medical science and neurology, focusing on how technological development has led to amazing changes in the field of medicine. I hope to bring many more such podcasts that give out wide knowledge of medical science. I hope you enjoy this episode and tell us your opinions in the comments!(0:00) - Dr. Alok Sharma x Ranveer Allahbadia begins(2:23) - How did he become a neurosurgeon? (4:29) - How does he break open a skull?(5:39) - The weirdest thing he has done(8:15) - Mapping out the Neurological body of a human being(11:06) - Relationships & Neurochemistry(19:42) - What does a brain look like?(20:18) - Brain Tumor & its effects(24:20) - What has he learned about the brain after becoming a neurosurgeon (30:16) - All about Stem Cells (54:47) - Special abilities of an Autism patient (1:09:49) - Anti-aging treatments(1:25:48) - Medical technology(1:28:07) - Stem Cells therapy (1:33:51) - Intuitions, Sixth Sense & More(1:38:36) - Neuroscience & spirituality (1:43:22) - What does meditation do to us?(1:49:13) - How much of our brain is truly locked up?(1:52:42) - His fascination with Ranveer’s journey(1:55:13) - Lesson he learned from Earthquake in Kachchh(2:00:04) - Thank you for watching(2:00:49) - End of podcast  Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1SovB8DUniC7EwCg3hRgCM",
+            "name": "Alok Vaid-Menon: The Urgent Need for Compassion",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dbde41e128d0542b4bc0b7a5f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fbde41e128d0542b4bc0b7a5f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8abde41e128d0542b4bc0b7a5f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 4058697
+            },
+            "releaseDate": {
+              "isoString": "2021-07-26T07:03:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d5b2ec5864db021cdae5f0666",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f5b2ec5864db021cdae5f0666",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a5b2ec5864db021cdae5f0666",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Do you know who you are outside of who you have been told you should be? Acclaimed gender non-conforming writer, performer, and speaker, ALOK, shares their story, and the stories of those who came before them, with an urgency that invites us to step into our power and the power of interdependence. As the creator of the growing movement to degender fashion, ALOK is helping others move beyond the binary into full expression. In a conversation filled with wisdom, historical insight, and radical mercy, ALOK challenges us to value compassion over comprehension, to try harder for each other in the name of love, and reminds us that learning is a sign of being alive.  We want your feedback on season 1. Please click here to let us know what you think: bit.ly/manenoughsurvey   The Man Enough Podcast, produced by Wayfarer Studios, P&G Studios, in partnership with Cadence13, an Audacy company Launch Partner: P&G HOSTS: Justin Baldoni, Liz Plank, and Jamey Heath  JOIN THE MAN ENOUGH COMMUNITY:  Instagram: https://instagram.com/wearemanenough TikTok: https://tiktok.com/wearemanenough Facebook: https://facebook.com/wearemanenough  Subscribe to our newsletter for behind the scenes, updates, and new episodes: https://manenough.com/newsletter  Read the book: https://manenough.com/books  FOLLOW THE HOSTS: Justin Baldoni Instagram: https://instagram.com/justinbaldoni Justin Baldoni TikTok: https://www.tiktok.com/@justinbaldoni Justin Baldoni Facebook: https://facebook.com/justinbaldoni Justin Baldoni Twitter: https://twitter.com/justinbaldoni Text Justin: +1 (310) 845-6909  Liz Plank: https://instagram.com/feministabulous Liz Plank TikTok: https://tiktok.com/@lizplank Liz Plank Facebook: https://facebook.com/feministabulous Liz Plank Twitter: https://twitter.com/feministabulous Site: http://www.elizabethplank.com/  Jamey Heath Instagram: https://instagram.com/jamey_heath_ Jamey Heath TikTok: https://tiktok.com/@jameyheath Jamey Heath Twitter: https://twitter.com/jamey_heath_ Jamey Heath Facebook: https://facebook.com/jameyjaz Site: http://www.jameyheath.com/  ALOK ALOK Instagram: https://www.instagram.com/alokvmenon/ ALOK Facebook: https://www.facebook.com/AlokVMenon/ ALOK Twitter: https://twitter.com/alokvmenon ALOK youtube: https://www.youtube.com/channel/UCG_G2mCoGdNUIOPaPrgorHg  Follow: https://manenough.com/podcast  #ManEnough #ALOK #Gender  PRODUCED BY: Wayfarer Studios: https://www.wayfarerstudios.com Wayfarer Studios YouTube: https://www.youtube.com/WayfarerEnter... P&G Studios Executive Producers: Justin Baldoni, Jamey Heath, Tarah Malhotra-Feinberg, Marc Pritchard, Carrie Rathod, Chris Corcoran   To learn more about listener data and our privacy practices visit: https://www.audacyinc.com/privacy-policy     Learn more about your ad choices. Visit https://podcastchoices.com/adchoices",
+            "contentRating": {
+              "label": "EXPLICIT"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2azDdtqT1wi3znlZwFwN7s",
+            "name": "ALOK",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dbd0c0296cf6c2e1853f98a3b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fbd0c0296cf6c2e1853f98a3b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8abd0c0296cf6c2e1853f98a3b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 4003892
+            },
+            "releaseDate": {
+              "isoString": "2023-07-26T07:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dbd0c0296cf6c2e1853f98a3b",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fbd0c0296cf6c2e1853f98a3b",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8abd0c0296cf6c2e1853f98a3b",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "ALOK (author, poet, comedian) wows the Podcrushed gang with their deep insights into human nature, connection, friendship, and identity. They share stories of self-discovery  and acceptance, healing and growing with compassion — all with their trademark blend of wry humor and deep wisdom. Follow Podcrushed on socials:InstagramTikTokTwitter",
+            "contentRating": {
+              "label": "EXPLICIT"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:61P0QGuBtewYKBng6mU5pQ",
+            "name": "74. ALOK: What makes us beautiful? What makes us free?",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d64f20f78a7db472b9b295208",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f64f20f78a7db472b9b295208",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a64f20f78a7db472b9b295208",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 3686295
+            },
+            "releaseDate": {
+              "isoString": "2022-03-01T05:01:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d64f20f78a7db472b9b295208",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f64f20f78a7db472b9b295208",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a64f20f78a7db472b9b295208",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "“The days that I feel most beautiful are the days that I am most afraid.” “What feminine part of yourself did you have to destroy in order to survive in this world?” “Why have we been taught to fear the very things that can set us free?”  About ALOK:  ALOK (they/them) is an internationally acclaimed writer, performer, and public speaker. As a mixed-media artist their work explores themes of trauma, belonging, and the human condition. They are the author of Femme in Public (2017), Beyond the Gender Binary (2020), and Your Wound/My Garden (2021). They are the creator of #DeGenderFashion: a movement to degender fashion and beauty industries and have been honored as one of HuffPo’s Culture Shifters, NBC’s Pride 50, and Business Insider’s Doers.  Instagram: @alokvmenon   To learn more about listener data and our privacy practices visit: https://www.audacyinc.com/privacy-policy     Learn more about your ad choices. Visit https://podcastchoices.com/adchoices",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:0389k5Q1FlZ7awJeRVqzA6",
+            "name": "S3 Ep 2: Continual Becoming with ALOK",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d13d1366389e9ae0013f5913d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f13d1366389e9ae0013f5913d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a13d1366389e9ae0013f5913d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 2438817
+            },
+            "releaseDate": {
+              "isoString": "2022-07-04T09:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d0d09f4899f30fc6e3ce360f3",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f0d09f4899f30fc6e3ce360f3",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a0d09f4899f30fc6e3ce360f3",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Acclaimed writer, performer, and public speaker ALOK joins Prentis for our first guest episode of season 3.  ALOK and Prentis connect on their mutual Texan roots, the power of practicing self-forgiveness and compassion, and how friendship is the answer to most of the existential questions in the world.Find the show notes + transcript on our website: www.findingourwaypodcast.comCome practice with us at The Embodiment Institute: www.theembodimentinstitute.orgFollow us on Instagram @findingourwayStay up to date on Prentis' work by joining our newsletter",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1ntS0kQdfsEr1RHFjrDHmT",
+            "name": "75. ALOK: How do we interrupt trauma? How do we heal?",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d64f20f78a7db472b9b295208",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f64f20f78a7db472b9b295208",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a64f20f78a7db472b9b295208",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 2203428
+            },
+            "releaseDate": {
+              "isoString": "2022-03-03T05:01:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d64f20f78a7db472b9b295208",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f64f20f78a7db472b9b295208",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a64f20f78a7db472b9b295208",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "1. How do we make a new thing with our life? 2. What is your fingerprint on the world? 3. Who does history try to erase and why? 4. What does pain do to our bodies? 5 .What is our capacity for transformation?  About ALOK: ALOK (they/them) is an internationally acclaimed writer, performer, and public speaker. As a mixed-media artist their work explores themes of trauma, belonging, and the human condition. They are the author of Femme in Public (2017), Beyond the Gender Binary (2020), and Your Wound/My Garden (2021). They are the creator of #DeGenderFashion: a movement to degender fashion and beauty industries and have been honored as one of HuffPo’s Culture Shifters, NBC’s Pride 50, and Business Insider’s Doers.  Instagram: @alokvmenon   To learn more about listener data and our privacy practices visit: https://www.audacyinc.com/privacy-policy     Learn more about your ad choices. Visit https://podcastchoices.com/adchoices",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:0C4PdgvJmk4x499xksb6FU",
+            "name": "ALOK is microdosing creativity and rejecting norms",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ed2e2d5669efd4e095998871e7e567d2cdea42a4",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/4547137f8389e13a042fdfd8f48c8f1545cd9534",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/476050a6330929d454cf25cfeb6a74bdbe93ab8b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 2449236
+            },
+            "releaseDate": {
+              "isoString": "2023-04-17T10:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ed2e2d5669efd4e095998871e7e567d2cdea42a4",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/4547137f8389e13a042fdfd8f48c8f1545cd9534",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/476050a6330929d454cf25cfeb6a74bdbe93ab8b",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "ALOK doesn’t quite get the term multihyphenate – but how else to describe the internationally acclaimed author, poet, comedian, and public speaker? From exploring belonging and the human condition, to fighting to degender the fashion and beauty industries, ALOK is tapping into their creativity constantly. Today, they share their approach to the creative process, how art has helped them accept the beauty and pain of life, why poetry and comedy need each other and so much more! For the full text transcript, visit go.ted.com/BHTranscripts",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:70ShKawwAWMI6t2WKojUEL",
+            "name": "Moving Beyond the Gender Binary w/ ALOK",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d89ac7e5b5eb566a03bd81bcb",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f89ac7e5b5eb566a03bd81bcb",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a89ac7e5b5eb566a03bd81bcb",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 3256241
+            },
+            "releaseDate": {
+              "isoString": "2021-02-25T08:05:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d89ac7e5b5eb566a03bd81bcb",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f89ac7e5b5eb566a03bd81bcb",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a89ac7e5b5eb566a03bd81bcb",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Alok Vaid-Menon, also known simply as ALOK, joins Laverne for an inside perspective on what it means to live in the world as a person who does not belong on either side of the traditional gender binary - meaning strictly male or female. ALOK (they/them) is a gender non-conforming writer and performance artist. As a mixed-media artist ALOK explore themes of gender, race, trauma, belonging, and the human condition. They are the author of Femme in Public (2017) and Beyond the Gender Binary (2020). In 2019 they were honored as one of NBC’s Pride 50 and Out Magazine’s OUT 100. They have presented their work in more than 40 countries.  Learn more about your ad-choices at https://www.iheartpodcastnetwork.comSee omnystudio.com/listener for privacy information.",
+            "contentRating": {
+              "label": "EXPLICIT"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1yo6Eo6Eo7ehJKv1ZRwNkz",
+            "name": "Alok Vaid-Menon: Beyond the Binary",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db310e4b7cd45ec58523018e0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb310e4b7cd45ec58523018e0",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab310e4b7cd45ec58523018e0",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 792189
+            },
+            "releaseDate": {
+              "isoString": "2023-06-13T11:05:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d9747d519b67841f1ae48262d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f9747d519b67841f1ae48262d",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a9747d519b67841f1ae48262d",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Alok Vaid-Menon is a nonbinary performer, artist, and designer. They travel the world telling stories, sharing their art and fashion, and advocating for joy. This podcast is a production of Rebel Girls. It’s based on the book series Good Night Stories for Rebel Girls. This story was produced by Haley Dapkus with sound design and mixing by Mumble Media. It was written by Alexis Stratton and edited by Abby Sher. Fact-checking by Joe Rhatigan with sensitivity read by Schuyler Swenson. Narration by Anjali Kunapaneni. Joy Smith was our executive producer. Original theme music was composed and performed by Elettra Bargiacchi. Thank you to the whole Rebel Girls team who make this podcast possible. Stay rebel!",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:1SH2M4QE5zywoIk7dlX9oy",
+            "name": "What Is The Most Adult Thing You Own? feat. ALOK",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68de2435d3f201b53060e4fbb52",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fe2435d3f201b53060e4fbb52",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ae2435d3f201b53060e4fbb52",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 3557067
+            },
+            "releaseDate": {
+              "isoString": "2022-06-15T07:01:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68de2435d3f201b53060e4fbb52",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fe2435d3f201b53060e4fbb52",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ae2435d3f201b53060e4fbb52",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "In this live episode of Adulting, Jordan and Michelle kiki with the inspirational ALOK. Among other things, they discuss ALOK's Texas roots, the perils of dating as a certified genius, how much fun it will be to dress ALOK'S future child -- the heels alone, hunny!See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+            "contentRating": {
+              "label": "EXPLICIT"
+            }
+          }
+        }
+      ]
+    },
+    "genres": {
+      "totalCount": 0,
+      "items": []
+    },
+    "playlists": {
+      "totalCount": 18,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:playlist:33s1pvN6rHzXTWieOuCxmF",
+            "name": "Alok: As Melhores 🇧🇷 Alok 2023",
+            "description": "A festa já vai começar! Foto por Jonathan Borba no Unsplash. <a href=\"https://linktr.ee/yourmusicplace\">Submit your song!</a>",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da8478af8832483937c1254cf332",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Your Music Place"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:79rqB0JO0uWvJoMCotj41p",
+            "name": "",
+            "description": "Ouça aqui os maiores hits do Alok, com Alive (It feels like) | Dont Say Goodbye | Party On My Own | Tu | Quando o grave bate forte | Piece of your heart | As melhores e mais tocadas da música eletrônica no momento | It Don&amp;#x27;t Matter. Foto: DJ Alok",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da84f4eea1f924c49f3e8fd0ffbb",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Bigod Plays"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4tuF8PwB6jAE",
+            "name": "Rádio de Alok",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v1/img/artist/0NGAZxHanS9e0iNHpR8f2W/pt",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO0ppY1a",
+            "name": "This Is Alok",
+            "description": "This is Alok. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0ppY1a-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1EIY4PLhKp7CfY",
+            "name": "Alok Mix",
+            "description": "<a href=spotify:playlist:37i9dQZF1EIVFWbAj76QAW>ATB</a>, <a href=spotify:playlist:37i9dQZF1EIWa9TyE32NrN>Imanbek</a> and <a href=spotify:playlist:37i9dQZF1EIXPc9Sgj3wOw>MEDUZA</a>",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/0NGAZxHanS9e0iNHpR8f2W/en/default",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:30m4CKJcOlnDxaK5o6H956",
+            "name": "ALOK vs VINTAGE CULTURE",
+            "description": "🎧 Alok &#x2F; Vintage Culture &#x2F; Dubdogz &#x2F; KVSH &#x2F; Bhaskar &#x2F; Cat Dealers &#x2F; Slow Motion &#x2F; Liu &#x2F; Hawk &#x2F; Jetlag &#x2F; Groove Delight &#x2F; Gustavo Mota | Slap House &#x2F; Brazilian Bass &#x2F; Bass House &#x2F; Deep House 💣",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da845c7dbe4fb01206df0ddda873",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Brazil EDM Scene"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:1mOeuTk7Ir9sWOv1tsULHl",
+            "name": "Alok, Bruno Martini, Zeeba — Hear Me Now",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e0220ad46c7cb428a726d897087ab67616d00001e0224ec4044a271d1c5fe32863eab67616d00001e022cfef63bb2a6f0a858565b90ab67616d00001e02c31ce98936c6c5d0deefe978",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e0220ad46c7cb428a726d897087ab67616d00001e0224ec4044a271d1c5fe32863eab67616d00001e022cfef63bb2a6f0a858565b90ab67616d00001e02c31ce98936c6c5d0deefe978",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e0220ad46c7cb428a726d897087ab67616d00001e0224ec4044a271d1c5fe32863eab67616d00001e022cfef63bb2a6f0a858565b90ab67616d00001e02c31ce98936c6c5d0deefe978",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "rosyriv2202"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:2IBamObg00T1Zzhsbmu2m0",
+            "name": "Alok 2023 - As Melhores e Músicas Novas",
+            "description": "Novas músicas Alok; As melhores Alok 2023.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da840528a11c15a34d40b81958df",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Roberto Dal Pont Duccioni"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:6ubTtoDTzzYMt9ju8L7uas",
+            "name": "Alok 2023 ⚡ Melhores Músicas Eletronicas",
+            "description": "<a href=\"https://open.spotify.com/playlist/4s7XRQNjPCQY3lovbbgZZ0?si=d083cc7dc1e944b3\">Clique no 💚</a> ouça as Melhores Eletrônicas Brasil: Alok As Melhores e Lançamentos! Dont Say Goodbye, Eletronicos BR, Música Eletro para Festas, Vintage Culture e os melhores DJs!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da843f135513e8d75e5c60b0ae30",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "HOPE 95"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:431A0SKH3klQlpjGKISloP",
+            "name": "Alok Villa Mix Brasília 2018",
+            "description": "Copyright: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dZ7j2YzKQzo&amp;t=777s&amp;ab_channel=DogMusic-M%C3%BAsicasEletr%C3%B4nicas",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da8411f474884f228ce6d5478ba0",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Ruimack Fontana"
+            }
+          }
+        }
+      ]
+    },
+    "podcasts": {
+      "totalCount": 264,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:show:7xQ910zz1psTGgQUr5WTP3",
+            "name": "Mindfulness And Mindset Podcast With Alok Taunk",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d90f4962f56c15c89aa5d4810",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f90f4962f56c15c89aa5d4810",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a90f4962f56c15c89aa5d4810",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Alok Taunk"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4O8hXNIqtOoiEwzMn6B7uz",
+            "name": "Alok",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d8010503c7348b6388c356c9c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f8010503c7348b6388c356c9c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a8010503c7348b6388c356c9c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "alok shrivastava"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2Slfp4OnFT8OVzwD7gbthE",
+            "name": "Alok Pandey on Savitri in Hindi",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d824b61d5db703f1beb0fb651",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f824b61d5db703f1beb0fb651",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a824b61d5db703f1beb0fb651",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Dr Alok Pandey"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:3KUON2npOqieTQI3laaTrS",
+            "name": "Alok",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d20c388347c660e6a0e46ff7a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f20c388347c660e6a0e46ff7a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a20c388347c660e6a0e46ff7a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Dika"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2BM4iez93T0HkAhKjl2st6",
+            "name": "Fuego • Alok & Bhaskar ( Bass Boosted )",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d9e6f2b3d7902d5c544ce3539",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f9e6f2b3d7902d5c544ce3539",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a9e6f2b3d7902d5c544ce3539",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Asher Winstead"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4jfw7BsNq3j7jCuMyifv2P",
+            "name": "Alok Pandey & Narad on Savitri & Yoga",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d88c83f33c806473b8f4c20c9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f88c83f33c806473b8f4c20c9",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a88c83f33c806473b8f4c20c9",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Dr. Alok Pandey"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:5YDRhEKHs9p3UTin6Yu4rW",
+            "name": "Alok Pal",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/85d89fd24f0d96c1f48448a2194f37762864f40b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/08bdc092f263e00efab8be6a834a73a287f6b2d7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/96a47f5571098beade2d4df50d137fe9d525a54b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "alok pal"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:0BCUrdrOb3tvfIwazeLBUH",
+            "name": "Babbage from The Economist",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d04e5caec83b86fe3c8f41e32",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f04e5caec83b86fe3c8f41e32",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a04e5caec83b86fe3c8f41e32",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "The Economist"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:33wnRyilVFz4klssG5EMQ8",
+            "name": "\"ASTROLOGY with ALOK\" !!",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d134c5dd3bcc650dc49799e4a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f134c5dd3bcc650dc49799e4a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a134c5dd3bcc650dc49799e4a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Asttrolok"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:7qxvljRy3DLtuBvrZof1s6",
+            "name": "Flightpath with Alok",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d19cd98ef5fd835756247aab9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f19cd98ef5fd835756247aab9",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a19cd98ef5fd835756247aab9",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Alok"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ]
+    },
+    "topResults": {
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+            "profile": {
+              "name": "Alok"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebf7d1bdca65e1cefd4e60c379",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178f7d1bdca65e1cefd4e60c379",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174f7d1bdca65e1cefd4e60c379",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0OvO2X2Q3i98dc5RcgEN3x",
+            "id": "0OvO2X2Q3i98dc5RcgEN3x",
+            "name": "Jungle",
+            "albumOfTrack": {
+              "uri": "spotify:album:6YFH6hee6fTJjlRddtl8gN",
+              "name": "Jungle",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02119e86ab31abf9323008dc1c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851119e86ab31abf9323008dc1c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273119e86ab31abf9323008dc1c",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6YFH6hee6fTJjlRddtl8gN",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6YFH6hee6fTJjlRddtl8gN?si=McnxkpssTQ6Qdq23DNzTBw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:69GGBxA162lTqCwzJG5jLp",
+                  "profile": {
+                    "name": "The Chainsmokers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:311uEW9rt5g2NmzjGEKS2E",
+                  "profile": {
+                    "name": "Mae Stephens"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 175500
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:33s1pvN6rHzXTWieOuCxmF",
+            "name": "Alok: As Melhores 🇧🇷 Alok 2023",
+            "description": "A festa já vai começar! Foto por Jonathan Borba no Unsplash. <a href=\"https://linktr.ee/yourmusicplace\">Submit your song!</a>",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706c0000da8478af8832483937c1254cf332",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Your Music Place"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6YFH6hee6fTJjlRddtl8gN",
+            "name": "Jungle",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:69GGBxA162lTqCwzJG5jLp",
+                  "profile": {
+                    "name": "The Chainsmokers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:311uEW9rt5g2NmzjGEKS2E",
+                  "profile": {
+                    "name": "Mae Stephens"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02119e86ab31abf9323008dc1c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851119e86ab31abf9323008dc1c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273119e86ab31abf9323008dc1c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:7xQ910zz1psTGgQUr5WTP3",
+            "name": "Mindfulness And Mindset Podcast With Alok Taunk",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d90f4962f56c15c89aa5d4810",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f90f4962f56c15c89aa5d4810",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a90f4962f56c15c89aa5d4810",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Alok Taunk"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ],
+      "featured": [
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO0ppY1a",
+            "name": "This Is Alok",
+            "description": "This is Alok. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0ppY1a-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4tuF8PwB6jAE",
+            "name": "Rádio de Alok",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v1/img/artist/0NGAZxHanS9e0iNHpR8f2W/pt",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWUq3wF0JVtEy",
+            "name": "Shuffle Syndrome",
+            "description": "<a href=\"spotify:genre:edm_dance\">Shuffle</a> your heart out.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f000000020044dadbf7cf1f1fed17ef61",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWUGtyQockjro",
+            "name": "Dance Hits of 2017",
+            "description": "Floor fillers and big streamers of 2017.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f0000000234ef6be407c9d278a57e6e74",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "tracks": {
+      "totalCount": 88,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:0OvO2X2Q3i98dc5RcgEN3x",
+            "id": "0OvO2X2Q3i98dc5RcgEN3x",
+            "name": "Jungle",
+            "albumOfTrack": {
+              "uri": "spotify:album:6YFH6hee6fTJjlRddtl8gN",
+              "name": "Jungle",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02119e86ab31abf9323008dc1c",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851119e86ab31abf9323008dc1c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273119e86ab31abf9323008dc1c",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6YFH6hee6fTJjlRddtl8gN",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6YFH6hee6fTJjlRddtl8gN?si=QilADEviRCCGDC6upvkzsQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:69GGBxA162lTqCwzJG5jLp",
+                  "profile": {
+                    "name": "The Chainsmokers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:311uEW9rt5g2NmzjGEKS2E",
+                  "profile": {
+                    "name": "Mae Stephens"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 175500
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:39cmB3ZoTOLwOTq7tMNqKa",
+            "id": "39cmB3ZoTOLwOTq7tMNqKa",
+            "name": "Hear Me Now",
+            "albumOfTrack": {
+              "uri": "spotify:album:6fpsA5aYbVNLe6y3P49o2o",
+              "name": "Hear Me Now (feat. Zeeba)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021f57e82299920d9eba745182",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048511f57e82299920d9eba745182",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731f57e82299920d9eba745182",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6fpsA5aYbVNLe6y3P49o2o",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6fpsA5aYbVNLe6y3P49o2o?si=DRPnfJD9SOOYw36Vp2Pu4A"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7qPLO2XOUaRrRxkvLZ3AEK",
+                  "profile": {
+                    "name": "Zeeba"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:5veVxxPm1vzgi6pO2iVA8L",
+                  "profile": {
+                    "name": "Bruno Martini"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 194840
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:7MIhUdNJtaOnDmC5nBC1fb",
+            "id": "7MIhUdNJtaOnDmC5nBC1fb",
+            "name": "Deep Down (feat. Never Dull)",
+            "albumOfTrack": {
+              "uri": "spotify:album:3KpxpdySrMR2S7noneu1bI",
+              "name": "Deep Down (feat. Never Dull)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ed443f0fff29eee63c9ede20",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ed443f0fff29eee63c9ede20",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ed443f0fff29eee63c9ede20",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3KpxpdySrMR2S7noneu1bI",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3KpxpdySrMR2S7noneu1bI?si=nHTJGLWXQz-5v2iroVUnAg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:66TrUkUZ3RM29dqeDQRgyA",
+                  "profile": {
+                    "name": "Ella Eyre"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:1TrfxjXu8quyDw05p2bacX",
+                  "profile": {
+                    "name": "Kenny Dope"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:2u3rmzZC0psTER2sDfUebm",
+                  "profile": {
+                    "name": "Never Dull"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 165752
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:00E0Z2jrF7reoHps4zcbWQ",
+            "id": "00E0Z2jrF7reoHps4zcbWQ",
+            "name": "Car Keys (Ayla)",
+            "albumOfTrack": {
+              "uri": "spotify:album:1yUD0trOHc8dudwm9VAiHs",
+              "name": "Car Keys (Ayla)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025a030481b0ad9a9efa103bf8",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048515a030481b0ad9a9efa103bf8",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735a030481b0ad9a9efa103bf8",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "1yUD0trOHc8dudwm9VAiHs",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/1yUD0trOHc8dudwm9VAiHs?si=ww7egnVeQnWvpfqNWiDjjw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4npEfmQ6YuiwW1GpUmaq3F",
+                  "profile": {
+                    "name": "Ava Max"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 147211
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:30pVSKdzBpZ9Np4Y2bJbFM",
+            "id": "30pVSKdzBpZ9Np4Y2bJbFM",
+            "name": "Fuego",
+            "albumOfTrack": {
+              "uri": "spotify:album:4UzyEKZKmEIKT1KkWO3Crp",
+              "name": "Fuego",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0223aadddba5e96a7390d1669f",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485123aadddba5e96a7390d1669f",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27323aadddba5e96a7390d1669f",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4UzyEKZKmEIKT1KkWO3Crp",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4UzyEKZKmEIKT1KkWO3Crp?si=PWm6uZxyTQamMMdWnwKRog"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:6kT18gnkVrCz8xJQcrib7L",
+                  "profile": {
+                    "name": "Bhaskar"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 188852
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:5Hp4xFihdOE2dmDzxWcBFb",
+            "id": "5Hp4xFihdOE2dmDzxWcBFb",
+            "name": "All By Myself",
+            "albumOfTrack": {
+              "uri": "spotify:album:3lAmnw0gNntYuTltwETnSn",
+              "name": "All By Myself",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02aaf796449ef2b13ba82353bb",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851aaf796449ef2b13ba82353bb",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273aaf796449ef2b13ba82353bb",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3lAmnw0gNntYuTltwETnSn",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3lAmnw0gNntYuTltwETnSn?si=A7IkLJGOQiaeVFpCNdsmLA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:1IueXOQyABrMOprrzwQJWN",
+                  "profile": {
+                    "name": "Sigala"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ",
+                  "profile": {
+                    "name": "Ellie Goulding"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 171747
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6iW38RGqdDGOofmz2HeXLW",
+            "id": "6iW38RGqdDGOofmz2HeXLW",
+            "name": "Piece Of Your Heart - Alok Remix",
+            "albumOfTrack": {
+              "uri": "spotify:album:6RlifxGX8F3IijsJXkTIlq",
+              "name": "Piece Of Your Heart (Alok Remix)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020df78e6e88fdefb1f8f90d55",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048510df78e6e88fdefb1f8f90d55",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730df78e6e88fdefb1f8f90d55",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6RlifxGX8F3IijsJXkTIlq",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6RlifxGX8F3IijsJXkTIlq?si=v6zpABCCQme_sgGz46Fp9A"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0xRXCcSX89eobfrshSVdyu",
+                  "profile": {
+                    "name": "MEDUZA"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:2nm38smINjms1LtczR0Cei",
+                  "profile": {
+                    "name": "Goodboys"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 166451
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:7BhmwvCdQZNwuQXSHw5TzP",
+            "id": "7BhmwvCdQZNwuQXSHw5TzP",
+            "name": "Headlights (feat. KIDDO)",
+            "albumOfTrack": {
+              "uri": "spotify:album:61SLEqJbw0XtTOmXUXAoEW",
+              "name": "Headlights (feat. KIDDO)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e4855f57cf9ffcf827fdd6e2",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e4855f57cf9ffcf827fdd6e2",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e4855f57cf9ffcf827fdd6e2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "61SLEqJbw0XtTOmXUXAoEW",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/61SLEqJbw0XtTOmXUXAoEW?si=0VJaWWW9SM-4TTfL52Dz0g"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7vk5e3vY1uw9plTHJAMwjN",
+                  "profile": {
+                    "name": "Alan Walker"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:5pXe6yFchq1oyYK3rq2A8i",
+                  "profile": {
+                    "name": "KIDDO"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 158400
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:1yX6sh2TkrT5hsXodo7aS6",
+            "id": "1yX6sh2TkrT5hsXodo7aS6",
+            "name": "Astronaut In The Ocean - Alok Remix",
+            "albumOfTrack": {
+              "uri": "spotify:album:7M3xleJoRyne18xf0fM9Jo",
+              "name": "Astronaut In The Ocean (Alok Remix)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c7ab54f6fb3cad1c97581e4f",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c7ab54f6fb3cad1c97581e4f",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c7ab54f6fb3cad1c97581e4f",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "7M3xleJoRyne18xf0fM9Jo",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/7M3xleJoRyne18xf0fM9Jo?si=Gzt6e6hqSY-Yjvo9TlJCOQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1uU7g3DNSbsu0QjSEqZtEd",
+                  "profile": {
+                    "name": "Masked Wolf"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "EXPLICIT"
+            },
+            "duration": {
+              "totalMilliseconds": 128371
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:5sRJU3mBuqjYbFcN6SrTNJ",
+            "id": "5sRJU3mBuqjYbFcN6SrTNJ",
+            "name": "Squid Game (Let's Play)",
+            "albumOfTrack": {
+              "uri": "spotify:album:75wGxN4Uxnknsg9EtoNi9y",
+              "name": "Rutina Intensa - La Mejor Música Para Entrenar",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029980711ea0f9e66e69f8fa01",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048519980711ea0f9e66e69f8fa01",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739980711ea0f9e66e69f8fa01",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "75wGxN4Uxnknsg9EtoNi9y",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/75wGxN4Uxnknsg9EtoNi9y?si=KnrOm05aRLSsA-Lz0C3x4w"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0NGAZxHanS9e0iNHpR8f2W",
+                  "profile": {
+                    "name": "Alok"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 152380
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        }
+      ]
+    },
+    "users": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:user:woiuzyon9c79v3zhn3ayrhfo2",
+            "id": "woiuzyon9c79v3zhn3ayrhfo2",
+            "displayName": "Alok ( Follow My Playlist )",
+            "username": "woiuzyon9c79v3zhn3ayrhfo2",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:alokofficial",
+            "id": "alokofficial",
+            "displayName": "Alok",
+            "username": "alokofficial",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82176dec6535cd7bcef42d9635",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85176dec6535cd7bcef42d9635"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1215287175",
+            "id": "1215287175",
+            "displayName": "Alok Menon",
+            "username": "1215287175",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.18169-1/10177458_10204487120011508_2910780671810963184_n.jpg?stp=c0.8.50.50a_cp0_dst-jpg_p50x50&_nc_cat=109&ccb=1-7&_nc_sid=db1b99&_nc_ohc=DnGx17L3ni0AX8rTK2f&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfAZunnHMVx5xC4TXuu-n7WZ8g9QbjF1rTY7pFIyS6yzBg&oe=6560B33D",
+              "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.18169-1/10177458_10204487120011508_2910780671810963184_n.jpg?stp=c0.50.320.320a_dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=0be577&_nc_ohc=DnGx17L3ni0AX8rTK2f&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfCYMjMxhB_-cqjOiR4nLsdDsrlqxtAeonmWjc_CY-lupg&oe=6560B33D"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1278969473",
+            "id": "1278969473",
+            "displayName": "Alok Leung",
+            "username": "1278969473",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.18169-1/25398622_10155937303092442_935784402365661252_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=100&ccb=1-7&_nc_sid=db1b99&_nc_ohc=eCTvDckHSf8AX8mg02w&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfCNXyiQuDC_3qRhY5Y2SK_uDoXem83L-NOSUj1zzhYEuw&oe=65608D06",
+              "largeImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.18169-1/25398622_10155937303092442_935784402365661252_n.jpg?stp=dst-jpg_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=0be577&_nc_ohc=eCTvDckHSf8AX8mg02w&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AfB_vLcASDVCbiJD3HRXyN8fnLMfFNQ5M06TVc_xZ2ZbwQ&oe=65608D06"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1249553625",
+            "id": "1249553625",
+            "displayName": "alok",
+            "username": "1249553625",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b827a9047f2a34f1b169ff6351a",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee857a9047f2a34f1b169ff6351a"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:1280389362",
+            "id": "1280389362",
+            "displayName": "Aloko",
+            "username": "1280389362",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82e374910f0061c3ebd47b43d8",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85e374910f0061c3ebd47b43d8"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:fy4np8stlg0t0e1kifrm7jz7f",
+            "id": "fy4np8stlg0t0e1kifrm7jz7f",
+            "displayName": "aloka",
+            "username": "fy4np8stlg0t0e1kifrm7jz7f",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82aa9ac875eda09f5eb1cab9e2",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85aa9ac875eda09f5eb1cab9e2"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:alokarlsson",
+            "id": "alokarlsson",
+            "displayName": "Alo Karlsson",
+            "username": "alokarlsson",
+            "image": {
+              "smallImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/391748898_10160160160643590_6955767012676494120_n.jpg?stp=cp1_dst-jpg_p50x50&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IURRUU0IgI4AX9b8K3_&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDgjg_MwL-wODKIKQk2E-cIVIOavWhupzNCrs3YecxeQA&oe=653D6E87",
+              "largeImageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/391748898_10160160160643590_6955767012676494120_n.jpg?stp=cp1_dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IURRUU0IgI4AX9b8K3_&_nc_ht=scontent-iad3-1.xx&edm=AP4hL3IEAAAA&oh=00_AfD22NJvbQZvXtB9ehhvJ2ItHMraowWbYvkxWMTaYjRH4Q&oe=653D6E87"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31wudbdward5rhv5xklhoavfjida",
+            "id": "31wudbdward5rhv5xklhoavfjida",
+            "displayName": "Selin Alökmen",
+            "username": "31wudbdward5rhv5xklhoavfjida",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8242b2138cb93f678e2ca5f51c",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8542b2138cb93f678e2ca5f51c"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:vbmj4aq3fxtx0z7gohbs1lkcx",
+            "id": "vbmj4aq3fxtx0z7gohbs1lkcx",
+            "displayName": "alok",
+            "username": "vbmj4aq3fxtx0z7gohbs1lkcx",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82aa93426fb40c20f8cde3d884",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85aa93426fb40c20f8cde3d884"
+            }
+          }
+        }
+      ]
+    }
+}
