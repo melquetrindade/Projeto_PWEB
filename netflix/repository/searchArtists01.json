@@ -1,0 +1,284 @@
+{
+    "query": "marilia+mendonca",
+    "artists": {
+      "totalCount": 185,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebffaebdbc972967729f688e25",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ffaebdbc972967729f688e25",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ffaebdbc972967729f688e25",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3ug51xsVSKPtOkIlqHrooW",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273305cffe1f933203725d87419",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851305cffe1f933203725d87419",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02305cffe1f933203725d87419",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2iK1rsbYstkSVn57M4s8ut",
+            "profile": {
+              "name": "Gaab"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb522904f5a4d26dac141f8382",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178522904f5a4d26dac141f8382",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174522904f5a4d26dac141f8382",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2CKOmarVWvWqkNWUatHCex",
+            "profile": {
+              "name": "Ana Castela"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebac5631fd60c703ae3abeeff5",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ac5631fd60c703ae3abeeff5",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ac5631fd60c703ae3abeeff5",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2eK9gcJQ6uqVvJL63dnOM3",
+            "profile": {
+              "name": "Simone Mendes"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb80e5acf09546a1fa2ca12a49",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17880e5acf09546a1fa2ca12a49",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517480e5acf09546a1fa2ca12a49",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3rTRHzFfbTk5GL3LpYZGHR",
+            "profile": {
+              "name": "Maria Mena"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb9c79c5b8e1ee89f7906f055a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1789c79c5b8e1ee89f7906f055a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051749c79c5b8e1ee89f7906f055a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3p7PcrEHaaKLJnPUGOtRlT",
+            "profile": {
+              "name": "Henrique & Juliano"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb713c619cc12ca1866136419",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b713c619cc12ca1866136419",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174b713c619cc12ca1866136419",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:59jlthNnbmim5l9tmNA7se",
+            "profile": {
+              "name": "Maiara & Maraisa"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb91d03c6d649afffcada91d07",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17891d03c6d649afffcada91d07",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517491d03c6d649afffcada91d07",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2it164hfV4gOIjzfGz7Q05",
+            "profile": {
+              "name": "Marilia Medalha"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27351fe5eb41e18f5043c97526d",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485151fe5eb41e18f5043c97526d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0251fe5eb41e18f5043c97526d",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:0fCpd1gWP1kObFnctwl9r6",
+            "profile": {
+              "name": "Camila Mendes"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        }
+      ],
+      "pagingInfo": {
+        "nextOffset": 10,
+        "limit": 10
+      }
+    }
+  }

@@ -1,0 +1,398 @@
+{
+    "query": "ao+vivo+em+fortaleza",
+    "albums": {
+      "totalCount": 805,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:3M5e9wnEYLRGlavA36KwAr",
+            "name": "Ao Vivo em Fortaleza",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0BHm7qbh3ENxvXzkQAG7MP",
+                  "profile": {
+                    "name": "Mari Fernandez"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0273a5dbacdd8de421f5d7215e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485173a5dbacdd8de421f5d7215e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27373a5dbacdd8de421f5d7215e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:726A4TRxrxx9BIuWWM5OXg",
+            "name": "Ao Vivo em Fortaleza-CE",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6cAXmjYOHC2R7jLrs96KTZ",
+                  "profile": {
+                    "name": "Mastruz Com Leite"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02301488c0490b94c78c5b5bcb",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851301488c0490b94c78c5b5bcb",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273301488c0490b94c78c5b5bcb",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2016
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:61KUhWve8zR7CreNCWZcha",
+            "name": "Ao Vivo Em Goiânia",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:59jlthNnbmim5l9tmNA7se",
+                  "profile": {
+                    "name": "Maiara & Maraisa"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02076ee6bb2e6698d19edb095b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851076ee6bb2e6698d19edb095b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273076ee6bb2e6698d19edb095b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2016
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5b9Q4DO0T1YjEVenuop0ko",
+            "name": "Ao Vivo em Fortaleza",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:007FXgr0jLBJxhPJjacXQH",
+                  "profile": {
+                    "name": "Eric Land"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e027665fd15b3387902a2027d0c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048517665fd15b3387902a2027d0c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2737665fd15b3387902a2027d0c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6DDhWPEviGf3zWimef0yZN",
+            "name": "Fortaleza - Ao Vivo",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:7FKlLr5X7LGFMIR7UfDfDq",
+                  "profile": {
+                    "name": "André Valadão"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0261aa5ec696784e1b0099f8c2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485161aa5ec696784e1b0099f8c2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27361aa5ec696784e1b0099f8c2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2013
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4qKCWP9zv2ylFtRvvdJDYm",
+            "name": "Ao Vivo em Fortaleza - EP 01",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:007FXgr0jLBJxhPJjacXQH",
+                  "profile": {
+                    "name": "Eric Land"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e024c12beed1f99ed598d76d634",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048514c12beed1f99ed598d76d634",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2734c12beed1f99ed598d76d634",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1coD4n4PaceZlTCrRAuzij",
+            "name": "Versace",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0yeH1le8FnlMczNSy9d4iU",
+                  "profile": {
+                    "name": "La Fortaleza Real"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:3V2e9dHZLy2f2oFCc2bcx5",
+                  "profile": {
+                    "name": "Buman"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0213a1cc7912d91a3a5ea5d49d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485113a1cc7912d91a3a5ea5d49d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27313a1cc7912d91a3a5ea5d49d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6J7kqaU2EEu5G4J5KJTzi2",
+            "name": "Ao Vivo em Fortaleza",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Da4NyNC4CLayaNGGmL9uZ",
+                  "profile": {
+                    "name": "Timbalada"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02fa1d63eb7a703f4bad47a0f5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851fa1d63eb7a703f4bad47a0f5",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273fa1d63eb7a703f4bad47a0f5",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:08acRJo4M0enLC2Vta6w9X",
+            "name": "Fortress (Acoustic)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0Ub20KqDlmWDkqntwrKnVz",
+                  "profile": {
+                    "name": "Refuge Worship"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e020ce294274f4d9b26a69f59b0",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048510ce294274f4d9b26a69f59b0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2730ce294274f4d9b26a69f59b0",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2018
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6gXk2ABlSdp9lBI1VHzlsm",
+            "name": "Ao Vivo em Fortaleza (Vol. 2)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Da4NyNC4CLayaNGGmL9uZ",
+                  "profile": {
+                    "name": "Timbalada"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0281220fec7e64818cf4b0d6fc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485181220fec7e64818cf4b0d6fc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27381220fec7e64818cf4b0d6fc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        }
+      ],
+      "pagingInfo": {
+        "nextOffset": 10,
+        "limit": 10
+      }
+    }
+}

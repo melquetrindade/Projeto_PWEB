@@ -1,0 +1,416 @@
+{
+    "query": "tbt+ws",
+    "albums": {
+      "totalCount": 799,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:5j22HcJ3qmzRibTfil139P",
+            "name": "TBT WS 2 - Parte 1 (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa",
+                  "profile": {
+                    "name": "Wesley Safadão"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02d916fb8369ef18111dde8bb2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851d916fb8369ef18111dde8bb2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273d916fb8369ef18111dde8bb2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1tmO6NxvrqC1D3qBSEr43C",
+            "name": "TBT WS 2 - Parte 2 (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa",
+                  "profile": {
+                    "name": "Wesley Safadão"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02afe7a2be7400a131b78a9fdc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851afe7a2be7400a131b78a9fdc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273afe7a2be7400a131b78a9fdc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2eVWZfHVRysZ4uVV03Jxif",
+            "name": "#TBT Banda",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                  "profile": {
+                    "name": "Various Artists"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e020523d8b921271357a347111c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048510523d8b921271357a347111c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2730523d8b921271357a347111c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5pPnIOz4ViGjMTgaVqLztz",
+            "name": "MIGA SE VC QUER TBT ENTÃO BROTA",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6FghZ0RqVyI7EqXMQo17Db",
+                  "profile": {
+                    "name": "DJ WS DA RG"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0290d99ef2b20eeb7f79f0943d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485190d99ef2b20eeb7f79f0943d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27390d99ef2b20eeb7f79f0943d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4AoCqIVUKgjf0CkN2QcXtt",
+            "name": "Tbt Gostoso",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:3vihCm8n49c8qxVjz7dPcb",
+                  "profile": {
+                    "name": "MC WS"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4MYqNBdc5MWwornDjiG0eM",
+                  "profile": {
+                    "name": "MC NIEL"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:7zGxC1oDINCMCf67ujNc9D",
+                  "profile": {
+                    "name": "MC HG"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02e741fa807c2c985a3c97e72a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851e741fa807c2c985a3c97e72a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273e741fa807c2c985a3c97e72a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:0LqCMjukkoRBA9R3StYKS8",
+            "name": "TBT",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1wI7MGfgM9OmczcWbMkfT7",
+                  "profile": {
+                    "name": "Pocahonta melody"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ef8951132d22a21bb8122558",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ef8951132d22a21bb8122558",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ef8951132d22a21bb8122558",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2015
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5IBJBIfJgJRDeJyLPiIq0Y",
+            "name": "TBT",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:61VWI9NQQ9ryLKVTAJZekX",
+                  "profile": {
+                    "name": "WSB"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0216aeec73c47d70d021ddb21d",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485116aeec73c47d70d021ddb21d",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27316aeec73c47d70d021ddb21d",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2023
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4tF7IhtCyPZvzp8zqwTu6Q",
+            "name": "Bankai",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4WihjWGIXdbrdtcIhCcQuM",
+                  "profile": {
+                    "name": "TBT Prod."
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02c305825f27faefd557abee90",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851c305825f27faefd557abee90",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273c305825f27faefd557abee90",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3RG65TH0L4E9jtJoj5JpMQ",
+            "name": "TBT",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:07YUOmWljBTXwIseAUd9TW",
+                  "profile": {
+                    "name": "Sebastian Yatra"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:1mcTU81TzQhprhouKaTkpq",
+                  "profile": {
+                    "name": "Rauw Alejandro"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:0tmwSHipWxN12fsoLcFU3B",
+                  "profile": {
+                    "name": "Manuel Turizo"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0273d76762052dd4cc7924667b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485173d76762052dd4cc7924667b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27373d76762052dd4cc7924667b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1dcZWL3xeV0qBbDUD3TQ7o",
+            "name": "TBT (Ao Vivo)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa",
+                  "profile": {
+                    "name": "Wesley Safadão"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e025cdde73ccf56940cdf942c59",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048515cdde73ccf56940cdf942c59",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2735cdde73ccf56940cdf942c59",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2019
+            }
+          }
+        }
+      ],
+      "pagingInfo": {
+        "nextOffset": 10,
+        "limit": 10
+      }
+    }
+  }

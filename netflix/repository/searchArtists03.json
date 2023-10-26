@@ -1,0 +1,266 @@
+{
+    "query": "jorge+e+mateus",
+    "artists": {
+      "totalCount": 77,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:1elUiq4X7pxej6FRlrEzjM",
+            "profile": {
+              "name": "Jorge & Mateus"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb4519582131dc53d9f2c86803",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1784519582131dc53d9f2c86803",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051744519582131dc53d9f2c86803",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:1p16vo9oJeAFvK6YjKJ2B9",
+            "profile": {
+              "name": "Jorge e Mateus"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:1yR65psqiazQpeM79CcGh8",
+            "profile": {
+              "name": "Marília Mendonça"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebffaebdbc972967729f688e25",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ffaebdbc972967729f688e25",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174ffaebdbc972967729f688e25",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:6gLW5LlLEXdtWaS0EWfzaJ",
+            "profile": {
+              "name": "Jorge"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebde3ca2600c0df44f9f6afc01",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178de3ca2600c0df44f9f6afc01",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174de3ca2600c0df44f9f6afc01",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:7MiDcPa6UiV3In7lIM71IN",
+            "profile": {
+              "name": "Gusttavo Lima"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb901d0e7347cbb22662f629d2",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178901d0e7347cbb22662f629d2",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174901d0e7347cbb22662f629d2",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:5X2RyFieGYjBbYj7Ii8xFA",
+            "profile": {
+              "name": "Jorge & Matheus"
+            },
+            "visuals": {
+              "avatarImage": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:487N2T9nIPEHrlTZLL3SQs",
+            "profile": {
+              "name": "Zé Neto & Cristiano"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb1bb9201db3ff149830f0139a",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1781bb9201db3ff149830f0139a",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051741bb9201db3ff149830f0139a",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2YCkwNYGevLmmLsbad5lsl",
+            "profile": {
+              "name": "Mariana & Mateus"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3cb72c8ea6a79f7219ba2b27",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1783cb72c8ea6a79f7219ba2b27",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051743cb72c8ea6a79f7219ba2b27",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:3p7PcrEHaaKLJnPUGOtRlT",
+            "profile": {
+              "name": "Henrique & Juliano"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb713c619cc12ca1866136419",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b713c619cc12ca1866136419",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174b713c619cc12ca1866136419",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:6ruYI9GKMzqQhfUNeEtY4y",
+            "profile": {
+              "name": "Mateus e Cristiano"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb248f100d224e84ee31f94220",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178248f100d224e84ee31f94220",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174248f100d224e84ee31f94220",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "pagingInfo": {
+        "nextOffset": 10,
+        "limit": 10
+      }
+    }
+  }

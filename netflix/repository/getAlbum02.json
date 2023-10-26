@@ -1,0 +1,674 @@
+{
+    "albums": [
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+            },
+            "id": "1AL2GKpmRrKXkYIcASuRFa",
+            "name": "Wesley Safadão",
+            "type": "artist",
+            "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+          }
+        ],
+        "copyrights": [
+          {
+            "text": "2022 Wesley Safadão Licenciado por Potência Music",
+            "type": "C"
+          },
+          {
+            "text": "2022 Wesley Safadão Licenciado por Potência Music",
+            "type": "P"
+          }
+        ],
+        "external_ids": {
+          "upc": "197338999929"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5j22HcJ3qmzRibTfil139P"
+        },
+        "genres": [],
+        "id": "5j22HcJ3qmzRibTfil139P",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d916fb8369ef18111dde8bb2",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d916fb8369ef18111dde8bb2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d916fb8369ef18111dde8bb2",
+            "width": 64
+          }
+        ],
+        "is_playable": true,
+        "label": "Wesley Safadao",
+        "name": "TBT WS 2 - Parte 1 (Ao Vivo)",
+        "popularity": 58,
+        "release_date": "2022-11-17",
+        "release_date_precision": "day",
+        "total_tracks": 20,
+        "tracks": {
+          "items": [
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 232058,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2fNQKieH5Vla2RT50hn9tV"
+              },
+              "id": "2fNQKieH5Vla2RT50hn9tV",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Agora é Pra Valer - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/495cc3891d8b6693638e10f388d310e1dbd77750?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:2fNQKieH5Vla2RT50hn9tV"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 170625,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/0h8XG5J2BIuY7fpt8HiUZt"
+              },
+              "id": "0h8XG5J2BIuY7fpt8HiUZt",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Jejum de Amor - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/0ed33757090341f8825603caa00d8e3186ae9848?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 2,
+              "type": "track",
+              "uri": "spotify:track:0h8XG5J2BIuY7fpt8HiUZt"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 173392,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/0u1DBnKfviBnMeaT9IpCNE"
+              },
+              "id": "0u1DBnKfviBnMeaT9IpCNE",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Vem Pro Meu Lounge - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/e31e1130f7b2b08a2e56ae25dd4ec8be78205ea9?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 3,
+              "type": "track",
+              "uri": "spotify:track:0u1DBnKfviBnMeaT9IpCNE"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 211781,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/4CvWdHXEKGavBB1Z8ULO5L"
+              },
+              "id": "4CvWdHXEKGavBB1Z8ULO5L",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Lendas e Mistérios - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/642875377e0a886d58ff9e45205d4382b441ef52?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 4,
+              "type": "track",
+              "uri": "spotify:track:4CvWdHXEKGavBB1Z8ULO5L"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 190284,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2dh2JeIc1Bk5yVtDb1hcCo"
+              },
+              "id": "2dh2JeIc1Bk5yVtDb1hcCo",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Mulher do Patrão - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/7ba11c80b3fa3d8f5ceee2bf272a392f08db055c?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 5,
+              "type": "track",
+              "uri": "spotify:track:2dh2JeIc1Bk5yVtDb1hcCo"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 167676,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2wmQDOSu7DEHelUZxuFJqh"
+              },
+              "id": "2wmQDOSu7DEHelUZxuFJqh",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Eu Tô de Boa - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/64be3a8914dc79ac0916af70983ecaaebc5e97be?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 6,
+              "type": "track",
+              "uri": "spotify:track:2wmQDOSu7DEHelUZxuFJqh"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 162946,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/53KJyyYUPeWs58mD1Lwkhr"
+              },
+              "id": "53KJyyYUPeWs58mD1Lwkhr",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Tá Com Saudade de Mim - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/858a902b539f10a4c93945f10d3015b093f96a40?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 7,
+              "type": "track",
+              "uri": "spotify:track:53KJyyYUPeWs58mD1Lwkhr"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 140823,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/70pXXQRlEUOtXatO5Rx8b6"
+              },
+              "id": "70pXXQRlEUOtXatO5Rx8b6",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Com Você - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/16a5a1d5da6aa84646de9f939a5e5d5a6e5e3109?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 8,
+              "type": "track",
+              "uri": "spotify:track:70pXXQRlEUOtXatO5Rx8b6"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 168660,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/65QL3xNlwaNsLe0ybntM6s"
+              },
+              "id": "65QL3xNlwaNsLe0ybntM6s",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Jogado Na Rua - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/64d5e0ce9412f0b5b20a60ce9198ded8f4be5789?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 9,
+              "type": "track",
+              "uri": "spotify:track:65QL3xNlwaNsLe0ybntM6s"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/62JzMDXMXiiCrfTFbzT0BX"
+                  },
+                  "id": "62JzMDXMXiiCrfTFbzT0BX",
+                  "name": "Mara Pavanelly",
+                  "type": "artist",
+                  "uri": "spotify:artist:62JzMDXMXiiCrfTFbzT0BX"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 154058,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/1nbkBFkcVd2u4djtLYBM1a"
+              },
+              "id": "1nbkBFkcVd2u4djtLYBM1a",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Tá Combinado - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/cd14fa527088bcf704d4fb89279c8c77e593560e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 10,
+              "type": "track",
+              "uri": "spotify:track:1nbkBFkcVd2u4djtLYBM1a"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/62JzMDXMXiiCrfTFbzT0BX"
+                  },
+                  "id": "62JzMDXMXiiCrfTFbzT0BX",
+                  "name": "Mara Pavanelly",
+                  "type": "artist",
+                  "uri": "spotify:artist:62JzMDXMXiiCrfTFbzT0BX"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 161647,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/39omroUssjxM40dGF0QA8z"
+              },
+              "id": "39omroUssjxM40dGF0QA8z",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Obsessão (Já São Cinco da Manhã) - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/0bb188d87c8a463891f58f29d7ed6ac4e29d74b8?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 11,
+              "type": "track",
+              "uri": "spotify:track:39omroUssjxM40dGF0QA8z"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/62JzMDXMXiiCrfTFbzT0BX"
+                  },
+                  "id": "62JzMDXMXiiCrfTFbzT0BX",
+                  "name": "Mara Pavanelly",
+                  "type": "artist",
+                  "uri": "spotify:artist:62JzMDXMXiiCrfTFbzT0BX"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 136138,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/4uXfUcI0wPkYHxPXilwO5t"
+              },
+              "id": "4uXfUcI0wPkYHxPXilwO5t",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Vamos Falar de Amor - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/6ae56cf5365e240196d5b16e2464f17c02b775af?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 12,
+              "type": "track",
+              "uri": "spotify:track:4uXfUcI0wPkYHxPXilwO5t"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 181617,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2PdBfQcLSh3jbHHhZDgH9Q"
+              },
+              "id": "2PdBfQcLSh3jbHHhZDgH9Q",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Só Freud Explica - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/79aa185258559ccba07e3c1dfd28f441aa42cb00?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 13,
+              "type": "track",
+              "uri": "spotify:track:2PdBfQcLSh3jbHHhZDgH9Q"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 157568,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/71GHDnG8G9sTsJKOcQ4CQK"
+              },
+              "id": "71GHDnG8G9sTsJKOcQ4CQK",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Fui Clonado - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/78f2260801dfc476c431ca958d85ae55afcea896?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 14,
+              "type": "track",
+              "uri": "spotify:track:71GHDnG8G9sTsJKOcQ4CQK"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 153088,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/06jZMH4zsocMX0unZ3proS"
+              },
+              "id": "06jZMH4zsocMX0unZ3proS",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Me Ame ou Me Deixe - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/ccc1449e154782fe1c2ede12cd27e54d1a14cac0?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 15,
+              "type": "track",
+              "uri": "spotify:track:06jZMH4zsocMX0unZ3proS"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 186361,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/7FqLRV18Txg6rnE1Hm7Ie1"
+              },
+              "id": "7FqLRV18Txg6rnE1Hm7Ie1",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Só Falta Você - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/bc2a42a5fe9fbd1427b189907b724837cc439581?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 16,
+              "type": "track",
+              "uri": "spotify:track:7FqLRV18Txg6rnE1Hm7Ie1"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3OxZ4asD88P1lJJmLcXz4K"
+                  },
+                  "id": "3OxZ4asD88P1lJJmLcXz4K",
+                  "name": "Márcia Fellipe",
+                  "type": "artist",
+                  "uri": "spotify:artist:3OxZ4asD88P1lJJmLcXz4K"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 192705,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/08WscvfbqM2sfvSuvnP6YC"
+              },
+              "id": "08WscvfbqM2sfvSuvnP6YC",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Ninguém Vai Separar - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/0924f747fa118216278e8aad46e236d306edc9bd?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 17,
+              "type": "track",
+              "uri": "spotify:track:08WscvfbqM2sfvSuvnP6YC"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3OxZ4asD88P1lJJmLcXz4K"
+                  },
+                  "id": "3OxZ4asD88P1lJJmLcXz4K",
+                  "name": "Márcia Fellipe",
+                  "type": "artist",
+                  "uri": "spotify:artist:3OxZ4asD88P1lJJmLcXz4K"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 168882,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2C9BcyVUuCkWYis6PFzDh1"
+              },
+              "id": "2C9BcyVUuCkWYis6PFzDh1",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Tentativas em Vão - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/e04d99ed6ef75c64fb5b5230bc76462a8d414c64?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 18,
+              "type": "track",
+              "uri": "spotify:track:2C9BcyVUuCkWYis6PFzDh1"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3OxZ4asD88P1lJJmLcXz4K"
+                  },
+                  "id": "3OxZ4asD88P1lJJmLcXz4K",
+                  "name": "Márcia Fellipe",
+                  "type": "artist",
+                  "uri": "spotify:artist:3OxZ4asD88P1lJJmLcXz4K"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 145920,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/2r7LodOToHiJCrZD2ckno5"
+              },
+              "id": "2r7LodOToHiJCrZD2ckno5",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Tô Sensacional - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/58d297bc65495acfe5dc6237782423c58b467717?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 19,
+              "type": "track",
+              "uri": "spotify:track:2r7LodOToHiJCrZD2ckno5"
+            },
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1AL2GKpmRrKXkYIcASuRFa"
+                  },
+                  "id": "1AL2GKpmRrKXkYIcASuRFa",
+                  "name": "Wesley Safadão",
+                  "type": "artist",
+                  "uri": "spotify:artist:1AL2GKpmRrKXkYIcASuRFa"
+                },
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3OxZ4asD88P1lJJmLcXz4K"
+                  },
+                  "id": "3OxZ4asD88P1lJJmLcXz4K",
+                  "name": "Márcia Fellipe",
+                  "type": "artist",
+                  "uri": "spotify:artist:3OxZ4asD88P1lJJmLcXz4K"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 224823,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/45DpdGOO7Bp1InoJmhCv3Y"
+              },
+              "id": "45DpdGOO7Bp1InoJmhCv3Y",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Escravo do Amor - Ao Vivo",
+              "preview_url": "https://p.scdn.co/mp3-preview/dbd75525b140f230fbad4df291789c33a43c3e6d?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+              "track_number": 20,
+              "type": "track",
+              "uri": "spotify:track:45DpdGOO7Bp1InoJmhCv3Y"
+            }
+          ],
+          "limit": 50,
+          "next": null,
+          "offset": 0,
+          "previous": null,
+          "total": 20
+        },
+        "type": "album",
+        "uri": "spotify:album:5j22HcJ3qmzRibTfil139P"
+      }
+    ]
+  }
