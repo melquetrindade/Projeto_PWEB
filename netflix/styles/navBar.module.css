@@ -146,18 +146,142 @@
     left: 0;
     width: 250px;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(50, 50, 50);
     transition: 0.4s;
 }
 
 .sideBar > div{
+    position: relative;
     width: 90%;
     height: 96%;
-    transition: 0.5s;
+    margin-left: 15px;
 }
 
-.sideBar span{
+.sideBar > div > span{
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.menuOpcoes{
+    width: 93%;
+    height: 78%;
+    margin-bottom: 20px;
+    padding-right: 9px;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.contSearch{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    min-height: 6%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 65);
+}
+
+.contSearch > span{
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    color: white; 
+}
+
+.contOpMenu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    min-height: 6%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contOpMenu:hover{
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
+.contOpMenu > span{
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    color: white;
+}
+
+.contText{
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    min-width: 140px;
+    color: white;
+}
+
+.contText > h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contText > input{
+    position: absolute;
+    top: -7px;
+    left: 0;
+    max-width: 125px;
+    min-height: 30px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: 18px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 2;
+    left: 0;
+    width: 97%;
+    height: 50px;
+}
+
+.contLogout{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 93%;
+    height: 100%;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.contLogout:hover{
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
+.contLogout > span{
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    color: white;
+}
+
+.contOplogout > h3{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
 }
 
 /* =============================================== */

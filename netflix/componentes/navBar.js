@@ -22,19 +22,19 @@ export default function NavBar(){
                     <span class="material-symbols-outlined" onClick={sideBarToggle}>menu</span>
                     <ul className={sideBar == 'close' ? styles.ul : styles.navBarNone}>
                         <li>
-                            <Link href='/'>HOME</Link>
+                            <Link href='/'>Home</Link>
                         </li>
                         <li>
-                            <Link href='/filmes'>FILMES</Link>
+                            <Link href='/artists'>Artistas</Link>
                         </li>
                         <li>
-                            <Link href='/series'>SÉRIES</Link>
+                            <Link href='/album'>Álbuns</Link>
                         </li>
                     </ul>
                 </div>
                 <div className={sideBar == 'open' ? styles.navBarNone : inputShow == 'close' ? styles.searchClose : styles.searchOpen}>
                     <span class="material-symbols-outlined" onClick={searchToggle}>search</span>
-                    <input type="text" placeholder="Spider-Man" className={inputShow == 'open' ? styles.open : styles.close}></input>
+                    <input type="text" placeholder="Alok" className={inputShow == 'open' ? styles.open : styles.close}></input>
                 </div>
             </div>
             <div>
@@ -46,7 +46,46 @@ export default function NavBar(){
                 <div className={sideBar == 'open' ? styles.sideBar : styles.navBarNone}>
                     <div>
                         <span class="material-symbols-outlined" onClick={sideBarToggle}>menu</span>
-                        <h1>Teste</h1>
+                        <div className={styles.menuOpcoes}>
+                            <div className={styles.contSearch}>
+                                <span class="material-symbols-outlined">search</span>
+                                <div className={styles.contText}>
+                                    <input type="text" placeholder="Search..."></input>
+                                </div>
+                            </div>
+                            <div className={styles.contOpMenu}>
+                                <span class="material-symbols-outlined">home</span>
+                                <div className={styles.contText}>
+                                    <h3>Home</h3>
+                                </div>
+                            </div>
+                            <div className={styles.contOpMenu}>
+                                <span class="material-symbols-outlined">person</span>
+                                <div className={styles.contText}>
+                                    <h3>Artistas</h3>
+                                </div>
+                            </div>
+                            <div className={styles.contOpMenu}>
+                                <span class="material-symbols-outlined">library_music</span>
+                                <div className={styles.contText}>
+                                    <h3>Álbuns</h3>
+                                </div>
+                            </div>
+                            <div className={styles.contOpMenu}>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <div className={styles.contText}>
+                                    <h3>Favoritos</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.logout}>
+                            <div className={styles.contLogout}>
+                                <span class="material-symbols-outlined">logout</span>
+                                <div className={styles.contOplogout}>
+                                    <h3>Sair</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
