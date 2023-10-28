@@ -2,6 +2,7 @@
 
 .body{
   display: flex;
+  align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100%;
@@ -9,6 +10,44 @@
   color: white;
 }
 
+.main{
+  transform: translateY(-10px);
+}
+
 .title{
+  margin-bottom: 15px;
   font-weight: 600;
+}
+
+.containerAlbuns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 650px;
+  height: 500px;
+  border-radius: 15px;
+  border: 10px solid rgb(55, 55, 55);
+  background: linear-gradient(to right, #ff2cdf, #0014ff);
+}
+
+.containerAlbuns > h1{
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.itemAlbum{
+  background-color: rgb(37, 37, 37);
+  width: 330px;
+  height: 450px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translateY(-3px);
+}
+
+.itemAlbum > img{
+  width: 320px;
+  height: 320pxpx;
+  border-radius: 5px;
 }

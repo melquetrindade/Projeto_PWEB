@@ -2,7 +2,7 @@
 
 .mainContainer{
     width: 100vw;
-    min-height: calc(98.5vh - 45px);
+    min-height: calc(98.5vh - 50px);
     padding: 0px;
     margin: 0px;
     display: flex;

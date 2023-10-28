@@ -39,10 +39,10 @@ export default function NavBar(){
             </div>
             <div>
                 <div className={styles.logo}>
-                    <img src="/logo_filme3.png"/>
+                    <img src="/logo_music.png"/>
                 </div>
             </div>
-            <div className={styles.teste}>
+            <div>
                 <div className={sideBar == 'open' ? styles.sideBar : styles.navBarNone}>
                     <div>
                         <span class="material-symbols-outlined" onClick={sideBarToggle}>menu</span>

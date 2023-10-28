@@ -28,8 +28,13 @@ export default function Home() {
 
       return (
         <main className={styles.body}>
-          <div>
-            <h1 className={styles.title}>Página Inicial</h1>
+          <div className={styles.main}>
+            <h1 className={styles.title}>Álbuns Recomendados</h1>
+            <div className={styles.containerAlbuns}>
+              <div className={styles.itemAlbum}>
+                <img src={albumData.tracks[5].album.images[0].url}></img>
+              </div>
+            </div>
             <button onClick={carregaAlbum}>Carregar</button>
           </div>
         </main>
