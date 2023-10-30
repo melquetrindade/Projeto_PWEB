@@ -21,9 +21,19 @@ export default function Home() {
         const resJson  = await res.json()
         console.log(resJson)
       }*/
-
+      const lenDados = Object.keys(albumData.tracks).length
+      const [albumAtual, setAlbum] = useState()
       const carregaAlbum = () => {
         console.log(albumData)
+        console.log(Object.keys(albumData.tracks).length)
+      }
+
+      const nextAlbum = () => {
+
+      }
+
+      const previAlbum = () => {
+
       }
 
       return (
@@ -31,9 +41,11 @@ export default function Home() {
           <div className={styles.main}>
             <h1 className={styles.title}>Álbuns Recomendados</h1>
             <div className={styles.containerAlbuns}>
+              <div className={styles.arrowLeft} onClick={previAlbum}><span class="material-symbols-outlined">arrow_back_ios</span></div>
               <div className={styles.itemAlbum}>
                 <img src={albumData.tracks[5].album.images[0].url}></img>
               </div>
+              <div className={styles.arrowRight} onClick={nextAlbum}><span class="material-symbols-outlined">arrow_forward_ios</span></div>
             </div>
             <button onClick={carregaAlbum}>Carregar</button>
           </div>

@@ -20,6 +20,7 @@
 }
 
 .containerAlbuns{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +29,26 @@
   border-radius: 15px;
   border: 10px solid rgb(55, 55, 55);
   background: linear-gradient(to right, #ff2cdf, #0014ff);
+}
+
+.arrowLeft{
+  position: absolute;
+  top: calc(500px - 55%);
+  left: 40px;
+  color: white;
+}
+
+.arrowRight{
+  position: absolute;
+  top: calc(500px - 55%);
+  right: 40px;
+  color: white;
+}
+
+.containerAlbuns span{
+  font-size: 40px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 .containerAlbuns > h1{
