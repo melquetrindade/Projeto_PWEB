@@ -36,6 +36,7 @@
   top: calc(500px - 55%);
   left: 40px;
   color: white;
+  cursor: pointer;
 }
 
 .arrowRight{
@@ -43,12 +44,12 @@
   top: calc(500px - 55%);
   right: 40px;
   color: white;
+  cursor: pointer;
 }
 
 .containerAlbuns span{
   font-size: 40px;
   font-weight: 900;
-  cursor: pointer;
 }
 
 .containerAlbuns > h1{
@@ -69,6 +70,20 @@
 
 .itemAlbum > img{
   width: 320px;
-  height: 320pxpx;
+  height: 320px;
   border-radius: 5px;
+}
+
+.disableArrowLeft{
+  position: absolute;
+  top: calc(500px - 55%);
+  left: 40px;
+  color: rgba(180, 180, 180, 0.838);
+}
+
+.disableArrowRight{
+  position: absolute;
+  top: calc(500px - 55%);
+  right: 40px;
+  color: rgba(180, 180, 180, 0.474);
 }

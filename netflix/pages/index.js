@@ -22,18 +22,23 @@ export default function Home() {
         console.log(resJson)
       }*/
       const lenDados = Object.keys(albumData.tracks).length
-      const [albumAtual, setAlbum] = useState()
+      const [albumAtual, setAlbum] = useState(0)
+
       const carregaAlbum = () => {
         console.log(albumData)
         console.log(Object.keys(albumData.tracks).length)
       }
 
       const nextAlbum = () => {
-
+        if(albumAtual < (lenDados - 1)){
+          setAlbum(albumAtual + 1)
+        }
       }
 
       const previAlbum = () => {
-
+        if(albumAtual > 0){
+          setAlbum(albumAtual - 1)
+        }
       }
 
       return (
@@ -41,11 +46,11 @@ export default function Home() {
           <div className={styles.main}>
             <h1 className={styles.title}>Álbuns Recomendados</h1>
             <div className={styles.containerAlbuns}>
-              <div className={styles.arrowLeft} onClick={previAlbum}><span class="material-symbols-outlined">arrow_back_ios</span></div>
+              <div className={albumAtual == 0 ? styles.disableArrowLeft : styles.arrowLeft} onClick={previAlbum}><span class="material-symbols-outlined">arrow_back_ios</span></div>
               <div className={styles.itemAlbum}>
-                <img src={albumData.tracks[5].album.images[0].url}></img>
+                <img src={albumData.tracks[albumAtual].album.images[0].url}></img>
               </div>
-              <div className={styles.arrowRight} onClick={nextAlbum}><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+              <div className={albumAtual == 9 ? styles.disableArrowRight : styles.arrowRight} onClick={nextAlbum}><span class="material-symbols-outlined">arrow_forward_ios</span></div>
             </div>
             <button onClick={carregaAlbum}>Carregar</button>
           </div>
