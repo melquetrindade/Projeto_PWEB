@@ -49,6 +49,14 @@ export default function Home() {
               <div className={albumAtual == 0 ? styles.disableArrowLeft : styles.arrowLeft} onClick={previAlbum}><span class="material-symbols-outlined">arrow_back_ios</span></div>
               <div className={styles.itemAlbum}>
                 <img src={albumData.tracks[albumAtual].album.images[0].url}></img>
+                <div className={styles.content}>
+                  <h1 className={styles.nameAlbum}>{albumData.tracks[albumAtual].album.name}</h1>
+                  <div className={styles.contentText}>
+                    {albumData.tracks[albumAtual].album.artists.map((artist) => (
+                        <p1>{artist.name}</p1>
+                      ))}
+                  </div>
+                </div>
               </div>
               <div className={albumAtual == 9 ? styles.disableArrowRight : styles.arrowRight} onClick={nextAlbum}><span class="material-symbols-outlined">arrow_forward_ios</span></div>
             </div>

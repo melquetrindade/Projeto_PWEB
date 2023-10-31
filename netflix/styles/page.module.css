@@ -87,3 +87,23 @@
   right: 40px;
   color: rgba(180, 180, 180, 0.474);
 }
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameAlbum{
+  width: 250px;
+  height: 40px;
+  font-size: 1.4vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contentText{
+  
+}
