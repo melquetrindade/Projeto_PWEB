@@ -23,22 +23,35 @@ export default function Home() {
       }*/
       const lenDados = Object.keys(albumData.tracks).length
       const [albumAtual, setAlbum] = useState(0)
+      const [audioAtual, setAudio] = useState(false)
 
       const carregaAlbum = () => {
-        console.log(albumData)
+        console.log(albumData.tracks[albumAtual].album.artists.length)
         console.log(Object.keys(albumData.tracks).length)
       }
 
       const nextAlbum = () => {
         if(albumAtual < (lenDados - 1)){
           setAlbum(albumAtual + 1)
+          setAudio(true)
+          console.log(audioAtual)
         }
       }
 
       const previAlbum = () => {
         if(albumAtual > 0){
           setAlbum(albumAtual - 1)
+          setAudio(false)
+          console.log(audioAtual)
         }
+      }
+
+      const controlAudio = () => {
+        var audio = document.getElementById('audio')
+        console.log(audio)
+        audio.pause()
+        audio.src = `${albumData.tracks[1].preview_url}`
+        audio.play()
       }
 
       return (
@@ -53,8 +66,14 @@ export default function Home() {
                   <h1 className={styles.nameAlbum}>{albumData.tracks[albumAtual].album.name}</h1>
                   <div className={styles.contentText}>
                     {albumData.tracks[albumAtual].album.artists.map((artist) => (
-                        <p1>{artist.name}</p1>
+                        <p>{artist.name}</p>
                       ))}
+                  </div>
+                  <div className={styles.conatinerAudio} onClick={controlAudio}>
+                      <audio id='audio' controls>
+                        <source src={albumData.tracks[albumAtual].preview_url} type='audio/mpeg'>
+                        </source>
+                      </audio>
                   </div>
                 </div>
               </div>
