@@ -9,3 +9,21 @@
     background-color: rgba(1, 1, 1, 0.858);
     color: white;
 }
+
+.main{
+    transform: translateY(-35px);
+}
+
+.title{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.containerArtists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    height: 450px;
+    background: linear-gradient(to right, #00E1FD, #FC007A);
+}
