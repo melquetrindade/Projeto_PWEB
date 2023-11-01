@@ -1,9 +1,12 @@
+import React from 'react'
+import styles from '../styles/artists.module.css'
 
-
-export default function Contact(){
+export default function Artists(){
     return(
-        <div>
-            <h1>Página de Artistas</h1>
-        </div>
+        <main className={styles.body}> 
+            <div>
+                <h1>Página de Artistas</h1>
+            </div>
+        </main>
     )
 }

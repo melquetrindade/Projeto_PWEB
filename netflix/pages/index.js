@@ -4,26 +4,8 @@ import albumData from '../repository/home.json'
 
 export default function Home() {
 
-      //https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5
-      /*
-      const url = "https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5";
-      const options = {
-        method: 'GET',
-        headers: {
-          'X-RapidAPI-Key': 'dc8f4e0d13msh0a30c408daca17dp1ec9d2jsn147d94a16c74',
-          'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-        }
-      };
-
-      const carregaArtista = async () => {
-      
-        const res = await fetch(url, options)
-        const resJson  = await res.json()
-        console.log(resJson)
-      }*/
       const lenDados = Object.keys(albumData.tracks).length
       const [albumAtual, setAlbum] = useState(0)
-      const [audioAtual, setAudio] = useState(false)
 
       const carregaAlbum = () => {
         console.log(albumData.tracks[albumAtual].album.artists.length)
@@ -33,24 +15,24 @@ export default function Home() {
       const nextAlbum = () => {
         if(albumAtual < (lenDados - 1)){
           setAlbum(albumAtual + 1)
-          setAudio(true)
-          console.log(audioAtual)
+          controlAudio({musicAtual: (albumAtual+1)})
         }
       }
 
       const previAlbum = () => {
         if(albumAtual > 0){
           setAlbum(albumAtual - 1)
-          setAudio(false)
-          console.log(audioAtual)
+          controlAudio({musicAtual: (albumAtual-1)})
         }
       }
 
-      const controlAudio = () => {
+      const controlAudio = (props) => {
+
+        const {musicAtual} = props
+
         var audio = document.getElementById('audio')
-        console.log(audio)
         audio.pause()
-        audio.src = `${albumData.tracks[1].preview_url}`
+        audio.src = `${albumData.tracks[musicAtual].preview_url}`
         audio.play()
       }
 
@@ -69,7 +51,7 @@ export default function Home() {
                         <p>{artist.name}</p>
                       ))}
                   </div>
-                  <div className={styles.conatinerAudio} onClick={controlAudio}>
+                  <div className={styles.conatinerAudio}>
                       <audio id='audio' controls>
                         <source src={albumData.tracks[albumAtual].preview_url} type='audio/mpeg'>
                         </source>
@@ -79,11 +61,37 @@ export default function Home() {
               </div>
               <div className={albumAtual == 9 ? styles.disableArrowRight : styles.arrowRight} onClick={nextAlbum}><span class="material-symbols-outlined">arrow_forward_ios</span></div>
             </div>
-            <button onClick={carregaAlbum}>Carregar</button>
           </div>
         </main>
       )
 }
+
+
+
+
+
+
+
+
+
+
+//https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5
+      /*
+      const url = "https://spotify23.p.rapidapi.com/search/?q=marilia%20mendonca&type=artists&offset=0&limit=10&numberOfTopResults=5";
+      const options = {
+        method: 'GET',
+        headers: {
+          'X-RapidAPI-Key': 'dc8f4e0d13msh0a30c408daca17dp1ec9d2jsn147d94a16c74',
+          'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+        }
+      };
+
+      const carregaArtista = async () => {
+      
+        const res = await fetch(url, options)
+        const resJson  = await res.json()
+        console.log(resJson)
+      }*/
 
 /*
   const url = "https://deezerdevs-deezer.p.rapidapi.com/search?q=artist:'alok'";
