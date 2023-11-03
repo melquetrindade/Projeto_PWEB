@@ -76,3 +76,17 @@
     right: 40px;
     cursor: pointer;
 }
+
+.arrowLeftDesable{
+    position: absolute;
+    top: calc(450px - 56%);
+    left: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}
+
+.arrowRightDesable{
+    position: absolute;
+    top: calc(450px - 56%);
+    right: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}

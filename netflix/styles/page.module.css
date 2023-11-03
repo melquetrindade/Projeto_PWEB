@@ -33,7 +33,7 @@
 
 .arrowLeft{
   position: absolute;
-  top: calc(500px - 55%);
+  top: calc(500px - 62%);
   left: 40px;
   color: white;
   cursor: pointer;
@@ -41,7 +41,7 @@
 
 .arrowRight{
   position: absolute;
-  top: calc(500px - 55%);
+  top: calc(500px - 62%);
   right: 40px;
   color: white;
   cursor: pointer;
@@ -69,32 +69,32 @@
 }
 
 .itemAlbum > img{
-  width: 320px;
+  width: 311px;
   height: 320px;
   border-radius: 5px;
 }
 
 .disableArrowLeft{
   position: absolute;
-  top: calc(500px - 55%);
+  top: calc(500px - 62%);
   left: 40px;
   color: rgba(180, 180, 180, 0.838);
 }
 
 .disableArrowRight{
   position: absolute;
-  top: calc(500px - 55%);
+  top: calc(500px - 62%);
   right: 40px;
   color: rgba(180, 180, 180, 0.474);
 }
 
 .content{
-  width: 320px;
-  height: 124px;
-  margin-left: 5px;
+  width: 310px;
+  height: 105px;
 }
 
 .nameAlbum{
+  margin-top: 5px;
   width: 310px;
   height: 40px;
   font-size: 22px;
@@ -107,8 +107,7 @@
 .contentText{
   width: 310px;
   height: 30px;
-  margin-top: -10px;
-  margin-bottom: 5px;
+  margin-top: -18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,9 +131,10 @@
   width: 320px;
   height: 60px;
   cursor: pointer;
+  margin-top: -12px;
 }
 
 .conatinerAudio > audio{
   width: 80%;
-  height: 80%;
+  height: 70%;
 }

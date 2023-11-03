@@ -25,10 +25,10 @@ export default function NavBar(){
                             <Link href='/'>Home</Link>
                         </li>
                         <li>
-                            <Link href='/artists'>Artistas</Link>
+                            <Link href='/searchArtists'>Artistas</Link>
                         </li>
                         <li>
-                            <Link href='/album'>Álbuns</Link>
+                            <Link href='/searchAlbuns'>Álbuns</Link>
                         </li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@ export default function NavBar(){
             </div>
             <div>
                 <div className={styles.logo}>
-                    <img src="/logo_music.png"/>
+                    <img src="/logo_music02.jpg"/>
                 </div>
             </div>
             <div>

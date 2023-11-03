@@ -2,6 +2,7 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import MainContainer from '../componentes/mainContainer'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 //const inter = Inter({ subsets: ['latin'] })
 

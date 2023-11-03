@@ -27,7 +27,7 @@ export default function Artists(){
             <div className={styles.main}>
                 <h1 className={styles.title}>Artistas</h1>
                 <div className={styles.containerArtists}>
-                    <div className={styles.arrowLeft} onClick={previArtists}>
+                    <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
                         <span class="material-symbols-outlined">arrow_back_ios</span>
                     </div>
                     <div className={styles.itemArtists}>
@@ -39,7 +39,7 @@ export default function Artists(){
                         <img src={artistsData01.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : artistsData01.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img>
                         <h1 className={styles.nameArtists}>{artistsData01.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
                     </div>
-                    <div className={styles.arrowRight} onClick={nextArtists}>
+                    <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesable : styles.arrowRight} onClick={nextArtists}>
                         <span class="material-symbols-outlined">arrow_forward_ios</span>
                     </div>
                 </div>
