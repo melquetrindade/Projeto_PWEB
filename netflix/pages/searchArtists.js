@@ -37,20 +37,16 @@ export default function SearchArtists(){
         
     }
 
-    const handleInput = (e) => {
-        
-        document.getElementById('searchArtists').addEventListener('keydown', (e) => {
-            if(e.keyCode === 13){
-                e.preventDefault()
-                if(document.getElementById('searchArtists').value){
-                    navArtists()
-                }
-                else{
-                    openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
-                }
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            if(document.getElementById('searchArtists').value){
+                navArtists()
             }
-        })
-    }
+            else{
+                openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
+            }
+        }
+    };
 
     return(
         <main className={styles.body}>
@@ -68,6 +64,7 @@ export default function SearchArtists(){
                         minlength="1" 
                         maxlength="26"
                         onChange={handleChangeSearch}
+                        onKeyPress={handleKeyPress}
                     >
                     </input>
                     <label for="searchArtists">Digite o Nome do Artista</label>
