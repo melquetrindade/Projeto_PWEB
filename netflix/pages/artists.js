@@ -1,10 +1,15 @@
 import React, {useState} from 'react'
 import styles from '../styles/artists.module.css'
+import { useRouter } from 'next/router'
 import artistsData01 from '../repository/searchArtists01.json'
 import artistsData02 from '../repository/searchArtists02.json'
 import artistsData03 from '../repository/searchArtists03.json'
 
 export default function Artists(){
+
+    const router = useRouter()
+    const { artista } = router.query
+    console.log(router.query.artista)
 
     const artistsTotal = artistsData01.artists.items.length
     const [artistsAtuais, setArtists] = useState([0,1])
@@ -12,7 +17,7 @@ export default function Artists(){
     const nextArtists = () => {
         if(((artistsAtuais[0]+2) < artistsTotal) && ((artistsAtuais[1]+2) < artistsTotal)){
             setArtists([(artistsAtuais[0] + 2), (artistsAtuais[1] + 2)])
-
+            console.log(artista)
         }
     }
 
