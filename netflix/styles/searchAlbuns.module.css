@@ -13,10 +13,15 @@
     background-attachment: fixed;
 }
 
+.body > div{
+    text-align: center;
+    transform: translateY(5px);
+}
+
 .content{
     text-align: center;
     width: 600px;
-    height: 200px;
+    height: 225px;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid white;
@@ -27,4 +32,37 @@
 .content > h1{
     color: white;
     margin-bottom: 25px;
+}
+
+.instrucoes{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    background-color: rgba(95, 95, 95, 0.726);
+    border-radius: 5px;
+}
+
+.instrucoes > p{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonSearch{
+    text-align: center;
+    border: none;
+    border-radius: 55%;
+    padding: 9px 12px;
+    transition: 0.2s;
+    color: black;
+}
+
+.buttonSearch > span{
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.buttonSearch:hover{
+    color: white;
+    background-color: rgb(80, 253, 173);
 }

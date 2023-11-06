@@ -19,10 +19,15 @@ export default function SearchArtists(){
 
     const router = useRouter()
     const navAlbuns = () => {
-        router.push({
-            pathname: './album',
-            query: {album: document.getElementById('searchAlbuns').value}
-        })
+        if(document.getElementById('searchAlbuns').value){
+            router.push({
+                pathname: './album',
+                query: {artista: document.getElementById('searchAlbuns').value}
+            })
+        }
+        else{
+            openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
+        }
     }
 
     const handleChangeSearch = (e) => {
@@ -35,36 +40,39 @@ export default function SearchArtists(){
 
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
-            if(document.getElementById('searchAlbuns').value){
-                navAlbuns()
-            }
-            else{
-                openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
-            }
+            navAlbuns()
         }
     };
 
     return(
         <main className={styles.body}>
-            {contextHolder}
-            <div className={styles.content}>
-                <h1 className="text-center py-10">Pesquise por Álbuns</h1>
-                <div class='form-floating'>
-                    <input 
-                        type="text" 
-                        id="searchAlbuns" 
-                        class="form-control shadow-none" 
-                        required
-                        value={valueInput}
-                        placeholder="TBT WS" 
-                        minlength="1" 
-                        maxlength="26"
-                        onChange={handleChangeSearch}
-                        onKeyPress={handleKeyPress}
-                    >
-                    </input>
-                    <label for="searchArtists">Digite o Nome do Álbum</label>
+            <div>
+                {contextHolder}
+                <div className={styles.content}>
+                    <h1 className="text-center py-10">Pesquise por Álbuns</h1>
+                    <div class='form-floating'>
+                        <input 
+                            type="text" 
+                            id="searchAlbuns" 
+                            class="form-control shadow-none" 
+                            required
+                            value={valueInput}
+                            placeholder="TBT WS" 
+                            minlength="1" 
+                            maxlength="26"
+                            onChange={handleChangeSearch}
+                            onKeyPress={handleKeyPress}
+                        >
+                        </input>
+                        <label for="searchArtists">Digite o Nome do Álbum</label>
+                    </div>
+                    <div className={styles.instrucoes}>
+                        <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>
+                    </div>
                 </div>
+                <button className={styles.buttonSearch} onClick={navAlbuns}>
+                    <span class="material-symbols-outlined">search</span>
+                </button>
             </div>
         </main>
     )

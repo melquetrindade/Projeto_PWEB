@@ -19,10 +19,15 @@ export default function SearchArtists(){
 
     const router = useRouter()
     const navArtists = () => {
-        router.push({
-            pathname: './artists',
-            query: {artista: document.getElementById('searchArtists').value}
-        })
+        if(document.getElementById('searchArtists').value){
+            router.push({
+                pathname: './artists',
+                query: {artista: document.getElementById('searchArtists').value}
+            })
+        }
+        else{
+            openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
+        }
     }
 
     const handleChangeSearch = (e) => {
@@ -39,36 +44,39 @@ export default function SearchArtists(){
 
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
-            if(document.getElementById('searchArtists').value){
-                navArtists()
-            }
-            else{
-                openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
-            }
+            navArtists()
         }
     };
 
     return(
         <main className={styles.body}>
-            {contextHolder}
-            <div className={styles.content}>
-                <h1 className="text-center py-10">Pesquise por Artistas</h1>
-                <div class='form-floating'>
-                    <input 
-                        type="text" 
-                        id="searchArtists" 
-                        class="form-control shadow-none" 
-                        required
-                        value={valueInput}
-                        placeholder="Marília Mendonça" 
-                        minlength="1" 
-                        maxlength="26"
-                        onChange={handleChangeSearch}
-                        onKeyPress={handleKeyPress}
-                    >
-                    </input>
-                    <label for="searchArtists">Digite o Nome do Artista</label>
+            <div>
+                {contextHolder}
+                <div className={styles.content}>
+                    <h1 className="text-center py-10">Pesquise por Artistas</h1>
+                    <div class='form-floating'>
+                        <input 
+                            type="text" 
+                            id="searchArtists" 
+                            class="form-control shadow-none" 
+                            required
+                            value={valueInput}
+                            placeholder="Marília Mendonça" 
+                            minlength="1" 
+                            maxlength="26"
+                            onChange={handleChangeSearch}
+                            onKeyPress={handleKeyPress}
+                        >
+                        </input>
+                        <label for="searchArtists">Digite o Nome do Artista</label>
+                    </div>
+                    <div className={styles.instrucoes}>
+                        <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>
+                    </div>
                 </div>
+                <button className={styles.buttonSearch} onClick={navArtists}>
+                    <span class="material-symbols-outlined">search</span>
+                </button>
             </div>
         </main>
     )
