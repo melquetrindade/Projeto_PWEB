@@ -2,6 +2,7 @@ import NavBar from "./navBar"
 import styles from "../styles/mainContainer.module.css"
 
 export default function MainContainer({children}){
+    console.log('entrouu')
     return(
         <div>
             <NavBar/>
