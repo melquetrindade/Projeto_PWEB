@@ -6,27 +6,7 @@ import {notification} from 'antd'
 export default function SearchArtists(){
 
     const [valueInput, setInput] = useState('')
-
-    const options = {
-        method: 'GET',
-        headers: {
-        'X-RapidAPI-Key': 'dc8f4e0d13msh0a30c408daca17dp1ec9d2jsn147d94a16c74',
-        'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-        }
-    };
-    const carregaArtista = async (props) => {
-
-        const {nameArtista, options} = props
-        const url = `https://spotify23.p.rapidapi.com/search/?q=${nameArtista}&type=artists&offset=0&limit=10&numberOfTopResults=5`;
-
-        const res = await fetch(url, options)
-        const resJson  = await res.json()
-        console.log('no carrega artista')
-        console.log(resJson)
-        return resJson
-        //console.log(resJson)
-    }
-
+    
     const [api, contextHolder] = notification.useNotification();
     const openNotification = ({placement, title}) => {
         api.info({
@@ -40,9 +20,6 @@ export default function SearchArtists(){
     const router = useRouter()
     const navArtists = () => {
         if(document.getElementById('searchArtists').value){
-            const resposta = carregaArtista({nameArtista: document.getElementById('searchArtists').value, options: options})
-            console.log('no navArtists')
-            console.log(resposta)
             router.push({
                 pathname: './artists',
                 query: {artista: document.getElementById('searchArtists').value}
@@ -54,11 +31,9 @@ export default function SearchArtists(){
     }
 
     const handleChangeSearch = (e) => {
-        //e.preventDefault()
         const inputText = e.target.value
 
         if (!(/^[a-zA-Z 0-9 ']+$/.test(inputText)) || !(inputText === '')) {
-            //console.log('entrou 01')
             setInput(inputText)
         }
         
