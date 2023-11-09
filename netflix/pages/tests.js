@@ -6,6 +6,8 @@ import {notification} from 'antd'
 export default function SearchArtists(){
 
     const [valueInput, setInput] = useState('')
+    const [status, setStatus] = useState('form')
+    const [dataArtists, setArtists] = useState(undefined)
 
     const [api, contextHolder] = notification.useNotification();
     const openNotification = ({placement, title}) => {
@@ -17,8 +19,33 @@ export default function SearchArtists(){
         });
     }
 
+    const carregaDados = async () => {
+        console.log('entrou no carrega')
+        setStatus('load')
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${document.getElementById('searchAlbuns').value}&type=artists&offset=0&limit=10&numberOfTopResults=5`;
+
+        const options = {
+            method: 'GET',
+            headers: {
+            'X-RapidAPI-Key': 'fb06ffc7acmsh5be3073c2bcc404p1f42bajsneb6e0cfa6922',
+            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+            }
+        };
+    
+        const res = await fetch(url, options)
+        const resJson  = await res.json()
+        if(resJson.Response == 'False'){
+            setStatus('erro')
+        }
+        else{
+            console.log(resJson)
+            setStatus('sucesso')
+            setArtists(resJson)
+        }  
+    }
+
     const router = useRouter()
-    const navArtists = () => {
+    const navAlbuns = () => {
         if(document.getElementById('searchAlbuns').value){
             router.push({
                 pathname: './artists',
@@ -40,13 +67,28 @@ export default function SearchArtists(){
 
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
-            navArtists()
+            carregaDados()
         }
     };
 
     return(
         <main className={styles.body}>
-            <Formulario arg={contextHolder} func={handleChangeSearch} func01={handleKeyPress} func02={navArtists} teste={valueInput}/>
+            {
+                status == 'form'
+                ?
+                    <Formulario arg={contextHolder} func={handleChangeSearch} func01={handleKeyPress} func02={carregaDados} teste={valueInput}/>
+                :
+                status == 'load'
+                ?
+                    <Load/>
+                :
+                status == 'erro'
+                ?
+                    <h1 className="text-center py-2">Deu Pau</h1>
+                :
+                    <h1 className="text-center py-2">Ainda vou fazer</h1>
+            }
+            
         </main>
     )
 }
@@ -85,7 +127,6 @@ function Formulario({arg, func, func01, func02, teste}){
     )
 }
 
-/*
 function Load(){
     return(
         <div className={styles.fade}>
@@ -94,7 +135,7 @@ function Load(){
             </div>
         </div>
     )
-}*/
+}
 
 /* 
 const router = useRouter()

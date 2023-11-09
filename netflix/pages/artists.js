@@ -27,18 +27,56 @@ export default function Artists(){
     const router = useRouter()
     const { artista } = router.query
     //console.log(router.query.artista)
+
+    const [hasDados, setDados] = useState(false)
+    const [dataArtists, setArtists] = useState(undefined)
+    const [status, setStatus] = useState('load')
+
+    const carregaDados = async () => {
+        console.log('entrou no carrega')
+
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${router.query.artista}&type=artists&offset=0&limit=10&numberOfTopResults=5`;
+
+        const options = {
+            method: 'GET',
+            headers: {
+            'X-RapidAPI-Key': 'fb06ffc7acmsh5be3073c2bcc404p1f42bajsneb6e0cfa6922',
+            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+            }
+        };
     
-    const url = `https://spotify23.p.rapidapi.com/search/?q=${router.query.artista}&type=artists&offset=0&limit=10&numberOfTopResults=5`;
+        const res = await fetch(url, options)
+        const resJson  = await res.json()
 
-    const {data, error} = useSWR(url, carregaArtista)
+        if(resJson.Response == 'False'){
+            setStatus('erro')
+        }
+        else{
+            setStatus('sucesso')
+            setArtists(resJson)
+            setDados(true)
+        }  
+    }
 
-    if (!data){ 
-        return (<Load/>)
-        //setLoad(true)
+    if (hasDados == false){ 
+        carregaDados()
     }
     
     return(
-        <ShowContent data={data}/>
+        <main className={styles.body}> 
+            {
+                status == 'load'
+                ?
+                    <Load/>
+                :
+                status == 'erro'
+                ?
+                    <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
+                :
+                    <ShowContent data={dataArtists}/>
+            }
+        </main>
+        
     )
 }
 
@@ -53,17 +91,13 @@ function Load(){
 }
 
 function ShowContent({data}){
-    //console.log('aqui')
-    //console.log(data)
 
     const [artistsAtuais, setArtists] = useState([0,1])
-
     const artistsTotal = data.artists.items.length
     
     const nextArtists = () => {
         if(((artistsAtuais[0]+2) < artistsTotal) && ((artistsAtuais[1]+2) < artistsTotal)){
             setArtists([(artistsAtuais[0] + 2), (artistsAtuais[1] + 2)])
-            //console.log(artista)
         }
     }
 
