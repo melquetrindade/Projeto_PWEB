@@ -46,34 +46,41 @@ export default function SearchArtists(){
 
     return(
         <main className={styles.body}>
-            <div>
-                {contextHolder}
-                <div className={styles.content}>
-                    <h1 className="text-center py-10">Pesquise por Álbuns</h1>
-                    <div class='form-floating'>
-                        <input 
-                            type="text" 
-                            id="searchAlbuns" 
-                            class="form-control shadow-none" 
-                            required
-                            value={valueInput}
-                            placeholder="TBT WS" 
-                            minlength="1" 
-                            maxlength="26"
-                            onChange={handleChangeSearch}
-                            onKeyPress={handleKeyPress}
-                        >
-                        </input>
-                        <label for="searchArtists">Digite o Nome do Álbum</label>
-                    </div>
-                    <div className={styles.instrucoes}>
-                        <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>
-                    </div>
-                </div>
-                <button className={styles.buttonSearch} onClick={navAlbuns}>
-                    <span class="material-symbols-outlined">search</span>
-                </button>
-            </div>
+            <Formulario arg={contextHolder} func={handleChangeSearch} func01={handleKeyPress} func02={navAlbuns} teste={valueInput}/>
         </main>
+    )
+}
+
+function Formulario({arg, func, func01, func02, teste}){
+
+    return(
+        <div>
+            {arg}
+            <div className={styles.content}>
+                <h1 className="text-center py-10">Pesquise por Álbuns</h1>
+                <div class='form-floating'>
+                    <input 
+                        type="text" 
+                        id="searchAlbuns" 
+                        class="form-control shadow-none" 
+                        required
+                        value={teste}
+                        placeholder="TBT WS" 
+                        minlength="1" 
+                        maxlength="26"
+                        onChange={func}
+                        onKeyPress={func01}
+                    >
+                    </input>
+                    <label for="searchArtists">Digite o Nome do Álbum</label>
+                </div>
+                <div className={styles.instrucoes}>
+                    <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>
+                </div>
+            </div>
+            <button className={styles.buttonSearch} onClick={func02}>
+                <span class="material-symbols-outlined">search</span>
+            </button>
+        </div>
     )
 }
