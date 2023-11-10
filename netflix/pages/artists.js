@@ -1,36 +1,19 @@
 import React, {useState} from 'react'
 import styles from '../styles/artists.module.css'
 import { useRouter } from 'next/router'
-import useSWR from 'swr'
-//import artistsData01 from '../repository/searchArtists01.json'
-//import artistsData02 from '../repository/searchArtists02.json'
-//import artistsData03 from '../repository/searchArtists03.json'
-
-
-async function carregaArtista(url){
-    console.log('entrou no fetch')
-    const options = {
-        method: 'GET',
-        headers: {
-        'X-RapidAPI-Key': 'fb06ffc7acmsh5be3073c2bcc404p1f42bajsneb6e0cfa6922',
-        'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-        }
-    };
-
-    const res = await fetch(url, options)
-    const resJson  = await res.json()
-    return resJson
-}
+import dataArtists from '../repository/searchArtists01.json'
 
 export default function Artists(){
 
     const router = useRouter()
     const { artista } = router.query
-    //console.log(router.query.artista)
 
-    const [hasDados, setDados] = useState(false)
-    const [dataArtists, setArtists] = useState(undefined)
-    const [status, setStatus] = useState('load')
+    const [hasDados, setDados] = useState(true) // -> usar esse para testes
+    const [status, setStatus] = useState('sucesso') // -> usar esse para testes
+
+    //const [hasDados, setDados] = useState(false)  -> usar esse quando for pegar da api
+    //const [dataArtists, setArtists] = useState(undefined) -> usar esse quando for pegar da api
+    //const [status, setStatus] = useState('load') -> usar esse quando for pegar da api
 
     const carregaDados = async () => {
         console.log('entrou no carrega')

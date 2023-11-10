@@ -18,11 +18,11 @@ export default function SearchArtists(){
     }
 
     const router = useRouter()
-    const navAlbuns = () => {
+    const navArtists = () => {
         if(document.getElementById('searchAlbuns').value){
             router.push({
                 pathname: './album',
-                query: {artista: document.getElementById('searchAlbuns').value}
+                query: {album: document.getElementById('searchAlbuns').value}
             })
         }
         else{
@@ -40,13 +40,13 @@ export default function SearchArtists(){
 
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
-            navAlbuns()
+            navArtists()
         }
     };
 
     return(
         <main className={styles.body}>
-            <Formulario arg={contextHolder} func={handleChangeSearch} func01={handleKeyPress} func02={navAlbuns} teste={valueInput}/>
+            <Formulario arg={contextHolder} func={handleChangeSearch} func01={handleKeyPress} func02={navArtists} teste={valueInput}/>
         </main>
     )
 }
@@ -84,3 +84,59 @@ function Formulario({arg, func, func01, func02, teste}){
         </div>
     )
 }
+
+/*
+function Load(){
+    return(
+        <div className={styles.fade}>
+            <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    )
+}*/
+
+/* 
+const router = useRouter()
+    const navAlbuns = () => {
+        if(document.getElementById('searchAlbuns').value){
+            router.push({
+                pathname: './artists',
+                query: {artista: document.getElementById('searchAlbuns').value}
+            })
+        }
+        else{
+            openNotification({placement: 'topRight', title: 'CAMPO EM BRANCO!'})
+        }
+    }
+*/
+
+/*
+<div>
+    {contextHolder}
+    <div className={styles.content}>
+        <h1 className="text-center py-10">Pesquise por Álbuns</h1>
+        <div class='form-floating'>
+            <input 
+                type="text" 
+                id="searchAlbuns" 
+                class="form-control shadow-none" 
+                required
+                value={valueInput}
+                placeholder="TBT WS" 
+                minlength="1" 
+                maxlength="26"
+                onChange={handleChangeSearch}
+                onKeyPress={handleKeyPress}
+            >
+            </input>
+            <label for="searchArtists">Digite o Nome do Álbum</label>
+        </div>
+        <div className={styles.instrucoes}>
+            <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>
+        </div>
+    </div>
+    <button className={styles.buttonSearch} onClick={navAlbuns}>
+        <span class="material-symbols-outlined">search</span>
+    </button>
+</div>*/

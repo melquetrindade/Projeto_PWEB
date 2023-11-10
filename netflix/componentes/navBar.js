@@ -28,7 +28,7 @@ export default function NavBar(){
                             <Link href='/searchArtists'>Artistas</Link>
                         </li>
                         <li>
-                            <Link href='/searchAlbuns'>Álbuns</Link>
+                            <Link href='/searchAlbum'>Álbuns</Link>
                         </li>
                     </ul>
                 </div>
