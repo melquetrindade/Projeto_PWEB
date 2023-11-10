@@ -57,7 +57,7 @@ function Formulario({arg, func, func01, func02, teste}){
         <div>
             {arg}
             <div className={styles.content}>
-                <h1 className="text-center py-10">Pesquise por Álbuns</h1>
+                <h1 className="text-center py-10">Pesquise por Artistas</h1>
                 <div class='form-floating'>
                     <input 
                         type="text" 
@@ -72,7 +72,7 @@ function Formulario({arg, func, func01, func02, teste}){
                         onKeyPress={func01}
                     >
                     </input>
-                    <label for="searchArtists">Digite o Nome do Álbum</label>
+                    <label for="searchArtists">Digite o Nome do Artista</label>
                 </div>
                 <div className={styles.instrucoes}>
                     <p>Atenção: As pesquisas devem ser feitas sem o uso de acentos ou caracteres especiais!</p>

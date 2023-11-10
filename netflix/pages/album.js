@@ -58,7 +58,7 @@ export default function Album(){
                 ?
                     <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
                 :
-                    <ShowContent data={dataAlbuns}/>
+                    <ShowContent data={dataAlbuns} router={router}/>
                     //<h1 className='text-center py-2'>Deu Certo</h1>
             }
         </main>
@@ -76,7 +76,7 @@ function Load(){
     )
 }
 
-function ShowContent({data}){
+function ShowContent({data, router}){
 
     const [artistsAtuais, setArtists] = useState([0,1])
     const artistsTotal = data.albums.items.length
@@ -93,6 +93,13 @@ function ShowContent({data}){
         }
     }
 
+    const navDetailsAlbuns = () => {
+        router.push({
+            pathname: './detailsAlbuns',
+            query: {id: 'opa'}
+        })
+    }
+
     return(
         <main className={styles.body}> 
             <div className={styles.main}>
@@ -101,7 +108,7 @@ function ShowContent({data}){
                     <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
                         <span class="material-symbols-outlined">arrow_back_ios</span>
                     </div>
-                    <div className={styles.itemArtists}>
+                    <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
                         <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[0]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[0]].data.coverArt.sources[2].url}></img></div>
                         <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[0]].data.name}</h1>
                         <div className={styles.contentText}>
@@ -112,7 +119,7 @@ function ShowContent({data}){
                         <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                 
                     </div>
 
-                    <div className={styles.itemArtists}>
+                    <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
                         <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[1]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[1]].data.coverArt.sources[2].url}></img></div>
                         <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[1]].data.name}</h1>
                         <div className={styles.contentText}>
