@@ -14,7 +14,9 @@ export default function NavBar(){
     const sideBarToggle = () => {
         sideBar == 'open' ? setSideBar('close') : setSideBar('open')
     }
-
+    //<h3>Home</h3>
+    //<h3>Artistas</h3>
+    //<h3>Álbuns</h3>
     return(
         <div className={styles.navBar}>
             <div>
@@ -53,24 +55,31 @@ export default function NavBar(){
                                     <input type="text" placeholder="Search..."></input>
                                 </div>
                             </div>
-                            <div className={styles.contOpMenu}>
-                                <span class="material-symbols-outlined">home</span>
-                                <div className={styles.contText}>
-                                    <h3>Home</h3>
+                            <Link href='/'>
+                                <div className={styles.contOpMenu}>
+                                    <span class="material-symbols-outlined">home</span>
+                                    <div className={styles.contText}>
+                                        <h3>Home</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.contOpMenu}>
-                                <span class="material-symbols-outlined">person</span>
-                                <div className={styles.contText}>
-                                    <h3>Artistas</h3>
+                            </Link>
+                            <Link href='/searchArtists'>
+                                <div className={styles.contOpMenu}>
+                                    <span class="material-symbols-outlined">person</span>
+                                    <div className={styles.contText}>
+                                        <h3>Artistas</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.contOpMenu}>
-                                <span class="material-symbols-outlined">library_music</span>
-                                <div className={styles.contText}>
-                                    <h3>Álbuns</h3>
+                            </Link>
+                            <Link href='/searchAlbum'>
+                                <div className={styles.contOpMenu}>
+                                    <span class="material-symbols-outlined">library_music</span>
+                                    <div className={styles.contText}>
+                                        <h3>Álbuns</h3>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
+                            
                             <div className={styles.contOpMenu}>
                                 <span class="material-symbols-outlined">favorite</span>
                                 <div className={styles.contText}>

@@ -6,10 +6,10 @@
     justify-content: center;
     width: 100vw;
     height: 100%;
-    background-image: url('/capa04.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-image: url('/capa08.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: top center;
     background-attachment: fixed;
 }
 
