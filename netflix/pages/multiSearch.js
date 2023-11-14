@@ -13,11 +13,50 @@ export default function MultiSearch(){
         <main className={styles.body}>
             <ShowArtists data={dataMulti}/>
             <ShowAlbuns data={dataMulti}/>
+            <ShowPodcast data={dataMulti}/>
         </main>
     )
 }
 
 //<ShowAlbuns data={dataMulti}/>
+
+function ShowPodcast({data}){
+
+    const podcastTotal = data.episodes.items.length
+    const [podcastAtual, setPodcast] = useState(0)
+
+    const nextPodcast = () => {
+        if(podcastAtual < (podcastTotal - 1)){
+          setPodcast(podcastAtual + 1)
+        }
+    }
+
+    const previPodcast = () => {
+        if(podcastAtual > 0){
+          setPodcast(podcastAtual - 1)
+        }
+    }
+
+    return(
+        <div className={styles.mainPodcast}>
+            <h1 className={styles.titlePodcast}>Podcast Relacionados a sua Pesquisa</h1>
+            <div className={styles.containerPodcast}>
+                <div className={podcastAtual == 0 ? styles.arrowLeftDesablePodcast : styles.arrowLeftPodcast} onClick={previPodcast}>
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                </div>
+
+                <div className={styles.itemPodcast}>
+                    <div className={styles.containerImgPodcast}><img src={data.episodes.items[podcastAtual].data.coverArt.sources[2] == null ? '/artistsNull.png' : data.episodes.items[podcastAtual].data.coverArt.sources[2].url}></img></div>
+                    <h1 className={styles.nameArtists}>{data.episodes.items[podcastAtual].data.name}</h1>                        
+                </div>
+
+                <div className={podcastAtual == 9 ? styles.arrowRightDesablePocast : styles.arrowRightPodcast} onClick={nextPodcast}>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 function ShowArtists({data}){
 
