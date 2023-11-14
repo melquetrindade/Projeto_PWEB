@@ -152,6 +152,7 @@
     background-color: rgb(50, 50, 50);
     opacity: 1;
     transition: 0.4s;
+    z-index: 2;
 }
 
 .sideBar > div{
