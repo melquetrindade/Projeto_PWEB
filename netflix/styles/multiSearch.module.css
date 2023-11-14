@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+.body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.858);
+    color: white;
+}
+
+.test{
+    display: block;
+}
+
+.mainArtista{
+    position: absolute;
+    right: 200px;
+    transform: translateY(-150px);
+}
+
+.titleArtista{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.containerArtists{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 680px;
+    height: 270px;
+    background: linear-gradient(to right, #00E1FD, #FC007A);
+    border: 5px solid rgb(55, 55, 55);
+    border-radius: 15px;
+}
+
+.itemArtists{
+    width: 180px;
+    height: 240px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    margin-right: 30px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.containerImgArtista{
+    width: 100%;
+    height: calc(100% - 30px);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.containerImgArtista > img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.containerImgArtista > img:hover{
+    transform: scale(1.2);
+}
+
+.itemArtists > h1{
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.containerArtists span{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.arrowLeftArtista{
+    position: absolute;
+    top: calc(260px - 55%);
+    left: 40px;
+    cursor: pointer;
+}
+
+.arrowRightArtista{
+    position: absolute;
+    top: calc(260px - 55%);
+    right: 40px;
+    cursor: pointer;
+}
+
+.arrowLeftDesableArtista{
+    position: absolute;
+    top: calc(260px - 55%);
+    left: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}
+
+.arrowRightDesableArtista{
+    position: absolute;
+    top: calc(260px - 55%);
+    right: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}
+
+/* ==================== CSS Album =================*/
+
+.mainAlbum{
+    position: absolute;
+    right: 200px;
+    transform: translateY(-100px);
+}
+
+.titleAlbum{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.containerAlbum{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 870px;
+    height: 470px;
+    background: linear-gradient(to right, #FF2CDF, #00FFFF);
+    border: 10px solid rgb(55, 55, 55);
+    border-radius: 15px;
+}
+
+.itemAlbum{
+    width: 270px;
+    height: 380px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.itemAlbum:hover{
+    cursor: pointer;
+}
+
+.containerImgAlbum{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.containerImgAlbum > img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.containerImgAlbum > img:hover{
+    transform: scale(1.2);
+}
+
+.itemAlbum > h1{
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.itemAlbum > p{
+    width: 100%;
+    height: 15px;
+    transform: translateY(-10px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+}
+
+.contentText{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contentText > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 2px;
+}
+
+
+
+.containerAlbum span{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.arrowLeftAlbum{
+    position: absolute;
+    top: calc(450px - 56%);
+    left: 40px;
+    cursor: pointer;
+}
+
+.arrowRightAlbum{
+    position: absolute;
+    top: calc(450px - 56%);
+    right: 40px;
+    cursor: pointer;
+}
+
+.arrowLeftDesableAlbum{
+    position: absolute;
+    top: calc(450px - 56%);
+    left: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}
+
+.arrowRightDesableAlbum{
+    position: absolute;
+    top: calc(450px - 56%);
+    right: 40px;
+    color: rgba(124, 124, 124, 0.474);
+}

@@ -91,27 +91,25 @@ function ShowContent({data}){
     }
 
     return(
-        <main className={styles.body}> 
-            <div className={styles.main}>
-                <h1 className={styles.title}>Artistas Relacionados a sua Pesquisa</h1>
-                <div className={styles.containerArtists}>
-                    <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
-                        <span class="material-symbols-outlined">arrow_back_ios</span>
-                    </div>
-                    <div className={styles.itemArtists}>
-                        <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[0]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url}></img></div>
-                        <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[0]].data.profile.name}</h1>                        
-                    </div>
+        <div className={styles.main}>
+            <h1 className={styles.title}>Artistas Relacionados a sua Pesquisa</h1>
+            <div className={styles.containerArtists}>
+                <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                </div>
+                <div className={styles.itemArtists}>
+                    <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[0]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url}></img></div>
+                    <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[0]].data.profile.name}</h1>                        
+                </div>
 
-                    <div className={styles.itemArtists}>
-                        <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img></div>
-                        <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
-                    </div>
-                    <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesable : styles.arrowRight} onClick={nextArtists}>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
-                    </div>
+                <div className={styles.itemArtists}>
+                    <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img></div>
+                    <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
+                </div>
+                <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesable : styles.arrowRight} onClick={nextArtists}>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }

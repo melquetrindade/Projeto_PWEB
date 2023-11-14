@@ -101,39 +101,37 @@ function ShowContent({data, router}){
     }
 
     return(
-        <main className={styles.body}> 
-            <div className={styles.main}>
-                <h1 className={styles.title}>Álbuns Relacionados a sua Pesquisa</h1>
-                <div className={styles.containerArtists}>
-                    <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
-                        <span class="material-symbols-outlined">arrow_back_ios</span>
+        <div className={styles.main}>
+            <h1 className={styles.title}>Álbuns Relacionados a sua Pesquisa</h1>
+            <div className={styles.containerArtists}>
+                <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                </div>
+                <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
+                    <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[0]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[0]].data.coverArt.sources[2].url}></img></div>
+                    <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[0]].data.name}</h1>
+                    <div className={styles.contentText}>
+                        {data.albums.items[artistsAtuais[0]].data.artists.items.map((itemArtist) => (
+                            <p>{itemArtist.profile.name}</p>
+                        ))}
                     </div>
-                    <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
-                        <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[0]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[0]].data.coverArt.sources[2].url}></img></div>
-                        <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[0]].data.name}</h1>
-                        <div className={styles.contentText}>
-                            {data.albums.items[artistsAtuais[0]].data.artists.items.map((itemArtist) => (
-                                <p>{itemArtist.profile.name}</p>
-                            ))}
-                        </div>
-                        <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                 
-                    </div>
+                    <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                 
+                </div>
 
-                    <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
-                        <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[1]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[1]].data.coverArt.sources[2].url}></img></div>
-                        <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[1]].data.name}</h1>
-                        <div className={styles.contentText}>
-                            {data.albums.items[artistsAtuais[1]].data.artists.items.map((itemArtist) => (
-                                <p>{itemArtist.profile.name}</p>
-                            ))}
-                        </div>
-                        <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                      
+                <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
+                    <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[1]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[1]].data.coverArt.sources[2].url}></img></div>
+                    <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[1]].data.name}</h1>
+                    <div className={styles.contentText}>
+                        {data.albums.items[artistsAtuais[1]].data.artists.items.map((itemArtist) => (
+                            <p>{itemArtist.profile.name}</p>
+                        ))}
                     </div>
-                    <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesable : styles.arrowRight} onClick={nextArtists}>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
-                    </div>
+                    <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                      
+                </div>
+                <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesable : styles.arrowRight} onClick={nextArtists}>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }
