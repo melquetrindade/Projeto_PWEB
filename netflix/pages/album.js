@@ -93,10 +93,14 @@ function ShowContent({data, router}){
         }
     }
 
-    const navDetailsAlbuns = () => {
+    const navDetailsAlbuns = (props) => {
+        const {id} = props
+        var idRecuperado = id.split(':album:')
+        //console.log(`id: ${idRecuperado[1]}`)
+
         router.push({
             pathname: './detailsAlbuns',
-            query: {id: 'opa'}
+            query: {id: idRecuperado[1]}
         })
     }
 
@@ -107,7 +111,7 @@ function ShowContent({data, router}){
                 <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
-                <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
+                <div className={styles.itemArtists} onClick={()=>navDetailsAlbuns({id: data.albums.items[artistsAtuais[0]].data.uri})}>
                     <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[0]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[0]].data.coverArt.sources[2].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[0]].data.name}</h1>
                     <div className={styles.contentText}>
@@ -118,7 +122,7 @@ function ShowContent({data, router}){
                     <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                 
                 </div>
 
-                <div className={styles.itemArtists} onClick={navDetailsAlbuns}>
+                <div className={styles.itemArtists} onClick={()=>navDetailsAlbuns({id: data.albums.items[artistsAtuais[1]].data.uri})}>
                     <div className={styles.containerImg}><img src={data.albums.items[artistsAtuais[1]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[1]].data.coverArt.sources[2].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[1]].data.name}</h1>
                     <div className={styles.contentText}>

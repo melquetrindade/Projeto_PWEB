@@ -98,6 +98,13 @@ function ShowArtists({data}){
         }
     }
 
+    const recuperaID = (props) => {
+        const {id} = props
+
+        var idRecuperado = id.split(':artist:')
+        console.log(`id: ${idRecuperado[1]}`)
+    }
+
     return(
         <div className={styles.mainArtista}>
             <h1 className={styles.titleArtista}>Artistas Relacionados a sua Pesquisa</h1>
@@ -106,11 +113,13 @@ function ShowArtists({data}){
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
                 <div className={styles.itemArtists}>
+                    <div className={styles.iconFavArt} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[0]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImgArtista}><img src={data.artists.items[artistsAtuais[0]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[0]].data.profile.name}</h1>                        
                 </div>
 
                 <div className={styles.itemArtists}>
+                    <div className={styles.iconFavArt} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[1]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImgArtista}><img src={data.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
                 </div>
@@ -138,11 +147,15 @@ function ShowAlbuns({data, router}){
             setArtists([(artistsAtuais[0] - 2), (artistsAtuais[1] - 2)])
         }
     }
-    
-    const navDetailsAlbuns = () => {
+
+    const navDetailsAlbuns = (props) => {
+        const {id} = props
+        var idRecuperado = id.split(':album:')
+        //console.log(`id: ${idRecuperado[1]}`)
+
         router.push({
             pathname: './detailsAlbuns',
-            query: {id: 'opa'}
+            query: {id: idRecuperado[1]}
         })
     }
 
@@ -153,7 +166,7 @@ function ShowAlbuns({data, router}){
                 <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesableAlbum : styles.arrowLeftAlbum} onClick={previArtists}>
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
-                <div className={styles.itemAlbum} onClick={navDetailsAlbuns}>
+                <div className={styles.itemAlbum} onClick={()=>navDetailsAlbuns({id: data.albums.items[artistsAtuais[0]].data.uri})}>
                     <div className={styles.containerImgAlbum}><img src={data.albums.items[artistsAtuais[0]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[0]].data.coverArt.sources[2].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[0]].data.name}</h1>
                     <div className={styles.contentText}>
@@ -164,7 +177,7 @@ function ShowAlbuns({data, router}){
                     <p>{data.albums.items[artistsAtuais[1]].data.date.year}</p>                 
                 </div>
 
-                <div className={styles.itemAlbum} onClick={navDetailsAlbuns}>
+                <div className={styles.itemAlbum} onClick={()=>navDetailsAlbuns({id: data.albums.items[artistsAtuais[1]].data.uri})}>
                     <div className={styles.containerImgAlbum}><img src={data.albums.items[artistsAtuais[1]].data.coverArt.sources == null ? '/artistsNull.png' : data.albums.items[artistsAtuais[1]].data.coverArt.sources[2].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.albums.items[artistsAtuais[1]].data.name}</h1>
                     <div className={styles.contentText}>

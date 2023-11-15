@@ -90,6 +90,14 @@ function ShowContent({data}){
         }
     }
 
+    const recuperaID = (props) => {
+        const {id} = props
+        //console.log(id)
+
+        var idRecuperado = id.split(':artist:')
+        console.log(`id: ${idRecuperado[1]}`)
+    }
+
     return(
         <div className={styles.main}>
             <h1 className={styles.title}>Artistas Relacionados a sua Pesquisa</h1>
@@ -98,11 +106,13 @@ function ShowContent({data}){
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
                 <div className={styles.itemArtists}>
+                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[0]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[0]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[0]].data.profile.name}</h1>                        
                 </div>
 
                 <div className={styles.itemArtists}>
+                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[1]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
                 </div>

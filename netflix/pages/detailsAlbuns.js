@@ -10,7 +10,6 @@ export default function DetailesAlbuns(){
     console.log(id)
     
     const lenMusics = albumData.albums[0].total_tracks
-    console.log(`qtd de musicas: ${lenMusics}`)
 
     const [musicAtual, setAlbum] = useState(0)
 
@@ -37,6 +36,10 @@ export default function DetailesAlbuns(){
         audio.play()
     }
 
+    const recuperaID = () => {
+      console.log(id)
+    }
+
     return(
         <main className={styles.body}>
           <div className={styles.main}>
@@ -44,6 +47,7 @@ export default function DetailesAlbuns(){
             <div className={styles.containerAlbuns}>
               
               <div className={styles.itemAlbum}>
+                <div className={styles.iconFav} onClick={recuperaID}><span class="material-symbols-outlined">favorite</span></div>
                 <img src={albumData.albums[0].images[0].url}></img>
                 <div className={styles.content}>
                   <div className={styles.contentText}>

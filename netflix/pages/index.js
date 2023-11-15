@@ -36,6 +36,13 @@ export default function Home() {
         audio.play()
       }
 
+      const recuperaID = (props) => {
+        const {id} = props
+        //var idRecuperado = id.split(':album:')
+        //console.log(`id: ${idRecuperado[1]}`)
+        console.log(id)
+      }
+
       return (
         <main className={styles.body}>
           <div className={styles.main}>
@@ -43,6 +50,7 @@ export default function Home() {
             <div className={styles.containerAlbuns}>
               <div className={albumAtual == 0 ? styles.disableArrowLeft : styles.arrowLeft} onClick={previAlbum}><span class="material-symbols-outlined">arrow_back_ios</span></div>
               <div className={styles.itemAlbum}>
+                <div className={styles.iconFav} onClick={() => recuperaID({id:albumData.tracks[albumAtual].album.id})}><span class="material-symbols-outlined">favorite</span></div>
                 <img src={albumData.tracks[albumAtual].album.images[0].url}></img>
                 <div className={styles.content}>
                   <h1 className={styles.nameAlbum}>{albumData.tracks[albumAtual].album.name}</h1>

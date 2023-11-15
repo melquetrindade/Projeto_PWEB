@@ -36,6 +36,7 @@
 }
 
 .itemArtists{
+    position: relative;
     width: 180px;
     height: 230px;
     background-color: rgb(37, 37, 37);
@@ -43,6 +44,7 @@
     margin-right: 30px;
     padding: 6px;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .containerImgArtista{
@@ -105,6 +107,29 @@
     top: calc(260px - 63%);
     right: 40px;
     color: rgba(124, 124, 124, 0.474);
+}
+
+.iconFavArt{
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    z-index: 2;
+}
+  
+.iconFavArt > span{
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.2s;
+}
+  
+.iconFavArt > span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.829);
 }
 
 /* ==================== CSS Album ================= background: linear-gradient(to right, rgb(255, 183, 2), #ffff5b);*/
@@ -240,8 +265,6 @@
 }
 
 /*
-103CE7 - 64E9FF
-
 ====================== Podcast ==================
 */
 
@@ -372,3 +395,27 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
+
+/* =========== */
+
+.iconFav{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  
+.iconFav > span{
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.2s;
+  }
+  
+.iconFav > span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.829);
+  }
