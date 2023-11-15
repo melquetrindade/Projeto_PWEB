@@ -12,7 +12,7 @@ export default function MultiSearch(){
     return(
         <main className={styles.body}>
             <ShowArtists data={dataMulti}/>
-            <ShowAlbuns data={dataMulti}/>
+            <ShowAlbuns data={dataMulti} router={router}/>
             <ShowPodcast data={dataMulti}/>
         </main>
     )
@@ -47,13 +47,36 @@ function ShowPodcast({data}){
 
                 <div className={styles.itemPodcast}>
                     <div className={styles.containerImgPodcast}><img src={data.episodes.items[podcastAtual].data.coverArt.sources[2] == null ? '/artistsNull.png' : data.episodes.items[podcastAtual].data.coverArt.sources[2].url}></img></div>
-                    <h1 className={styles.nameArtists}>{data.episodes.items[podcastAtual].data.name}</h1>                        
+                    <h1 className={styles.nameArtists}>{data.episodes.items[podcastAtual].data.name}</h1>
+                    <FormataDados tempo={data.episodes.items[podcastAtual].data.duration.totalMilliseconds} data={data.episodes.items[podcastAtual].data.releaseDate.isoString}/>
+                    <div className={styles.contDescricao}>
+                        <p>{data.episodes.items[podcastAtual].data.description}</p>
+                    </div>                      
                 </div>
 
-                <div className={podcastAtual == 9 ? styles.arrowRightDesablePocast : styles.arrowRightPodcast} onClick={nextPodcast}>
+                <div className={podcastAtual == 9 ? styles.arrowRightDesablePodcast : styles.arrowRightPodcast} onClick={nextPodcast}>
                     <span class="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
             </div>
+        </div>
+    )
+}
+
+function FormataDados({tempo, data}){
+
+    // Convertendo milissegundos para segundos
+    var segundos = Math.floor(tempo / 1000);
+
+    // Calculando os minutos e segundos
+    var minutos = Math.floor(segundos / 60);
+    var segundosRestantes = segundos % 60;
+
+    var dataFormat = data.split('T');
+
+    return(
+        <div className={styles.contDetails}>
+            <p>Duração: {minutos} min e {segundosRestantes} s</p>
+            <p className={styles.data}>Lançamento: {dataFormat[0]}</p>
         </div>
     )
 }
@@ -115,7 +138,7 @@ function ShowAlbuns({data, router}){
             setArtists([(artistsAtuais[0] - 2), (artistsAtuais[1] - 2)])
         }
     }
-
+    
     const navDetailsAlbuns = () => {
         router.push({
             pathname: './detailsAlbuns',
