@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import styles from "../styles/navBar.module.css"
 import { useRouter } from "next/router";
 import {notification} from 'antd'
+import Head from 'next/head';
 
 export default function NavBar(){
 
@@ -18,7 +19,7 @@ export default function NavBar(){
 
     const [inputShow, setInput] = useState('close')
     const searchToggle = () => {
-        console.log('entrou')
+        //console.log('entrou')
         inputShow == 'open' ? setInput('close') : setInput('open')
     }
 
@@ -86,6 +87,7 @@ export default function NavBar(){
 
     return(
         <div className={styles.navBar}>
+
             {contextHolder}
             <div>
                 <div className={styles.itemMenu}>

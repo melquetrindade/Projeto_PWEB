@@ -163,3 +163,342 @@
   transform: scale(1.1);
   background-color: rgba(255, 0, 0, 0.829);
 }
+
+/* ======== media queries ===========*/
+
+@media screen and (max-width: 785px){
+  .body{
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.858);
+    color: white;
+  }
+
+  .main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 90%;
+  }
+
+  .title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .containerAlbuns{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+    height: 400px;
+    border-radius: 15px;
+    border: 5px solid rgb(55, 55, 55);
+    background: linear-gradient(to right, #ff2cdf, #0014ff);
+  }
+
+  .arrowLeft{
+    position: absolute;
+    top: calc(500px - 80%);
+    left: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .arrowRight{
+    position: absolute;
+    top: calc(500px - 80%);
+    right: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .containerAlbuns span{
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .containerAlbuns > h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .itemAlbum{
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    width: 75%;
+    height: 330px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(-3px);
+  }
+  
+  .itemAlbum > img{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+  }
+  
+  .disableArrowLeft{
+    position: absolute;
+    top: calc(500px - 80%);
+    left: 10px;
+    color: rgba(180, 180, 180, 0.838);
+  }
+  
+  .disableArrowRight{
+    position: absolute;
+    top: calc(500px - 80%);
+    right: 5px;
+    color: rgba(180, 180, 180, 0.474);
+  }
+
+  .content{
+    width: 100%;
+    height: 75px;
+  }
+  
+  .nameAlbum{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contentText{
+    width: 100%;
+    height: 30px;
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contentText > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 2px;
+  }
+  
+  .conatinerAudio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    margin-top: -18px;
+  }
+  
+  .conatinerAudio > audio{
+    width: 100%;
+    height: 55%;
+  }
+  
+  .iconFav{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  
+  .iconFav > span{
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.2s;
+  }
+  
+  .iconFav > span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.829);
+  }
+}
+
+
+@media screen and (min-width: 786px) and (max-width: 992px){
+  .body{
+    position: relative;
+    width: 100vw;
+    height: 101%;
+    background-color: rgba(1, 1, 1, 0.858);
+    color: white;
+  }
+
+  .main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 65%;
+  }
+
+  .title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  
+  .containerAlbuns{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    border: 5px solid rgb(55, 55, 55);
+    background: linear-gradient(to right, #ff2cdf, #0014ff);
+  }
+
+  .arrowLeft{
+    position: absolute;
+    top: calc(500px - 40%);
+    left: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .arrowRight{
+    position: absolute;
+    top: calc(500px - 40%);
+    right: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .containerAlbuns span{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .containerAlbuns > h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .itemAlbum{
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    width: 58%;
+    height: 430px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(-3px);
+  }
+  
+  .itemAlbum > img{
+    width: 100%;
+    height: 270px;
+    border-radius: 5px;
+  }
+  
+  .disableArrowLeft{
+    position: absolute;
+    top: calc(500px - 40%);
+    left: 30px;
+    color: rgba(180, 180, 180, 0.838);
+  }
+  
+  .disableArrowRight{
+    position: absolute;
+    top: calc(500px - 40%);
+    right: 30px;
+    color: rgba(180, 180, 180, 0.474);
+  }
+
+  .content{
+    width: 100%;
+    height: 75px;
+  }
+  
+  .nameAlbum{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contentText{
+    width: 100%;
+    height: 30px;
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contentText > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 2px;
+  }
+  
+  .conatinerAudio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    margin-top: -2px;
+  }
+  
+  .conatinerAudio > audio{
+    width: 100%;
+    height: 75%;
+  }
+  
+  .iconFav{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+  }
+  
+  .iconFav > span{
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: 0.2s;
+  }
+  
+  .iconFav > span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.829);
+  }
+}
