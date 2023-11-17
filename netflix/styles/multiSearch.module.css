@@ -418,4 +418,250 @@
     cursor: pointer;
     transform: scale(1.1);
     background-color: rgba(255, 0, 0, 0.829);
-  }
+}
+
+/* media queries */
+
+@media screen and (max-width: 785px){
+    .body{
+        display: block;
+        height: 101%;
+    }
+
+    .mainArtista{
+        position: relative;
+        right: none;
+        transform: none;
+        width: 95%;
+        transform: translateX(43%);
+        padding-top: 20px;
+    }
+
+    .containerArtists{
+        width: 100%;
+        height: 300px;
+        padding-left: 3%;
+    }
+
+    .itemArtists{
+        min-width: 45%;
+        height: 230px;
+        margin-right: 10px;
+        transform: translateY(-20px);
+    }
+
+    .containerArtists span{
+        font-size: 30px;
+    }
+
+    .arrowLeftArtista{
+        top: calc(250px + 0%);
+        left: calc(25%);
+    }
+
+    .arrowRightArtista{
+        top: calc(250px + 0%);
+        right: calc(25%);
+    }
+
+    .arrowLeftDesableArtista{
+        top: calc(250px + 0%);
+        left: calc(25%);
+    }
+
+    .arrowRightDesableArtista{
+        top: calc(250px + 0%);
+        right: calc(25%);
+    }
+
+    .iconFavArt{
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        z-index: 2;
+    }
+    
+    .iconFavArt > span{
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.834);
+        color: white;
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 20px;
+        transition: 0.2s;
+    }
+    
+    .iconFavArt > span:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: rgba(255, 0, 0, 0.829);
+    }
+
+    /* ==================== CSS Album =================*/
+
+    .mainAlbum{
+        position: relative;
+        right: none;
+        transform: none;
+        width: 95%;
+        transform: translateX(43%);
+        padding-top: 20px;
+    }
+
+    .containerAlbum{
+        width: 100%;
+        height: 325px;
+        padding-left: 3%;
+    }
+
+    .itemAlbum{
+        min-width: 45%;
+        height: 255px;
+        margin-right: 10px;
+        transform: translateY(-19px);
+    }
+
+    .itemAlbum > h1{
+        font-size: 12px;
+    }
+
+    .itemAlbum > p{
+        font-size: 11px;
+    }
+    
+    .contentText > p{
+        font-size: 12px;
+    }
+
+    .containerAlbum span{
+        font-size: 30px;
+    }
+
+    .arrowLeftAlbum{
+        top: calc(250px + 8%);
+        left: calc(25%);
+    }
+
+    .arrowRightAlbum{
+        top: calc(250px + 8%);
+        right: calc(25%);
+    }
+
+    .arrowLeftDesableAlbum{
+        top: calc(250px + 8%);
+        left: calc(25%);
+    }
+
+    .arrowRightDesableAlbum{
+        top: calc(250px + 8%);
+        right: calc(25%);
+    }
+
+    /*
+    ====================== Podcast ==================
+    */
+
+    .mainPodcast{
+        position: relative;
+        left: none;
+        transform: none;
+        width: 95%;
+        transform: translateX(-24%);
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .containerPodcast{
+        width: 95%;
+        height: 580px;
+        background: linear-gradient(to right, #103CE7, #4e98a4);
+        border: 5px solid rgb(55, 55, 55);
+        border-radius: 15px;
+        transform: translateX(3%);
+    }
+
+    .itemPodcast{
+        transform: translateY(-4%);
+    }
+
+    .containerPodcast span{
+        font-size: 30px;
+    }
+
+    .arrowLeftPodcast{
+        top: calc(300px + 40%);
+        left: 25%;
+    }
+
+    .arrowRightPodcast{
+        top: calc(300px + 40%);
+        right: 25%;
+    }
+
+    .arrowLeftDesablePodcast{
+        top: calc(300px + 40%);
+        left: 25%;
+    }
+
+    .arrowRightDesablePodcast{
+        top: calc(300px + 40%);
+        right: 25%;
+    }
+
+    .contDetails{
+        margin-top: -5px;
+    }
+
+    .contDetails > p{
+        color: rgb(141, 141, 141);
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+
+    .data{
+        margin-top: -15px;
+    }
+
+    .contDescricao{
+        margin-top: -10px;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 5px;
+        height: 179px;
+        overflow-y: auto;
+    }
+
+    .contDescricao > p{
+        text-align: justify;
+        height: 99%;
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+
+    /* =========== */
+
+    .iconFav{
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+    
+    .iconFav > span{
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.834);
+        color: white;
+        padding: 5px;
+        border-radius: 50%;
+        font-size: 25px;
+        transition: 0.2s;
+    }
+    
+    .iconFav > span:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: rgba(255, 0, 0, 0.829);
+    }
+}
