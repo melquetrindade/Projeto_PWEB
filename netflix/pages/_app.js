@@ -3,8 +3,10 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import MainContainer from '../componentes/mainContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useRouter } from 'next/router';
-import Login from '/';
+import React, {useState} from 'react';
+import styles from '../styles/login.module.css'
+//import { useRouter } from 'next/router';
+//import Login from '/';
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,13 +15,24 @@ export const metadata = {
 
 export default function MyApp({ Component, pageProps }) {
 
-  const router = useRouter()
-  const {check} = router.query
+  //const router = useRouter()
+  //const {check} = router.query
+
+  const [hasLogin, setLogin] = useState(false)
+
+  const funcTest = () => {
+    if(hasLogin == false){
+      setLogin(true)
+    }
+    else{
+      setLogin(false)
+    }
+  }
 
   return (
     <div>
       {
-        check == 'ok'
+        hasLogin == true
         ?
         <MainContainer>
           <Head>
@@ -32,21 +45,62 @@ export default function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </MainContainer>
         :
-          <Login/>
+          <Login func={funcTest}/>
       }
       
     </div>
   )
 }
 
-/* 
-  <html lang="en">
-      <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400;800&display=swap" rel="stylesheet"></link>
-      </Head>
-      <body>
-        <NavBar/>
-        {children}
-      </body>
-    </html>
-*/
+
+function Login({func}){
+
+  return(
+      <main className={styles.body}>
+          <div className={styles.main}>
+              <h1>Bem-Vindo</h1>
+              <div className={styles.username}>
+                  <div class='form-floating'>
+                      <input 
+                          type="text" 
+                          id="username" 
+                          class="form-control shadow-none" 
+                          required
+                          placeholder="fulado123@gmail.com" 
+                          minlength="1" 
+                          maxlength="50"
+                      >
+                      </input>
+                      <label for="username">Usuário</label>
+                  </div>
+              </div>
+              <div className={styles.password}>
+                  <div class='form-floating'>
+                      <input 
+                          type="text" 
+                          id="password" 
+                          class="form-control shadow-none" 
+                          required
+                          placeholder="********" 
+                          minlength="1" 
+                          maxlength="8"
+                      >
+                      </input>
+                      <label for="password">Senha</label>
+                  </div>
+              </div>
+
+              <div className={styles.buttonCheck}>
+                  Login
+              </div>
+
+              <div className={styles.toggleButton}>
+                  Ainda não tem Conta? Cadastre-se agora
+              </div>
+          </div>
+          <div onClick={func} className={styles.acessoVisitante}>
+              Navegue como Visitante
+          </div>
+      </main>
+  )
+}
