@@ -94,7 +94,7 @@ export default function NavBar(){
                     <span class="material-symbols-outlined" onClick={sideBarToggle}>menu</span>
                     <ul className={sideBar == 'close' ? styles.ul : styles.navBarNone}>
                         <li>
-                            <Link href='/'>Home</Link>
+                            <Link href='/home'>Home</Link>
                         </li>
                         <li>
                             <Link href='/searchArtists'>Artistas</Link>
@@ -141,7 +141,7 @@ export default function NavBar(){
                                     </input>
                                 </div>
                             </div>
-                            <Link href='/'>
+                            <Link href='/home'>
                                 <div className={styles.contOpMenu}>
                                     <span class="material-symbols-outlined">home</span>
                                     <div className={styles.contText}>

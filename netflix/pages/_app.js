@@ -3,8 +3,8 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import MainContainer from '../componentes/mainContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
-
-//const inter = Inter({ subsets: ['latin'] })
+import { useRouter } from 'next/router';
+import Login from '/';
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,17 +12,30 @@ export const metadata = {
 }
 
 export default function MyApp({ Component, pageProps }) {
+
+  const router = useRouter()
+  const {check} = router.query
+
   return (
-    <MainContainer>
-      <Head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400;800&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-      </Head>
-      <Component {...pageProps} />
-    </MainContainer>
+    <div>
+      {
+        check == 'ok'
+        ?
+        <MainContainer>
+          <Head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400;800&display=swap" rel="stylesheet"></link>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+          </Head>
+          <Component {...pageProps} />
+        </MainContainer>
+        :
+          <Login/>
+      }
+      
+    </div>
   )
 }
 
