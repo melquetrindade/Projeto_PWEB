@@ -3,10 +3,9 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import MainContainer from '../componentes/mainContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from '../styles/login.module.css'
-//import { useRouter } from 'next/router';
-//import Login from '/';
+import {login, onAuthChanged} from '../utils/firebase/authService'
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,25 +14,57 @@ export const metadata = {
 
 export default function MyApp({ Component, pageProps }) {
 
-  //const router = useRouter()
-  //const {check} = router.query
+  const [user, setUser] = useState(null)
+  const [hasLogin, setLogin] = useState(true)
+  const [acessoVisitante, setVisitante] = useState(false)
 
-  const [hasLogin, setLogin] = useState(false)
+  const handlerLogin = async () => {
+    const valueEmail = document.getElementById('username').value
+    const valuePass = document.getElementById('password').value
 
-  const funcTest = () => {
-    if(hasLogin == false){
-      setLogin(true)
+    if(valueEmail && valuePass){
+      console.log(valueEmail)
+      console.log(valuePass)
+
+      login(valueEmail, valuePass).then((user) => console.log(user)).catch((error) => window.alert('deu pau'))
+    }
+
+  }
+
+  useEffect(() => {
+    function navHome(){
+      return onAuthChanged((user) => {
+        if(user){
+          setUser(user)
+        }
+        else{
+          setUser(user)
+        }
+      })
+    }
+
+    return navHome()
+
+  },[])
+
+  const toggleOpLogin = () => {
+    if(hasLogin){
+      setLogin(false)
     }
     else{
-      setLogin(false)
+      setLogin(true)
     }
   }
 
-  return (
-    <div>
-      {
-        hasLogin == true
-        ?
+  const opVisitante = () => {
+    if(acessoVisitante == false){
+      setVisitante(true)
+    }
+  }
+
+  if(user || acessoVisitante){
+    return(
+      <div>
         <MainContainer>
           <Head>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
@@ -44,63 +75,58 @@ export default function MyApp({ Component, pageProps }) {
           </Head>
           <Component {...pageProps} />
         </MainContainer>
-        :
-          <Login func={funcTest}/>
-      }
-      
-    </div>
+      </div>
+    )
+  }
+  
+  return (
+    <main className={styles.body}>
+      <div className={styles.main}>
+        <h1>{hasLogin ? 'Bem-Vindo' : 'Crie Sua Conta'}</h1>
+        <div className={styles.username}>
+            <div class='form-floating'>
+                <input 
+                    type="text" 
+                    id="username" 
+                    class="form-control shadow-none" 
+                    required
+                    placeholder="fulado123@gmail.com" 
+                    minlength="1" 
+                    maxlength="50"
+                >
+                </input>
+                <label for="username">Usuário</label>
+            </div>
+        </div>
+        <div className={styles.password}>
+            <div class='form-floating'>
+                <input 
+                    type="password" 
+                    id="password" 
+                    class="form-control shadow-none" 
+                    required
+                    placeholder="********" 
+                    minlength="1" 
+                    maxlength="8"
+                >
+                </input>
+                <label for="password">Senha</label>
+            </div>
+        </div>
+
+        <div onClick={handlerLogin} className={styles.buttonCheck}>
+            {hasLogin ? 'Login' : 'Cadastrar'}
+        </div>
+
+        <div onClick={toggleOpLogin} className={styles.toggleButton}>
+            {hasLogin ? 'Ainda não tem Conta? Cadastre-se agora' : 'Voltar ao Login'}
+        </div>
+      </div>
+      <div onClick={opVisitante} className={styles.acessoVisitante}>
+          Navegue como Visitante
+      </div>
+    </main>
   )
 }
 
-
-function Login({func}){
-
-  return(
-      <main className={styles.body}>
-          <div className={styles.main}>
-              <h1>Bem-Vindo</h1>
-              <div className={styles.username}>
-                  <div class='form-floating'>
-                      <input 
-                          type="text" 
-                          id="username" 
-                          class="form-control shadow-none" 
-                          required
-                          placeholder="fulado123@gmail.com" 
-                          minlength="1" 
-                          maxlength="50"
-                      >
-                      </input>
-                      <label for="username">Usuário</label>
-                  </div>
-              </div>
-              <div className={styles.password}>
-                  <div class='form-floating'>
-                      <input 
-                          type="text" 
-                          id="password" 
-                          class="form-control shadow-none" 
-                          required
-                          placeholder="********" 
-                          minlength="1" 
-                          maxlength="8"
-                      >
-                      </input>
-                      <label for="password">Senha</label>
-                  </div>
-              </div>
-
-              <div className={styles.buttonCheck}>
-                  Login
-              </div>
-
-              <div className={styles.toggleButton}>
-                  Ainda não tem Conta? Cadastre-se agora
-              </div>
-          </div>
-          <div onClick={func} className={styles.acessoVisitante}>
-              Navegue como Visitante
-          </div>
-      </main>
-  )
-}
+//<button onClick={() => logOut()}>sair</button>

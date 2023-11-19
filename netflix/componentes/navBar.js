@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import styles from "../styles/navBar.module.css"
 import { useRouter } from "next/router";
 import {notification} from 'antd'
-import Head from 'next/head';
+import {logOut} from '../utils/firebase/authService'
 
 export default function NavBar(){
 
@@ -173,7 +173,7 @@ export default function NavBar(){
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.logout}>
+                        <div onClick={() => logOut()} className={styles.logout}>
                             <div className={styles.contLogout}>
                                 <span class="material-symbols-outlined">logout</span>
                                 <div className={styles.contOplogout}>
