@@ -5,7 +5,8 @@ import MainContainer from '../componentes/mainContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, {useState, useEffect} from 'react';
 import styles from '../styles/login.module.css'
-import {login, onAuthChanged} from '../utils/firebase/authService'
+import {login, onAuthChanged, registrar} from '../utils/firebase/authService'
+import {notification} from 'antd'
 
 export const metadata = {
   title: 'Create Next App',
@@ -26,8 +27,16 @@ export default function MyApp({ Component, pageProps }) {
       console.log(valueEmail)
       console.log(valuePass)
 
-      login(valueEmail, valuePass).then((user) => console.log(user)).catch((error) => window.alert('deu pau'))
+      login(valueEmail, valuePass).then((user) => console.log(user)).catch((error) => {
+        if (error.code == 'auth/invalid-login-credentials') {
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'SENHA INVÁLIDA. TENTE NOVAMENTE!'})
+        } else if (error.code == 'auth/invalid-email'){
+          //console.log('email')
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'E-MAIL NÃO ENCONTRADO. CADASTRE-SE!'})
+        }
+      })
     }
+
 
   }
 
@@ -62,6 +71,35 @@ export default function MyApp({ Component, pageProps }) {
     }
   }
 
+  const handlerRegistrar = async () => {
+    const valueEmail = document.getElementById('username').value
+    const valuePass = document.getElementById('password').value
+
+    if(valueEmail && valuePass){
+      console.log(valueEmail)
+      console.log(valuePass)
+
+      registrar(valueEmail, valuePass).then((user) => console.log(user)).catch((error) => {
+        if (error.code == 'auth/email-already-in-use') {
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE E-MAIL JÁ ESTA SENDO USADO. TENTE OUTRO!'})
+        } else if (error.code == 'auth/invalid-email'){
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE É UM E-MAIL INVÁLIDO. TENTE NOVAMENTE!'})
+        } else if(error.code == 'auth/weak-password'){
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'SENHA FRACA. UTILIZE AO MENOS 6 CARACTERES!'})
+        }
+      })
+    }
+  }
+
+  const [api, contextHolder] = notification.useNotification();
+  const openNotification = ({placement, title, descricao}) => {
+      api.info({
+          message: `${title}`,
+          description: `${descricao}`,
+          placement,
+      });
+  }
+
   if(user || acessoVisitante){
     return(
       <div>
@@ -81,6 +119,7 @@ export default function MyApp({ Component, pageProps }) {
   
   return (
     <main className={styles.body}>
+      {contextHolder}
       <div className={styles.main}>
         <h1>{hasLogin ? 'Bem-Vindo' : 'Crie Sua Conta'}</h1>
         <div className={styles.username}>
@@ -114,7 +153,7 @@ export default function MyApp({ Component, pageProps }) {
             </div>
         </div>
 
-        <div onClick={handlerLogin} className={styles.buttonCheck}>
+        <div onClick={hasLogin ? handlerLogin : handlerRegistrar} className={styles.buttonCheck}>
             {hasLogin ? 'Login' : 'Cadastrar'}
         </div>
 
@@ -128,5 +167,3 @@ export default function MyApp({ Component, pageProps }) {
     </main>
   )
 }
-
-//<button onClick={() => logOut()}>sair</button>
