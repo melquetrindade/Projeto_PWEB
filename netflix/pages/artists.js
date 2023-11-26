@@ -7,9 +7,9 @@ import { db, auth } from '../utils/firebase/firebaseService';
 
 export default function Artists(){
 
-    console.log(db)
-    console.log('=================')
-    console.log(auth.currentUser.uid)
+    //console.log(db)
+    //console.log('=================')
+    //console.log(auth.currentUser.uid)
 
     const router = useRouter()
     const { artista } = router.query
@@ -97,12 +97,42 @@ function ShowContent({data}){
     }
 
     const recuperaID = async (props) => {
-        const {id} = props
+        const {id, img, nome} = props
         //console.log(id)
+        //console.log(img)
+        //console.log(nome)
         try{
             if(auth.currentUser){
                 var idRecuperado = id.split(':artist:')
+
+                const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`));
+                //console.log(querySnapshot.empty)
+                if(querySnapshot.empty == true){
+                    
+                    console.log('add aos favoritos')
+                    await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`), {
+                        id: idRecuperado[1],
+                        name: nome,
+                        image: img 
+                    })
+                    //querySnapshot.forEach((doc) => {
+                        /*
+                        código para saber o número de propriedades de um doc
+
+                        const dadosDocumento = doc.data();
+                        const qtd = Object.keys(dadosDocumento).length;
+                        console.log(qtd)
+                         
+                        código para saber o número de doc's dentro de uma coleção
+
+                        console.log(querySnapshot.size)
+                        */
+                    //})
                 
+                }
+                else{
+                    console.log('o artista já foi adicionado aos favoritos')
+                }
                 /*
                 await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/artistasFav`), {
                     idArtista: idRecuperado[1]
@@ -128,13 +158,13 @@ function ShowContent({data}){
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
                 <div className={styles.itemArtists}>
-                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[0]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
+                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[0]].data.uri, img: data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url, nome: data.artists.items[artistsAtuais[0]].data.profile.name})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[0]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[0]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[0]].data.profile.name}</h1>                        
                 </div>
 
                 <div className={styles.itemArtists}>
-                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[1]].data.uri})}><span class="material-symbols-outlined">favorite</span></div>
+                    <div className={styles.iconFav} onClick={() => recuperaID({id: data.artists.items[artistsAtuais[1]].data.uri, img: data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url, nome: data.artists.items[artistsAtuais[1]].data.profile.name})}><span class="material-symbols-outlined">favorite</span></div>
                     <div className={styles.containerImg}><img src={data.artists.items[artistsAtuais[1]].data.visuals.avatarImage == null ? '/artistsNull.png' : data.artists.items[artistsAtuais[1]].data.visuals.avatarImage.sources[0].url}></img></div>
                     <h1 className={styles.nameArtists}>{data.artists.items[artistsAtuais[1]].data.profile.name}</h1>                        
                 </div>
