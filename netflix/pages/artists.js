@@ -2,8 +2,14 @@ import React, {useState} from 'react'
 import styles from '../styles/artists.module.css'
 import { useRouter } from 'next/router'
 import dataArtists from '../repository/searchArtists01.json'
+import { collection, addDoc, getDocs, doc, setDoc } from 'firebase/firestore';
+import { db, auth } from '../utils/firebase/firebaseService';
 
 export default function Artists(){
+
+    console.log(db)
+    console.log('=================')
+    console.log(auth.currentUser.uid)
 
     const router = useRouter()
     const { artista } = router.query
@@ -90,12 +96,28 @@ function ShowContent({data}){
         }
     }
 
-    const recuperaID = (props) => {
+    const recuperaID = async (props) => {
         const {id} = props
         //console.log(id)
+        try{
+            if(auth.currentUser){
+                var idRecuperado = id.split(':artist:')
+                
+                /*
+                await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/artistasFav`), {
+                    idArtista: idRecuperado[1]
+                })*/
 
-        var idRecuperado = id.split(':artist:')
-        console.log(`id: ${idRecuperado[1]}`)
+                /*
+                await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/testes`)).doc('language').setDoc({
+                    local: 'pt_BR',
+                })*/
+            }
+        }catch (error){
+            console.error('Erro ao adicionar dado:', error);
+        }
+        
+        //console.log(`id: ${idRecuperado[1]}`)
     }
 
     return(
