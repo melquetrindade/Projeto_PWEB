@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import dataArtists from '../repository/searchArtists01.json'
 import { collection, addDoc, getDocs, doc, setDoc } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
+import { message } from 'antd';
+import {notification} from 'antd'
 
 export default function Artists(){
 
@@ -96,6 +98,34 @@ function ShowContent({data}){
         }
     }
 
+    const [messageApi, contextHolder] = message.useMessage();
+    const key = 'updatable';
+
+    const openMessage = () => {
+        messageApi.open({
+        key,
+        type: 'loading',
+        content: 'Loading...',
+        });
+        setTimeout(() => {
+            messageApi.open({
+                key,
+                type: 'success',
+                content: 'Loaded!',
+                duration: 2,
+            });
+        }, 1000);
+    };
+
+    const [api, contextHolder2] = notification.useNotification();
+    const openNotification = ({placement, title, descricao}) => {
+        api.info({
+            message: `${title}`,
+            description: `${descricao}`,
+            placement,
+        });
+    }
+
     const recuperaID = async (props) => {
         const {id, img, nome} = props
         //console.log(id)
@@ -108,13 +138,13 @@ function ShowContent({data}){
                 const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`));
                 //console.log(querySnapshot.empty)
                 if(querySnapshot.empty == true){
-                    
-                    console.log('add aos favoritos')
+                    openMessage()
                     await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`), {
                         id: idRecuperado[1],
                         name: nome,
                         image: img 
                     })
+ 
                     //querySnapshot.forEach((doc) => {
                         /*
                         código para saber o número de propriedades de um doc
@@ -131,12 +161,9 @@ function ShowContent({data}){
                 
                 }
                 else{
-                    console.log('o artista já foi adicionado aos favoritos')
+                    //console.log('o artista já foi adicionado aos favoritos')
+                    openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ARTISTA JÁ FOI FAVORITADO!'})
                 }
-                /*
-                await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/artistasFav`), {
-                    idArtista: idRecuperado[1]
-                })*/
 
                 /*
                 await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/testes`)).doc('language').setDoc({
@@ -144,14 +171,15 @@ function ShowContent({data}){
                 })*/
             }
         }catch (error){
-            console.error('Erro ao adicionar dado:', error);
+            //console.error('Erro ao adicionar dado:', error);
+            openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
-        
-        //console.log(`id: ${idRecuperado[1]}`)
     }
 
     return(
         <div className={styles.main}>
+            {contextHolder}
+            {contextHolder2}
             <h1 className={styles.title}>Artistas Relacionados a sua Pesquisa</h1>
             <div className={styles.containerArtists}>
                 <div className={artistsAtuais[0] == 0 ? styles.arrowLeftDesable : styles.arrowLeft} onClick={previArtists}>

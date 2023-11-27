@@ -166,12 +166,14 @@ export default function NavBar(){
                                 </div>
                             </Link>
                             
-                            <div className={styles.contOpMenu}>
-                                <span class="material-symbols-outlined">favorite</span>
-                                <div className={styles.contText}>
-                                    <h3>Favoritos</h3>
+                            <Link href='/favoritos'>
+                                <div className={styles.contOpMenu}>
+                                    <span class="material-symbols-outlined">favorite</span>
+                                    <div className={styles.contText}>
+                                        <h3>Favoritos</h3>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div onClick={() => logOut()} className={styles.logout}>
                             <div className={styles.contLogout}>
