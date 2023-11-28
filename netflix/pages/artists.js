@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import styles from '../styles/artists.module.css'
 import { useRouter } from 'next/router'
 import dataArtists from '../repository/searchArtists01.json'
-import { collection, addDoc, getDocs, doc, setDoc } from 'firebase/firestore';
+import { collection, addDoc, getDocs, doc, setDoc, getDoc } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 import { message } from 'antd';
 import {notification} from 'antd'
@@ -135,11 +135,12 @@ function ShowContent({data}){
             if(auth.currentUser){
                 var idRecuperado = id.split(':artist:')
 
-                const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`));
+                const querySnapshot = await getDocs(collection(db, `us/${auth.currentUser.uid}/artistas`));
                 //console.log(querySnapshot.empty)
                 if(querySnapshot.empty == true){
                     openMessage()
-                    await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/favoritas/artistas/${idRecuperado[1]}`), {
+
+                    await addDoc(collection(db, `us/${auth.currentUser.uid}/artistas`), {
                         id: idRecuperado[1],
                         name: nome,
                         image: img 
