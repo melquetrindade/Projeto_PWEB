@@ -16,13 +16,14 @@
 }
 
 .main > h1{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80vw;
+    transform: translateX(40px);
 }
 
 .itemArtists{
@@ -31,18 +32,25 @@
     margin-bottom: 20px;
     border: 2px solid white;
     border-radius: 8px;
+    padding: 5px;
 }
 
 .containerImg{
     width: 100%;
     height: 85%;
     overflow: hidden;
-    padding: 5px;
+    margin-bottom: 7px;
 }
 
 .containerImg > img{
     width: 100%;
     height: 100%;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.containerImg > img:hover{
+    transform: scale(1.2);
 }
 
 .nameArtists{
