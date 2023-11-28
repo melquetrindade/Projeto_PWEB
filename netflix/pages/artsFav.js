@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styles from '../styles/artsFav.module.css'
-import { collection, addDoc, getDocs, doc, setDoc, getDoc, CollectionReference, get } from 'firebase/firestore';
+import { collection, getDocs, doc, setDoc } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 
 export default function ArtFavorito(){
@@ -9,17 +9,20 @@ export default function ArtFavorito(){
     const carregaArtistas = async () => {
         try{
             if(auth.currentUser){
-
-                const querySnapshot = await getDocs(collection(db, `us/${auth.currentUser.uid}/artistas`));
+                var newData = []
+                const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/artistas`));
                 querySnapshot.forEach((doc) => {
-                    
+                    var docData = doc.data();
+                    newData.push({image: docData.image, name: docData.name});
+
                     //código para saber o número de propriedades de um doc
 
-                    const dadosDocumento = doc.data();
-                    console.log(dadosDocumento.name)
-                    const qtd = Object.keys(dadosDocumento).length;
-                    console.log(qtd)
+                    //const dadosDocumento = doc.data();
+                    //console.log(dadosDocumento.name)
+                    //const qtd = Object.keys(dadosDocumento).length;
+                    //console.log(qtd)
                 })
+                setData(newData)
             }
             else{
                 console.error('Usuário não encontrado');
@@ -31,14 +34,23 @@ export default function ArtFavorito(){
         }
     }
     if(data.length == 0){
+        console.log('entrou na func de carregar')
         carregaArtistas()
     }
-    //carregaArtistas()
-    //console.log(data.length)
-
+    console.log(data)
     return(
         <div className={styles.body}>
-            <div className={styles.main}><h1>Página de Artistas Favoritos</h1></div>
+            <div className={styles.main}>
+                <h1>Página de Artistas Favoritos</h1>
+                <div className={styles.content}>
+                    {data.map((artista) => (
+                        <div className={styles.itemArtists}>
+                            <div className={styles.containerImg}><img src={artista.image == null ? '/artistsNull.png' : artista.image}></img></div>
+                            <h1 className={styles.nameArtists}>{artista.name}</h1>                        
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }
