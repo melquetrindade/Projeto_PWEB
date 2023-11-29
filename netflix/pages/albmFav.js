@@ -4,10 +4,12 @@ import { collection, getDocs, setDoc, doc, deleteDoc } from 'firebase/firestore'
 import { db, auth } from '../utils/firebase/firebaseService';
 import {notification} from 'antd'
 import { message } from 'antd';
+import { useRouter } from "next/router";
 
 export default function AlbmFavorito(){
     const [data, setData] = useState([]);
     const [searchApi, setSearchApi] = useState(false)
+    const router = useRouter()
 
     const carregaAlbum = async () => {
         try{
@@ -92,6 +94,15 @@ export default function AlbmFavorito(){
         }, 1000);
     };
 
+    const detailsAlb = (props) => {
+        const {docId} = props
+        //console.log(docId)
+        router.push({
+            pathname: './detailsFavAlb',
+            query: {docId}
+        })
+    }
+
     return(
         <div className={styles.body}>
             {contextHolder}
@@ -113,7 +124,7 @@ export default function AlbmFavorito(){
                                 <div onClick={() => deleteAlbum({id: item.docId})} className={styles.iconDelete}>
                                     <span class="material-symbols-outlined">delete</span>
                                 </div>
-                                <div className={styles.card}>
+                                <div onClick={() => detailsAlb({docId: item.docId})} className={styles.card}>
                                     <img src={item.image}></img>
                                 </div>
                                 <h1>{item.nameAlbum}</h1>
