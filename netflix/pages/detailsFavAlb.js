@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from '../styles/detailsFavAlb.module.css'
 import { useRouter } from 'next/router'
 import { collection, getDoc, setDoc, doc, deleteDoc } from 'firebase/firestore';
@@ -8,43 +8,51 @@ import { message } from 'antd';
 
 export default function DetalhesAlbum(){
 
-    const router = useRouter()
-    const [data, setData] = useState([]);
-    const [searchApi, setSearchApi] = useState(false)
-    const {docId} = router.query
-    console.log(docId)
+  const router = useRouter()
+  const [data, setData] = useState([]);
+  const [searchApi, setSearchApi] = useState(false)
+  const {docId} = router.query
+  console.log(docId)
 
-    const deleteAlbum = async (props) => {
-        const {id} = props
+  const carregaAlbum = async () => {
 
-        try{
-            if(auth.currentUser){
-                //openMessage()
-                console.log('entrou para carregar o album')
-                //var newData = []
-                //const referenciaDoDocumento = doc(db, colecao, idDoDocumento);
-                const querySnapshot = await getDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, id));
-                console.log(querySnapshot)
-                ///const querySnapshot = await getDoc(collection(db, `usuarios/${auth.currentUser.uid}/album`));
-                //await deleteDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, id));
-                //setData([])
-            }
-            else{
-                //console.error('Usuário não encontrado');
-                openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
-            }
-            
-        } catch(error){
-            //console.error('Erro ao adicionar dado:', error);
-            //openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
-        }
+    try{
+      if(auth.currentUser){
+          //openMessage()
+          console.log('entrou para carregar o album')
+          var newData = []
+          //const referenciaDoDocumento = doc(db, colecao, idDoDocumento);
+          const querySnapshot = await getDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, docId));
+          const snapData = querySnapshot.data()
+          newData.push({img: snapData.image, tracks: snapData.musics, nameAlbum: snapData.nameAlbum, nameArtista: snapData.nameArt})
+          setData(newData)
+          //console.log(querySnapshot.data().image)
+          ///const querySnapshot = await getDoc(collection(db, `usuarios/${auth.currentUser.uid}/album`));
+          //await deleteDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, id));
+          //setData([])
+      }
+      else{
+          console.error('Usuário não encontrado');
+          //openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
+      }
+        
+    } catch(error){
+        console.error('Erro ao adicionar dado:', error);
+        //openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
     }
+  }
 
-    return(
-        <main className={styles.body}>
-          <h1>Página de detalhes</h1>
-        </main>
-    )
+  if(data.length == 0){
+    carregaAlbum()
+  }
+
+  console.log(data)
+
+  return(
+      <main className={styles.body}>
+        <h1>Página de detalhes</h1>
+      </main>
+  )
 }
 
 /* 
