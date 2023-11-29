@@ -40,27 +40,50 @@ export default function DetailesAlbuns(){
         audio.play()
     }
 
-    const recuperaID = async (props) => {
-      const {id, img, tracks ,nomeArtista} = props
+    const [api, contextHolder2] = notification.useNotification();
+    const openNotification = ({placement, title, descricao}) => {
+        api.info({
+            message: `${title}`,
+            description: `${descricao}`,
+            placement,
+        });
+    }
 
-      console.log(id)
-      console.log(img)
-      console.log(tracks)
-      console.log(nomeArtista)
-      //console.log(nomeMusicas)
+    const [messageApi, contextHolder] = message.useMessage();
+    const key = 'updatable';
+
+    const openMessage = () => {
+        messageApi.open({
+        key,
+        type: 'loading',
+        content: 'Loading...',
+        });
+        setTimeout(() => {
+            messageApi.open({
+                key,
+                type: 'success',
+                content: 'Loaded!',
+                duration: 2,
+            });
+        }, 1000);
+    };
+
+    const recuperaID = async (props) => {
+      const {id, img, tracks ,nomeArtista, nomeAlbum} = props
+
+      //console.log(id)
+      //console.log(img)
+      //console.log(tracks)
       //console.log(nomeArtista)
 
-      /*
       try{
           if(auth.currentUser){
-              var idRecuperado = id.split(':artist:')
               var existsId = false
-
-              const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/artistas`));
+              const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/album`));
 
               try{
                   querySnapshot.forEach((doc) => {
-                      if(doc.data().id == idRecuperado[1]){
+                      if(doc.data().id == id){
                           existsId = true
                           throw new Error('StopIteration');
                       }
@@ -74,12 +97,13 @@ export default function DetailesAlbuns(){
               if(existsId == false){
                   openMessage()
 
-                  await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/artistas`), {
-                      id: idRecuperado[1],
-                      name: nome,
-                      image: img 
+                  await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/album`), {
+                      id: id,
+                      image: img,
+                      nameArt: nomeArtista,
+                      musics: tracks,
+                      nameAlbum: nomeAlbum
                   })
-
                   //querySnapshot.forEach((doc) => {
                       /*
                       código para saber o número de propriedades de um doc
@@ -93,26 +117,24 @@ export default function DetailesAlbuns(){
                       console.log(querySnapshot.size)
                       */
                   //})
-              
-              //}
-              //else{
-                  //openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ARTISTA JÁ FOI FAVORITADO!'})
-              //}
-              
+              }
+              else{
+                  openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ÁLBUM JÁ FOI FAVORITADO!'})
+              }
               /*
               await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/testes`)).doc('language').setDoc({
                   local: 'pt_BR',
               })*/
-              
-          //}
-      //}catch (error){
-          //console.error('Erro ao adicionar dado:', error);
-          //openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
-      //}
+          }
+      }catch (error){
+          openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
+      }
     }  
-    var cont = 0
+    //var cont = 0
     return(
         <main className={styles.body}>
+          {contextHolder}
+          {contextHolder2}
           <div className={styles.main}>
             <h1 className={styles.title}>{albumData.albums[0].name}</h1>
             <div className={styles.containerAlbuns}>
@@ -139,6 +161,8 @@ export default function DetailesAlbuns(){
                     //return objeto
                     return {nome: valor.name}
                   }, {}),
+
+                  nomeAlbum: albumData.albums[0].name
                   
                 })}><span class="material-symbols-outlined">favorite</span></div>
                 <img src={albumData.albums[0].images[0].url}></img>

@@ -9,7 +9,6 @@
     background-color: rgba(1, 1, 1, 0.858);
     color: white;
 }
-/*background-color: rgba(1, 1, 1, 0.858);*/
 
 .main{
     display: flex;
@@ -31,6 +30,7 @@
     width: 200px;
     height: 290px;
     margin-right: 100px;
+    text-align: center;
 }
 
 .poster > img{
@@ -53,6 +53,7 @@
 .containerAlbm{
     width: 200px;
     height: 290px;
+    text-align: center;
 }
 
 .poster > img{

@@ -27,12 +27,14 @@
 }
 
 .itemArtists{
+    position: relative;
     width: 190px;
     height: 270px;
     margin-bottom: 20px;
     border: 2px solid white;
     border-radius: 8px;
     padding: 5px;
+    z-index: 1;
 }
 
 .containerImg{
@@ -54,11 +56,47 @@
 }
 
 .nameArtists{
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: white;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.iconDelete{
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    z-index: 2;
+}
+  
+.iconDelete > span{
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 23px;
+    transition: 0.2s;
+}
+  
+.iconDelete > span:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.829);
 }
