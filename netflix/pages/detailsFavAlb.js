@@ -10,26 +10,50 @@ export default function DetalhesAlbum(){
 
   const router = useRouter()
   const [data, setData] = useState([]);
-  const [searchApi, setSearchApi] = useState(false)
   const {docId} = router.query
-  console.log(docId)
+
+  var lenMusics = 0
+  if(data.length > 0){
+    lenMusics = data[0].tracks.length
+  }
+
+  const [musicAtual, setAlbum] = useState(0)
+
+  const nextMusic = () => {
+      if(musicAtual < (lenMusics - 1)){
+        setAlbum(musicAtual + 1)
+        controlAudio({musicAtual: (musicAtual+1)})
+      }
+  }
+
+  const previMusic = () => {
+      if(musicAtual > 0){
+        setAlbum(musicAtual - 1)
+        controlAudio({musicAtual: (musicAtual-1)})
+      }
+  }
+
+  const controlAudio = (props) => {
+      const {musicAtual} = props
+
+      var audio = document.getElementById('audio')
+      audio.pause()
+      audio.src = `${data[0].tracks[musicAtual].preview}`
+      audio.play()
+  }
 
   const carregaAlbum = async () => {
 
     try{
       if(auth.currentUser){
           //openMessage()
-          console.log('entrou para carregar o album')
           var newData = []
-          //const referenciaDoDocumento = doc(db, colecao, idDoDocumento);
+
           const querySnapshot = await getDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, docId));
           const snapData = querySnapshot.data()
+
           newData.push({img: snapData.image, tracks: snapData.musics, nameAlbum: snapData.nameAlbum, nameArtista: snapData.nameArt})
           setData(newData)
-          //console.log(querySnapshot.data().image)
-          ///const querySnapshot = await getDoc(collection(db, `usuarios/${auth.currentUser.uid}/album`));
-          //await deleteDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, id));
-          //setData([])
       }
       else{
           console.error('Usuário não encontrado');
@@ -46,33 +70,30 @@ export default function DetalhesAlbum(){
     carregaAlbum()
   }
 
-  console.log(data)
-
   return(
       <main className={styles.body}>
-        <h1>Página de detalhes</h1>
-      </main>
-  )
-}
-
-/* 
-<div className={styles.main}>
-            <h1 className={styles.title}>{albumData.albums[0].name}</h1>
+        {
+          data.length == 0
+          ?
+          <Load/>
+          :
+          <div className={styles.main}>
+            <h1 className={styles.title}>{data.nameAlbum}</h1>
             <div className={styles.containerAlbuns}>
               <div className={styles.itemAlbum}>
-                <img src={albumData.albums[0].images[0].url}></img>
+                <img src={data[0].img}></img>
                 <div className={styles.content}>
                   <div className={styles.contentText}>
-                    {albumData.albums[0].artists.map((artist) => (
-                        <p>{artist.name}</p>
+                    {data[0].nameArtista.map((artist) => (
+                        <p>{artist.nome}</p>
                       ))}
                   </div>
-                  <p className={styles.nameMusic}>{albumData.albums[0].tracks.items[musicAtual].name}</p>
-                  <p className={styles.qtdMusic}>Música: {musicAtual+1}/{albumData.albums[0].total_tracks}</p>
+                  <p className={styles.nameMusic}>{data[0].tracks[musicAtual].nome}</p>
+                  <p className={styles.qtdMusic}>Música: {musicAtual+1}/{lenMusics}</p>
                   <div className={styles.conatinerAudio}>
                         <div className={musicAtual == 0 ? styles.disableArrowLeft : styles.arrowLeft} onClick={previMusic}><span class="material-symbols-outlined">skip_previous</span></div>
                         <audio id='audio' controls>
-                            <source src={albumData.albums[0].tracks.items[musicAtual].preview_url} type='audio/mpeg'>
+                            <source src={data[0].tracks[musicAtual].preview} type='audio/mpeg'>
                             </source>
                         </audio>
                         <div className={musicAtual == (lenMusics-1) ? styles.disableArrowRight : styles.arrowRight} onClick={nextMusic}><span class="material-symbols-outlined">skip_next</span></div>
@@ -81,4 +102,17 @@ export default function DetalhesAlbum(){
               </div>
             </div>
           </div>
-*/
+        }
+      </main>
+  )
+}
+
+function Load(){
+  return(
+      <div className={styles.fade}>
+          <div class="spinner-border text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+          </div>
+      </div>
+  )
+}
