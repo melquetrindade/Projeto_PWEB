@@ -15,8 +15,20 @@
     transform: translateY(-80px);
 }
 
-.main > h1{
-    transform: translateY(-30px);
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title > h1{
+    background: linear-gradient(to right, #ff2cdf, #0014ff);
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px black;
+    font-size: 28px;
 }
 
 .conteudo{
@@ -117,4 +129,113 @@
 .iconDelete > span:hover{
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.829);
+}
+
+.containerMensagem{
+    color: white;
+}
+
+.contIcon{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contIcon > span{
+    font-size: 50px;
+}
+
+.containerMensagem > h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 785px){
+    
+    .main{
+        text-align: center;
+        width: 95%;
+    }
+    .title{
+        margin-bottom: -10px;
+    }
+
+    .title > h1{
+        font-size: 22px;
+    }
+    
+    .conteudo{
+        margin-bottom: -10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        transform: translateX(0px);
+    }
+    
+    .itemAlbum{
+        max-width: 96%;
+        height: 290px;
+        margin-right: -20px;
+    }
+    
+    .itemAlbum > h1{
+        font-size: 15px;
+    }
+    
+    .containerArt > p{
+        font-size: 13px;
+    }
+  
+    .containerMensagem > h1{
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (min-width: 786px) and (max-width: 992px){
+    .body{
+        height: 100.5%;
+    }
+
+    .main{
+        text-align: center;
+        width: 75%;
+    }
+    .title{
+        margin-bottom: -10px;
+    }
+
+    .title > h1{
+        font-size: 22px;
+    }
+    
+    .conteudo{
+        margin-bottom: -10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        transform: translateX(0px);
+    }
+    
+    .itemAlbum{
+        max-width: 96%;
+        height: 290px;
+        margin-right: -20px;
+    }
+    
+    .itemAlbum > h1{
+        font-size: 15px;
+    }
+    
+    .containerArt > p{
+        font-size: 13px;
+    }
+  
+    .containerMensagem > h1{
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
 }

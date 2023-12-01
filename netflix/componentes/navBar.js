@@ -85,6 +85,14 @@ export default function NavBar(){
         }
     }
 
+    const prossLogout = () => {
+        logOut()
+        router.push({
+            pathname: './',
+            query: {pesquisa: document.getElementById('inputSearch2').value}
+        })
+    }
+
     return(
         <div className={styles.navBar}>
 
@@ -175,7 +183,7 @@ export default function NavBar(){
                                 </div>
                             </Link>
                         </div>
-                        <div onClick={() => logOut()} className={styles.logout}>
+                        <div onClick={() => prossLogout()} className={styles.logout}>
                             <div className={styles.contLogout}>
                                 <span class="material-symbols-outlined">logout</span>
                                 <div className={styles.contOplogout}>

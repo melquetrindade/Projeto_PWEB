@@ -78,7 +78,7 @@ export default function DetalhesAlbum(){
           <Load/>
           :
           <div className={styles.main}>
-            <h1 className={styles.title}>{data.nameAlbum}</h1>
+            <h1 className={styles.title}>{data[0].nameAlbum}</h1>
             <div className={styles.containerAlbuns}>
               <div className={styles.itemAlbum}>
                 <img src={data[0].img}></img>

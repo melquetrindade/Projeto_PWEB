@@ -6,6 +6,7 @@ import {notification} from 'antd'
 
 export default function ArtFavorito(){
     const [data, setData] = useState([]);
+    const [searchApi, setSearchApi] = useState(false)
 
     const carregaArtistas = async () => {
         try{
@@ -25,6 +26,7 @@ export default function ArtFavorito(){
                     //console.log(qtd)
                 })
                 setData(newData)
+                setSearchApi(true)
             }
             else{
                 //console.error('Usuário não encontrado');
@@ -37,7 +39,6 @@ export default function ArtFavorito(){
         }
     }
     if(data.length == 0){
-        //console.log('entrou na func de carregar')
         carregaArtistas()
     }
 
@@ -51,6 +52,7 @@ export default function ArtFavorito(){
 
                 await deleteDoc(doc(db, `usuarios/${auth.currentUser.uid}/artistas`, id));
                 setData([])
+                setSearchApi(false)
             }
             else{
                 //console.error('Usuário não encontrado');
@@ -76,12 +78,16 @@ export default function ArtFavorito(){
         <div className={styles.body}>
             {contextHolder}
             {
-                data.length == 0
+                data.length == 0 && searchApi == false
                 ?
                 <Load/>
                 :
+                data.length == 0 && searchApi == true
+                ?
+                <Mensagem/>
+                :
                 <div className={styles.main}>
-                    <h1>Página de Artistas Favoritos</h1>
+                    <div className={styles.title}><h1>Sua Lista de Artistas Favoritos</h1></div>
                     <div className={styles.content}>
                         {data.map((artista) => (
                             <div className={styles.itemArtists}>
@@ -97,6 +103,17 @@ export default function ArtFavorito(){
                     </div>
                 </div>
             }
+        </div>
+    )
+}
+
+function Mensagem(){
+    return(
+        <div className={styles.containerMensagem}>
+            <div className={styles.contIcon}>
+                <span class="material-symbols-outlined">warning</span>
+            </div>
+            <h1>SUA LISTA ESTÁ VAZIA</h1>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import albumData from '../repository/getAlbum01.json'
+import albumData from '../repository/getAlbum02.json'
 import { useRouter } from 'next/router';
 import styles from '../styles/detailsAlbuns.module.css'
 import { collection, addDoc, getDocs} from 'firebase/firestore';

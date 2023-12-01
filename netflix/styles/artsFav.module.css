@@ -15,8 +15,20 @@
     transform: translateY(20px);
 }
 
-.main > h1{
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title > h1{
+    background: linear-gradient(to right, #ff2cdf, #0014ff);
     margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px black;
+    font-size: 28px;
 }
 
 .content{
@@ -99,4 +111,100 @@
 .iconDelete > span:hover{
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.829);
+}
+
+.containerMensagem{
+    color: white;
+}
+
+.contIcon{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contIcon > span{
+    font-size: 50px;
+}
+
+.containerMensagem > h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 785px){
+    .body{
+        height: 105%;
+    }
+
+    .main{
+        text-align: center;
+        width: 95%;
+    }
+    
+    .title > h1{
+        background: linear-gradient(to right, #ff2cdf, #0014ff);
+        margin-bottom: 30px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 3px black;
+        font-size: 22px;
+    }
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        transform: translateX(0px);
+    }
+    
+    .itemArtists{
+        position: relative;
+        width: 96%;
+        height: 270px;
+        margin-bottom: 20px;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 5px;
+        z-index: 1;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (min-width: 786px) and (max-width: 992px){
+    .body{
+        height: 100.5%;
+    }
+
+    .main{
+        text-align: center;
+        width: 70%;
+    }
+    
+    .title > h1{
+        background: linear-gradient(to right, #ff2cdf, #0014ff);
+        margin-bottom: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 3px black;
+        font-size: 22px;
+    }
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        transform: translateX(0px);
+    }
+    
+    .itemArtists{
+        position: relative;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 5px;
+        z-index: 1;
+    }
 }

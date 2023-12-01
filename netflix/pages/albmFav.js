@@ -50,10 +50,10 @@ export default function AlbmFavorito(){
 
         try{
             if(auth.currentUser){
-                openMessage()
 
                 await deleteDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, id));
                 setData([])
+                setSearchApi(false)
             }
             else{
                 //console.error('Usuário não encontrado');
@@ -114,10 +114,10 @@ export default function AlbmFavorito(){
                 :
                 data.length == 0 && searchApi == true
                 ?
-                <h1>Lista vazia</h1>
+                <Mensagem/>
                 :
                 <div className={styles.main}>
-                    <h1>Página de Álbuns Favoritos</h1>
+                    <div className={styles.title}><h1>Sua Lista de Álbuns Favoritos</h1></div>
                     <div className={styles.conteudo}>
                         {data.map((item) => (
                             <div className={styles.itemAlbum}>
@@ -138,6 +138,17 @@ export default function AlbmFavorito(){
                     </div>
                 </div>
             }
+        </div>
+    )
+}
+
+function Mensagem(){
+    return(
+        <div className={styles.containerMensagem}>
+            <div className={styles.contIcon}>
+                <span class="material-symbols-outlined">warning</span>
+            </div>
+            <h1>SUA LISTA ESTÁ VAZIA</h1>
         </div>
     )
 }
