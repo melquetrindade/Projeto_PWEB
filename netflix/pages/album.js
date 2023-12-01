@@ -1,23 +1,21 @@
 import React, {useState} from "react"
 import styles from '../styles/album.module.css'
 import { useRouter } from 'next/router';
-import dataAlbuns from '../repository/searchAlbum01.json'
+//import dataAlbuns from '../repository/searchAlbum01.json'
 
 export default function Album(){
 
     const router = useRouter()
     const { album } = router.query
-    //console.log(`no album: ${router.query.album}`)
 
-    const [hasDados, setDados] = useState(true) // -> usar esse para testes
-    const [status, setStatus] = useState('sucesso') // -> usar esse para testes
+    //const [hasDados, setDados] = useState(true) // -> usar esse para testes
+    //const [status, setStatus] = useState('sucesso') // -> usar esse para testes
 
-    //const [hasDados, setDados] = useState(false) -> usar esse quando for pegar da api
-    //const [dataAlbuns, setAlbuns] = useState(undefined) -> usar esse quando for pegar da api
-    //const [status, setStatus] = useState('load') -> usar esse quando for pegar da api
+    const [hasDados, setDados] = useState(false) //-> usar esse quando for pegar da api
+    const [dataAlbuns, setAlbuns] = useState(undefined) //-> usar esse quando for pegar da api
+    const [status, setStatus] = useState('load') //-> usar esse quando for pegar da api
 
     const carregaDados = async () => {
-        console.log('entrou no carrega')
 
         const url = `https://spotify23.p.rapidapi.com/search/?q=${router.query.album}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
 
@@ -36,14 +34,13 @@ export default function Album(){
             setStatus('erro')
         }
         else{
-            console.log(resJson)
             setStatus('sucesso')
             setAlbuns(resJson)
             setDados(true)
         }  
     }
 
-    if (hasDados == false){ 
+    if (hasDados == false){
         carregaDados()
     }
     
@@ -59,7 +56,6 @@ export default function Album(){
                     <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
                 :
                     <ShowContent data={dataAlbuns} router={router}/>
-                    //<h1 className='text-center py-2'>Deu Certo</h1>
             }
         </main>
         
@@ -96,7 +92,6 @@ function ShowContent({data, router}){
     const navDetailsAlbuns = (props) => {
         const {id} = props
         var idRecuperado = id.split(':album:')
-        //console.log(`id: ${idRecuperado[1]}`)
 
         router.push({
             pathname: './detailsAlbuns',

@@ -11,6 +11,17 @@
     color: white;
 }
 
+.body2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0);
+    color: white;
+}
+
 .mainArtista{
     position: absolute;
     right: 150px;
@@ -930,4 +941,17 @@
         transform: scale(1.1);
         background-color: rgba(255, 0, 0, 0.829);
     }
+}
+
+.fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
 }

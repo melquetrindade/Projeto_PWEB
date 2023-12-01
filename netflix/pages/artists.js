@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styles from '../styles/artists.module.css'
 import { useRouter } from 'next/router'
-import dataArtists from '../repository/searchArtists01.json'
+//import dataArtists from '../repository/searchArtists01.json'
 import { collection, addDoc, getDocs, doc, setDoc, getDoc, where, get, query } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 import { message } from 'antd';
@@ -16,12 +16,12 @@ export default function Artists(){
     const router = useRouter()
     const { artista } = router.query
 
-    const [hasDados, setDados] = useState(true) // -> usar esse para testes
-    const [status, setStatus] = useState('sucesso') // -> usar esse para testes
+    //const [hasDados, setDados] = useState(true) // -> usar esse para testes
+    //const [status, setStatus] = useState('sucesso') // -> usar esse para testes
 
-    //const [hasDados, setDados] = useState(false)  -> usar esse quando for pegar da api
-    //const [dataArtists, setArtists] = useState(undefined) -> usar esse quando for pegar da api
-    //const [status, setStatus] = useState('load') -> usar esse quando for pegar da api
+    const [hasDados, setDados] = useState(false)  //-> usar esse quando for pegar da api
+    const [dataArtists, setArtists] = useState(undefined) //-> usar esse quando for pegar da api
+    const [status, setStatus] = useState('load') ///-> usar esse quando for pegar da api
 
     const carregaDados = async () => {
         console.log('entrou no carrega')
@@ -49,7 +49,7 @@ export default function Artists(){
         }  
     }
 
-    if (hasDados == false){ 
+    if (hasDados == false){
         carregaDados()
     }
     

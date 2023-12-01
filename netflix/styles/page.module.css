@@ -310,30 +310,20 @@
     width: 100%;
     height: 55%;
   }
-  
-  .iconFav{
-    position: absolute;
-    top: 12px;
-    right: 12px;
-  }
-  
-  .iconFav > span{
-    font-weight: normal;
-    background-color: rgba(0, 0, 0, 0.834);
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 25px;
-    transition: 0.2s;
-  }
-  
-  .iconFav > span:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: rgba(255, 0, 0, 0.829);
-  }
 }
 
+.fade{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
 
 @media screen and (min-width: 786px) and (max-width: 992px){
   .body{

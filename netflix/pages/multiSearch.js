@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import styles from '../styles/multiSearch.module.css'
 import { useRouter } from "next/router";
-import dataMulti from '../repository/searchMulti01.json'
+//import dataMulti from '../repository/searchMulti01.json'
 import { collection, addDoc, getDocs, doc, setDoc, getDoc, where, get, query } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 import { message } from 'antd';
@@ -13,16 +13,89 @@ export default function MultiSearch(){
     const {pesquisa} = router.query
     console.log(pesquisa)
 
+    //const [hasDados, setDados] = useState(true) // -> usar esse para testes
+    //const [status, setStatus] = useState('sucesso') // -> usar esse para testes
+
+    const [hasDados, setDados] = useState(false) //-> usar esse quando for pegar da api
+    const [dataAlbuns, setAlbuns] = useState(undefined) //-> usar esse quando for pegar da api
+    const [status, setStatus] = useState('load') //-> usar esse quando for pegar da api
+
+    const carregaDados = async () => {
+
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${router.query.pesquisa}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
+
+        //https://spotify23.p.rapidapi.com/search/?q=${router.query.pesquisa}&type=multi&offset=0&limit=10&numberOfTopResults=5
+
+        const options = {
+            method: 'GET',
+            headers: {
+            'X-RapidAPI-Key': 'fb06ffc7acmsh5be3073c2bcc404p1f42bajsneb6e0cfa6922',
+            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+            }
+        };
+    
+        const res = await fetch(url, options)
+        const resJson  = await res.json()
+
+        if(resJson.Response == 'False'){
+            setStatus('erro')
+        }
+        else{
+            setStatus('sucesso')
+            setAlbuns(resJson)
+            setDados(true)
+        }  
+    }
+
+    if (hasDados == false){
+        carregaDados()
+    }
+
     return(
         <main className={styles.body}>
-            <ShowArtists data={dataMulti}/>
-            <ShowAlbuns data={dataMulti} router={router}/>
-            <ShowPodcast data={dataMulti}/>
+            {
+                status == 'load'
+                ?
+                    <Load/>
+                :
+                status == 'erro'
+                ?
+                    <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
+                :
+                <div className={styles.body2}>
+                    <ShowArtists data={dataAlbuns}/>
+                    <ShowAlbuns data={dataAlbuns} router={router}/>
+                    <ShowPodcast data={dataAlbuns}/>
+                </div>
+            }
         </main>
     )
 }
 
-//<ShowAlbuns data={dataMulti}/>
+/* 
+<main className={styles.body}>
+            <ShowArtists data={dataAlbuns}/>
+            <ShowAlbuns data={dataAlbuns} router={router}/>
+            <ShowPodcast data={dataAlbuns}/>
+        </main>
+*/
+
+/*
+{
+    status == 'load'
+    ?
+        <Load/>
+    :
+    status == 'erro'
+    ?
+        <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
+    :
+    <div>
+        <ShowArtists data={dataAlbuns}/>
+        <ShowAlbuns data={dataAlbuns} router={router}/>
+        <ShowPodcast data={dataAlbuns}/>
+    </div>
+}*/
 
 function ShowPodcast({data}){
 
@@ -101,14 +174,6 @@ function ShowArtists({data}){
             setArtists([(artistsAtuais[0] - 2), (artistsAtuais[1] - 2)])
         }
     }
-
-    /*
-    const recuperaID = (props) => {
-        const {id} = props
-
-        var idRecuperado = id.split(':artist:')
-        console.log(`id: ${idRecuperado[1]}`)
-    }*/
 
     const [messageApi, contextHolder] = message.useMessage();
     const key = 'updatable';
@@ -288,6 +353,16 @@ function ShowAlbuns({data, router}){
                 <div className={artistsAtuais[1] == 9 ? styles.arrowRightDesableAlbum : styles.arrowRightAlbum} onClick={nextArtists}>
                     <span class="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
+            </div>
+        </div>
+    )
+}
+
+function Load(){
+    return(
+        <div className={styles.fade}>
+            <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
         </div>
     )
