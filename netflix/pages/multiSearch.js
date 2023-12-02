@@ -260,6 +260,9 @@ function ShowArtists({data}){
                 })*/
                 
             }
+            else{
+                openNotification({placement: 'topRight', title: 'ERRO', descricao: 'USUÁRIO NÃO CADASTRADO NO SISTEMA!'})
+            }
         }catch (error){
             //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})

@@ -3,13 +3,13 @@ import styles from '../styles/albmFav.module.css'
 import { collection, getDocs, setDoc, doc, deleteDoc } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 import {notification} from 'antd'
-import { message } from 'antd';
 import { useRouter } from "next/router";
 
 export default function AlbmFavorito(){
     const [data, setData] = useState([]);
     const [searchApi, setSearchApi] = useState(false)
     const router = useRouter()
+    var hasUser = true
 
     const carregaAlbum = async () => {
         try{
@@ -32,8 +32,7 @@ export default function AlbmFavorito(){
                 setSearchApi(true)
             }
             else{
-                //console.error('Usuário não encontrado');
-                openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
+                hasUser = false
             }
             
         } catch(error){
@@ -75,28 +74,8 @@ export default function AlbmFavorito(){
         });
     }
 
-    const [messageApi, contextHolder2] = message.useMessage();
-    const key = 'updatable';
-
-    const openMessage = () => {
-        messageApi.open({
-        key,
-        type: 'loading',
-        content: 'Loading...',
-        });
-        setTimeout(() => {
-            messageApi.open({
-                key,
-                type: 'success',
-                content: 'Loaded!',
-                duration: 2,
-            });
-        }, 1000);
-    };
-
     const detailsAlb = (props) => {
         const {docId} = props
-        //console.log(docId)
         router.push({
             pathname: './detailsFavAlb',
             query: {docId}
@@ -106,15 +85,18 @@ export default function AlbmFavorito(){
     return(
         <div className={styles.body}>
             {contextHolder}
-            {contextHolder2}
             {
-                data.length == 0 && searchApi == false
+                data.length == 0 && searchApi == false && hasUser == true
                 ?
                 <Load/>
                 :
                 data.length == 0 && searchApi == true
                 ?
                 <Mensagem/>
+                :
+                data.length == 0 && hasUser == false
+                ?
+                <Mensagem2/>
                 :
                 <div className={styles.main}>
                     <div className={styles.title}><h1>Sua Lista de Álbuns Favoritos</h1></div>
@@ -148,7 +130,18 @@ function Mensagem(){
             <div className={styles.contIcon}>
                 <span class="material-symbols-outlined">warning</span>
             </div>
-            <h1>SUA LISTA ESTÁ VAZIA</h1>
+            <h1>SUA LISTA ESTÁ VAZIA!</h1>
+        </div>
+    )
+}
+
+function Mensagem2(){
+    return(
+        <div className={styles.containerMensagem}>
+            <div className={styles.contIcon}>
+                <span class="material-symbols-outlined">warning</span>
+            </div>
+            <h1>USUÁRIO NÃO CADASTRADO NO SISTEMA!</h1>
         </div>
     )
 }

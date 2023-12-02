@@ -110,7 +110,7 @@ export default function DetailesAlbuns(){
       const {id, img, tracks ,nomeArtista, nomeAlbum} = props
 
       try{
-          if(auth.currentUser){
+        if(auth.currentUser){
               var existsId = false
               const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/album`));
 
@@ -142,7 +142,10 @@ export default function DetailesAlbuns(){
               else{
                   openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ÁLBUM JÁ FOI FAVORITADO!'})
               }
-          }
+        }
+        else{
+            openNotification({placement: 'topRight', title: 'ERRO', descricao: 'USUÁRIO NÃO CADASTRADO NO SISTEMA!'})
+        }
       }catch (error){
           openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
       }

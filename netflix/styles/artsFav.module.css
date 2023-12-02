@@ -139,7 +139,7 @@
 
     .main{
         text-align: center;
-        width: 95%;
+        width: 92%;
     }
     
     .title > h1{
@@ -154,20 +154,20 @@
     .content{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
+        max-width: 90%;
         transform: translateX(0px);
     }
     
     .itemArtists{
         position: relative;
-        width: 96%;
-        height: 270px;
+        max-width: 85%;
+        height: 220px;
         margin-bottom: 20px;
         border: 2px solid white;
         border-radius: 8px;
         padding: 5px;
         z-index: 1;
-        margin-left: 4px;
+        margin-left: -5px;
     }
 }
 

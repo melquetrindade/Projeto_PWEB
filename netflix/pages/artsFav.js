@@ -7,10 +7,21 @@ import {notification} from 'antd'
 export default function ArtFavorito(){
     const [data, setData] = useState([]);
     const [searchApi, setSearchApi] = useState(false)
+    var hasUser = true
+
+    const [api, contextHolder] = notification.useNotification();
+    const openNotification = ({placement, title, descricao}) => {
+        api.info({
+            message: `${title}`,
+            description: `${descricao}`,
+            placement,
+        });
+    }
 
     const carregaArtistas = async () => {
         try{
             if(auth.currentUser){
+                
                 var newData = []
                 const querySnapshot = await getDocs(collection(db, `usuarios/${auth.currentUser.uid}/artistas`));
                 querySnapshot.forEach((doc) => {
@@ -29,12 +40,10 @@ export default function ArtFavorito(){
                 setSearchApi(true)
             }
             else{
-                //console.error('Usuário não encontrado');
-                openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
+                hasUser = false
             }
             
         } catch(error){
-            console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }
@@ -64,27 +73,22 @@ export default function ArtFavorito(){
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }
-
-    const [api, contextHolder] = notification.useNotification();
-    const openNotification = ({placement, title, descricao}) => {
-        api.info({
-            message: `${title}`,
-            description: `${descricao}`,
-            placement,
-        });
-    }
-
+    console.log(hasUser)
     return(
         <div className={styles.body}>
             {contextHolder}
             {
-                data.length == 0 && searchApi == false
+                data.length == 0 && searchApi == false && hasUser == true
                 ?
                 <Load/>
                 :
                 data.length == 0 && searchApi == true
                 ?
                 <Mensagem/>
+                :
+                data.length == 0 && hasUser == false
+                ?
+                <Mensagem2/>
                 :
                 <div className={styles.main}>
                     <div className={styles.title}><h1>Sua Lista de Artistas Favoritos</h1></div>
@@ -113,7 +117,18 @@ function Mensagem(){
             <div className={styles.contIcon}>
                 <span class="material-symbols-outlined">warning</span>
             </div>
-            <h1>SUA LISTA ESTÁ VAZIA</h1>
+            <h1>SUA LISTA ESTÁ VAZIA!</h1>
+        </div>
+    )
+}
+
+function Mensagem2(){
+    return(
+        <div className={styles.containerMensagem}>
+            <div className={styles.contIcon}>
+                <span class="material-symbols-outlined">warning</span>
+            </div>
+            <h1>USUÁRIO NÃO CADASTRADO NO SISTEMA!</h1>
         </div>
     )
 }
