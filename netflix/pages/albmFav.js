@@ -20,13 +20,6 @@ export default function AlbmFavorito(){
                 querySnapshot.forEach((doc) => {
                     var docData = doc.data();
                     newData.push({image: docData.image, nameArtista: docData.nameArt, nameAlbum: docData.nameAlbum, docId: doc.id});
-
-                    //código para saber o número de propriedades de um doc
-
-                    //const dadosDocumento = doc.data();
-                    //console.log(dadosDocumento.name)
-                    //const qtd = Object.keys(dadosDocumento).length;
-                    //console.log(qtd)
                 })
                 setData(newData)
                 setSearchApi(true)
@@ -36,7 +29,6 @@ export default function AlbmFavorito(){
             }
             
         } catch(error){
-            //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }
@@ -55,12 +47,10 @@ export default function AlbmFavorito(){
                 setSearchApi(false)
             }
             else{
-                //console.error('Usuário não encontrado');
                 openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
             }
             
         } catch(error){
-            //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }

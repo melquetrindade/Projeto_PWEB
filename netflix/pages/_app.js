@@ -30,7 +30,6 @@ export default function MyApp({ Component, pageProps }) {
         if (error.code == 'auth/invalid-login-credentials') {
           openNotification({placement: 'topRight', title: 'ERRO', descricao: 'SENHA INVÁLIDA. TENTE NOVAMENTE!'})
         } else if (error.code == 'auth/invalid-email'){
-          //console.log('email')
           openNotification({placement: 'topRight', title: 'ERRO', descricao: 'E-MAIL NÃO ENCONTRADO. CADASTRE-SE!'})
         }
       })

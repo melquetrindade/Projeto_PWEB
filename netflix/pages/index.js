@@ -1,14 +1,10 @@
 import styles from '../styles/page.module.css'
 import React, {useState} from 'react';
-import albumData from '../repository/home.json'
+//import albumData from '../repository/home.json'
 
 export default function Home() {
 
-      //const lenDados = Object.keys(albumData.tracks).length
-
       const [albumAtual, setAlbum] = useState(0)
-
-      //https://spotify23.p.rapidapi.com/recommendations/?limit=10&seed_tracks=0c6xIDDpzE81m2q797ordA&seed_artists=4NHQUGzhtTLFvgF5SZesLK&seed_genres=rock%2Cpop
 
       //const [hasDados, setDados] = useState(true) // -> usar esse para testes
       //const [status, setStatus] = useState('sucesso') // -> usar esse para testes

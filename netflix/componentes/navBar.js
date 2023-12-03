@@ -19,7 +19,6 @@ export default function NavBar(){
 
     const [inputShow, setInput] = useState('close')
     const searchToggle = () => {
-        //console.log('entrou')
         inputShow == 'open' ? setInput('close') : setInput('open')
     }
 

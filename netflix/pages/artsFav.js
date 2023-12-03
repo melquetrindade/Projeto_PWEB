@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styles from '../styles/artsFav.module.css'
-import { collection, getDocs, setDoc, doc, deleteDoc } from 'firebase/firestore';
+import { collection, getDocs, doc, deleteDoc } from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
 import {notification} from 'antd'
 
@@ -28,13 +28,6 @@ export default function ArtFavorito(){
 
                     var docData = doc.data();
                     newData.push({image: docData.image, name: docData.name, docId: doc.id});
-
-                    //código para saber o número de propriedades de um doc
-
-                    //const dadosDocumento = doc.data();
-                    //console.log(dadosDocumento.name)
-                    //const qtd = Object.keys(dadosDocumento).length;
-                    //console.log(qtd)
                 })
                 setData(newData)
                 setSearchApi(true)
@@ -64,12 +57,10 @@ export default function ArtFavorito(){
                 setSearchApi(false)
             }
             else{
-                //console.error('Usuário não encontrado');
                 openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, USUÁRIO NÃO ENCONTRADO!'})
             }
             
         } catch(error){
-            //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }

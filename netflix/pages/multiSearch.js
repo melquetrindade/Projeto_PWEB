@@ -11,7 +11,6 @@ export default function MultiSearch(){
 
     const router = useRouter()
     const {pesquisa} = router.query
-    console.log(pesquisa)
 
     //const [hasDados, setDados] = useState(true) // -> usar esse para testes
     //const [status, setStatus] = useState('sucesso') // -> usar esse para testes
@@ -23,8 +22,6 @@ export default function MultiSearch(){
     const carregaDados = async () => {
 
         const url = `https://spotify23.p.rapidapi.com/search/?q=${router.query.pesquisa}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
-
-        //https://spotify23.p.rapidapi.com/search/?q=${router.query.pesquisa}&type=multi&offset=0&limit=10&numberOfTopResults=5
 
         const options = {
             method: 'GET',
@@ -209,37 +206,15 @@ function ShowArtists({data}){
                         name: nome,
                         image: img 
                     })
- 
-                    //querySnapshot.forEach((doc) => {
-                        /*
-                        código para saber o número de propriedades de um doc
-
-                        const dadosDocumento = doc.data();
-                        const qtd = Object.keys(dadosDocumento).length;
-                        console.log(qtd)
-                         
-                        código para saber o número de doc's dentro de uma coleção
-
-                        console.log(querySnapshot.size)
-                        */
-                    //})
-                
                 }
                 else{
                     openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ARTISTA JÁ FOI FAVORITADO!'})
-                }
-                
-                /*
-                await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/testes`)).doc('language').setDoc({
-                    local: 'pt_BR',
-                })*/
-                
+                }  
             }
             else{
                 openNotification({placement: 'topRight', title: 'ERRO', descricao: 'USUÁRIO NÃO CADASTRADO NO SISTEMA!'})
             }
         }catch (error){
-            //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }
@@ -292,7 +267,6 @@ function ShowAlbuns({data, router}){
     const navDetailsAlbuns = (props) => {
         const {id} = props
         var idRecuperado = id.split(':album:')
-        //console.log(`id: ${idRecuperado[1]}`)
 
         router.push({
             pathname: './[id]',

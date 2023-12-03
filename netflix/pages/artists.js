@@ -9,10 +9,6 @@ import {notification} from 'antd'
 
 export default function Artists(){
 
-    //console.log(db)
-    //console.log('=================')
-    //console.log(auth.currentUser.uid)
-
     const router = useRouter()
     const { artista } = router.query
 
@@ -157,37 +153,15 @@ function ShowContent({data}){
                         name: nome,
                         image: img 
                     })
- 
-                    //querySnapshot.forEach((doc) => {
-                        /*
-                        código para saber o número de propriedades de um doc
-
-                        const dadosDocumento = doc.data();
-                        const qtd = Object.keys(dadosDocumento).length;
-                        console.log(qtd)
-                         
-                        código para saber o número de doc's dentro de uma coleção
-
-                        console.log(querySnapshot.size)
-                        */
-                    //})
-                
                 }
                 else{
                     openNotification({placement: 'topRight', title: 'ERRO', descricao: 'ESTE ARTISTA JÁ FOI FAVORITADO!'})
                 }
-                
-                /*
-                await addDoc(collection(db, `usuarios/${auth.currentUser.uid}/testes`)).doc('language').setDoc({
-                    local: 'pt_BR',
-                })*/
-                
             }
             else{
                 openNotification({placement: 'topRight', title: 'ERRO', descricao: 'USUÁRIO NÃO CADASTRADO NO SISTEMA!'})
             }
         }catch (error){
-            //console.error('Erro ao adicionar dado:', error);
             openNotification({placement: 'topRight', title: 'ERRO', descricao: 'NÃO FOI POSSÍVEL CONTINUAR, TENTE NOVAMENTE!'})
         }
     }
