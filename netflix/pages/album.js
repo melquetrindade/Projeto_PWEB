@@ -94,7 +94,7 @@ function ShowContent({data, router}){
         var idRecuperado = id.split(':album:')
 
         router.push({
-            pathname: './detailsAlbuns',
+            pathname: './[id]',
             query: {id: idRecuperado[1]}
         })
     }

@@ -1,10 +1,8 @@
 import React, {useState} from 'react'
 import styles from '../styles/detailsFavAlb.module.css'
 import { useRouter } from 'next/router'
-import { collection, getDoc, setDoc, doc, deleteDoc } from 'firebase/firestore';
+import { getDoc, doc} from 'firebase/firestore';
 import { db, auth } from '../utils/firebase/firebaseService';
-import {notification} from 'antd'
-import { message } from 'antd';
 
 export default function DetalhesAlbum(){
 
@@ -46,7 +44,6 @@ export default function DetalhesAlbum(){
 
     try{
       if(auth.currentUser){
-          //openMessage()
           var newData = []
 
           const querySnapshot = await getDoc(doc(db, `usuarios/${auth.currentUser.uid}/album`, docId));

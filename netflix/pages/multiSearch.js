@@ -72,31 +72,6 @@ export default function MultiSearch(){
     )
 }
 
-/* 
-<main className={styles.body}>
-            <ShowArtists data={dataAlbuns}/>
-            <ShowAlbuns data={dataAlbuns} router={router}/>
-            <ShowPodcast data={dataAlbuns}/>
-        </main>
-*/
-
-/*
-{
-    status == 'load'
-    ?
-        <Load/>
-    :
-    status == 'erro'
-    ?
-        <h1 className='text-center py-2'>Erro ao Buscar os Dados</h1>
-    :
-    <div>
-        <ShowArtists data={dataAlbuns}/>
-        <ShowAlbuns data={dataAlbuns} router={router}/>
-        <ShowPodcast data={dataAlbuns}/>
-    </div>
-}*/
-
 function ShowPodcast({data}){
 
     const podcastTotal = data.episodes.items.length
@@ -320,7 +295,7 @@ function ShowAlbuns({data, router}){
         //console.log(`id: ${idRecuperado[1]}`)
 
         router.push({
-            pathname: './detailsAlbuns',
+            pathname: './[id]',
             query: {id: idRecuperado[1]}
         })
     }

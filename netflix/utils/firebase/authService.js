@@ -1,7 +1,6 @@
 import { signInWithEmailAndPassword, signOut, onAuthStateChanged, createUserWithEmailAndPassword } from 'firebase/auth'
 import {auth} from './firebaseService'
 
-//console.log(auth)
 export async function login(email, senha){
     return signInWithEmailAndPassword(auth, email, senha)
 }
@@ -17,3 +16,4 @@ export function onAuthChanged(func){
 export function registrar(email, senha){
     return createUserWithEmailAndPassword(auth, email, senha)
 }
+
